@@ -3,6 +3,7 @@ GEM
   specs:
     RedCloth (4.2.9)
     haml (3.1.5)
+    kramdown (0.13.5)
     nesta (0.9.13)
       RedCloth (~> 4.2)
       haml (~> 3.1)
@@ -28,4 +29,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kramdown
   nesta (= 0.9.13)
