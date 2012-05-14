@@ -1,0 +1,8 @@
+Title: Why Is Twitter Scared Again? Oh Right
+Date: March 15, 2011
+
+Late last week, <a href="http://twitter.com/rsarver">Ryan Sarver</a> (head of API and platform at Twitter) came out and announced that they would like it a lot if developers would<a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/c82cd59c7a87216a?pli=1"> focus more on stats and less on clients</a>. Many people don't know this but, Twitter was basically jump - started into popularity by the myriad of clients that could access the API. In the early days, Twitter.com (<a href="http://mettadore.com/ruby/ruby-cant-scale/">Ruby sometimes has scaling issues</a>) was so unbelievably buggy that many of us early adopters relied heavily on these 3rd party clients just to access our tweets.
+
+Now the folks at Twitter are asking these devs to stop? Something doesn't sound right...and here's why! Protect and defend instead of innovate and kick ass. Some strategy yah got there [Dick](http://twitter.com/dickc).
+<img src="http://c522735.r35.cf2.rackcdn.com/client_ss.jpeg" alt="Twitter Client Usage Pie Chart" />
+What are the 3rd party clients you guys and gals are using or perhaps jazzed about at the moment? Anything cool coming down the pipeline that might be railroaded by this decision?

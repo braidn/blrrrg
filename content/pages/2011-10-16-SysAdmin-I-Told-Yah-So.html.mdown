@@ -1,0 +1,11 @@
+Title: SysAdmins On The Rise?
+Date: October 16, 2011
+
+A great [article](3) about the iminent decline of the sysadmin. It is exactly why I believe all current sysadmins should drop their certifiably mad rush towards certifications and learn a programming language. In addition, it is also why I love [Alex Payne](2) so damn much. Worth the read:
+
+Article: ["I'll Probably Never Hire Another Pure SysAdmin"](3)  
+-- Author: [John Peebles](4)
+
+[2]:(http://cloudbacon.com/posts/05092011-It_Is_Just_Environmental/)
+[3]:(http://peebs.org/ill-probably-never-hire-another-pure-sysadmin)
+[4]:(http://twitter.com/#!/johnjpeebles)

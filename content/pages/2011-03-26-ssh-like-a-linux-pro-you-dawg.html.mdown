@@ -1,0 +1,16 @@
+Title: SSH Like a Linux Pro You Dawg
+Date: March 26, 2011
+
+Neck beards rejoice! No longer must you feel trapped to use $cat commands to awkwardly get your <a href="http://en.wikipedia.org/wiki/Secure_Shell">SSH</a> link if you need to bone up on what SSH is key from your Mac to your Linux server...with its' ridiculous up-time. Since this network admin rarely believes in using Windohs in a server environment, the below trick might not work for Windows knuckle draggers. For everyone else, give it a whirl, fire up terminal and connect to your favorite server and copy your SSH / _rsa keys the old-fashioned way:
+
+<%= Albino.colorize('ssh username @ hostname', :bash) %>
+
+<%= Albino.colorize('ssh-copy-id', :bash) %> 
+
+You should get some crazy error explaining that your Unix powered Mac is missing this command. Huh? Because most "normal people" (sadly Macs are getting more and more simplified due to the influx of iOS people hopping on board) refuse to try to understand what a server is, let a lone SSH, Apple doesn't need this rather integral command? Everyone else, you are in luck. Fire up my favorite Mac OS X packet manager: <a href="http://mxcl.github.com/homebrew/">Homebrew</a> and type the following command
+
+<%= Albino.colorize('brew install ssh-copy-id', :bash) %>
+
+Give it a few minutes while the magic finishes, and log back into your server and give the command a whirl again. However, the above snippet only works if SSH is listening on the default port (port 22). If you were smart and changed the defaults, this command should throw less fail flags:
+
+<%= Albino.colorize('ssh-copy-id &quot;user@hostname -p 6200&quot;', :bash) %>

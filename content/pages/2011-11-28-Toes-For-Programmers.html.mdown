@@ -1,0 +1,8 @@
+Title: Make Never A Date To Stop Learning
+Date: November 28, 2011
+
+<blockquote cite="Smooth Coffescript">The programmer who refuses to keep exploring will surely stagnate, forget his joy, lose the will to program (and become a manager)
+</blockquote>
+
+It appears to be specifically pointing its finger at the programming crowd; however, it is easily translated into any field.  
+[Smooth Coffeescript](http://autotelicum.github.com/Smooth-CoffeeScript/SmoothCoffeeScript.html)
