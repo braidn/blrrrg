@@ -1,17 +1,16 @@
-%footer.branding
-  %p
-    Powered by
-    = succeed "." do
-      %a(href="http://nestacms.com") Nesta CMS,
-      %a{:href => 'http://haml-lang.com/'} Haml,
-      %a{:href => 'http://daringfireball.net/projects/markdown/'} Markdown,
-      %a{:href => 'http://www.heroku.com/'} Heroku,
-      and
-      %a{:href => 'http://twitter.github.com/bootstrap/'} Twitter Bootstrap
-      &hellip;
-      probably 
-      %a{:href => 'http://beeradvocate.com/beer/profile/447/1331/'}beer 
-      as well
+- if ! @page.date
+  %footer.branding
+    %p
+      Powered by
+      = succeed "." do
+        %a{:href => "http://nestacms.com"} Nesta CMS,
+        %a{:href => 'http://haml-lang.com/'} Haml,
+        %a{:href => 'http://daringfireball.net/projects/markdown/'} Markdown,
+        %a{:href => 'http://www.heroku.com/'} Heroku,
+        %a{:href => 'http://twitter.github.com/bootstrap/'} Twitter Bootstrap
+        &hellip;
+        and probably 
+        %a{:href => 'http://beeradvocate.com/beer/profile/447/1331/'}beer 
 %footer
   %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
   %script{:src => '/bootstrap/bootstrap.min.js', :async => true, :type => 'text/javascript'}
