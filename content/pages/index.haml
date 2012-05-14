@@ -1,5 +1,5 @@
 -# From old stuff
-- latest_articles.each do |article|
+- Nesta::Page.find_articles.each do |article|
   %header
     %h1
       %a{:href => "#{article.abspath}"}
