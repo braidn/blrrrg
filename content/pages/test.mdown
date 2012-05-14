@@ -1,4 +1,4 @@
-Article heading: Test
+Title: Testing
 Date: May 11, 2012
 Summary: This is just some stuff for a simple test
 

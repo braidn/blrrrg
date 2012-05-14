@@ -1,1 +1,10 @@
-%section.articles= article_summaries(latest_articles)
+-# From old stuff
+- latest_articles.each do |article|
+  %header
+    %h1
+      %a{:href => "#{article.abspath}"}
+        =article.title
+  =format_date(article.date)
+  %section.articles
+    = article.summary
+  -#= article_summaries(latest_articles)
