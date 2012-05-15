@@ -21,21 +21,22 @@
     %link{:href => "/bootstrap/images/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}
     %link{:href => "/bootstrap/images/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}/
 
-    %title= "Cloudbacon" || article.title
+    %title
+      Cloudbacon
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
-        %div{:class => container}
-          %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
-            %span.icon-bar
-            %span.icon-bar
-            %span.icon-bar
+        .container
           %a.brand{:href => "/"} 
             = Nesta::Config.title
-          %img{:src => 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
-          %img{:src => 'http://c522735.r35.cf2.rackcdn.com/Bacon.png'}
+          %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
+          %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', :style => 'padding-top: 7px;'}
+          %ul.nav.pull-right
+            %li
+              %a{:href => 'http://www.bradendouglass.com'}
+                about
 
-    %div{:class => container}
+    .container
       = yield
       %footer
         = haml :footer, :layout => false
