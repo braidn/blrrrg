@@ -43,7 +43,7 @@ does anyone get what they pay for? First ask yourself, are you using it? Aside
 from RescueTime, all of the options above have an elegant and simple way to export 
 tasks into a csv format for billing. Keyword here being "export".
 
-There is always (most of the time) the ability to type in a start and end date 
+There is always (most of the time) the ability to type in a start and end time 
 for a project. However, this is usually a crap-shoot, which means, if you haven't 
 been keeping up, you are undervaluing yourself. All that billable work that is getting completed 
 but, no one is getting paid. Because someone has timer, "baby" issues.
