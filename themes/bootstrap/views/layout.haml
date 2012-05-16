@@ -28,6 +28,8 @@
       .navbar-inner
         .container
           %a.brand{:href => "/"} 
+            - if @page.date
+              %i.icon-chevron-left.icon-white
             = Nesta::Config.title
           %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
           %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', :style => 'padding-top: 7px;'}
