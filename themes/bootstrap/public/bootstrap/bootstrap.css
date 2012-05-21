@@ -3999,3 +3999,8 @@ a.thumbnail:hover {
 /*.gist .gist-file .gist-syntax .gist-highlight .line { font-size: 75%;  }*/
 .gist .gist-file .gist-meta { font-size: 75% !important;  }
 .gist .gist-file .gist-meta a:nth-child(2) { display: none;  }
+
+.articledate {
+  font-size: 1em;
+  font-family: monospace, sans-serif;
+}

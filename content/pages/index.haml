@@ -4,7 +4,9 @@
     %h1
       %a{:href => "#{article.abspath}"}
         =article.title
-  =format_date(article.date)
+  %div.articledate
+    Written For:
+    =format_date(article.date)
   %section.articles
     = article.summary
   -#= article_summaries(latest_articles)
