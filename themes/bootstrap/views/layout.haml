@@ -28,14 +28,15 @@
       .navbar-inner
         .container
           %a.brand{:href => "/"} 
-            - if @page.date
+            - unless @page.abspath == '/'
               %i.icon-chevron-left.icon-white
             = Nesta::Config.title
           %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
-          %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', :style => 'padding-top: 7px;'}
+          %a{:href => '/latest'}
+            %img.nav.pull-left{:src => 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', :style => 'padding-top: 7px;'}
           %ul.nav.pull-right
             %li
-              %a{:href => 'http://www.bradendouglass.com'}
+              %a{:href => '/about'}
                 about
 
     .container

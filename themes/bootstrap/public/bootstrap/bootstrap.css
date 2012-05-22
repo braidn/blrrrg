@@ -3384,7 +3384,7 @@ a.thumbnail:hover {
 }
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1;
   color: inherit;
   letter-spacing: -1px;
@@ -4000,7 +4000,14 @@ a.thumbnail:hover {
 .gist .gist-file .gist-meta { font-size: 75% !important;  }
 .gist .gist-file .gist-meta a:nth-child(2) { display: none;  }
 
+.indexarticledate {
+  font-size: 1em;
+  font-family: monospace, sans-serif;
+  padding-top: 10px;
+}
+
 .articledate {
   font-size: 1em;
   font-family: monospace, sans-serif;
+  margin-top: -10px !important;
 }

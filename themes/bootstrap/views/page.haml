@@ -1,4 +1,5 @@
 - if @page.date && @page.title
-  %h1= @page.title
-  .articledate= format_date(@page.date)
+  .well
+    %h1= @page.title
+    .articledate= format_date(@page.date)
 ~ @page.to_html(self)

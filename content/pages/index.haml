@@ -1,12 +1,12 @@
 -# From old stuff
 - Nesta::Page.find_articles.each do |article|
-  %header
+  .hero-unit
     %h1
       %a{:href => "#{article.abspath}"}
         =article.title
-  %div.articledate
-    Written For:
-    =format_date(article.date)
-  %section.articles
-    = article.summary
+    %div.indexarticledate
+      Written For:
+      =format_date(article.date)
+    %section.articles
+      = article.summary
   -#= article_summaries(latest_articles)
