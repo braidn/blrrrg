@@ -323,9 +323,9 @@ a:hover {
 }
 p {
   margin: 0 0 9px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+  font-family: Georgia, "times new roman", times, serif;
+  font-size: 1.2em;
+  line-height: 1.6;
 }
 p small {
   font-size: 11px;
@@ -4001,13 +4001,14 @@ a.thumbnail:hover {
 .gist .gist-file .gist-meta a:nth-child(2) { display: none;  }
 
 .indexarticledate {
-  font-size: 1em;
+
+  font-size: 1.3em;
   font-family: monospace, sans-serif;
   padding-top: 10px;
 }
 
 .articledate {
-  font-size: 1em;
+  font-size: 1.1em;
   font-family: monospace, sans-serif;
   margin-top: -10px !important;
 }
