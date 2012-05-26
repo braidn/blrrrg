@@ -23,6 +23,11 @@ module Nesta
           'container'
         end
       end
+
+      def random_post_path
+        randomPost = rand(Nesta::Page.find_articles.length)
+        Nesta::Page.find_articles[randomPost].abspath
+      end
     end
 
     # Add new routes here.
