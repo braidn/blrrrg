@@ -4012,3 +4012,7 @@ a.thumbnail:hover {
   font-family: monospace, sans-serif;
   margin-top: -10px !important;
 }
+
+.articlessummary {
+  padding-top: 5px;
+}
