@@ -4016,3 +4016,7 @@ a.thumbnail:hover {
 .articlessummary {
   padding-top: 5px;
 }
+
+.postcontent {
+  margin: 0 50px 0 50px;
+}

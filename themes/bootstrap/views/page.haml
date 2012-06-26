@@ -2,4 +2,5 @@
   .well
     %h1= @page.title
     .articledate= format_date(@page.date)
-~ @page.to_html(self)
+.postcontent
+  ~ @page.to_html(self)
