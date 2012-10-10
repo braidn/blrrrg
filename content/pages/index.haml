@@ -5,7 +5,11 @@
       %a{:href => "#{article.abspath}"}
         =article.title
     %div.indexarticledate
-      Written For:
+      - if article.flagged_as?('link')
+        %i.icon-retweet
+        For:
+      - else
+        Written For:
       =format_date(article.date)
     - if article.summary
       %section.articlessummary
