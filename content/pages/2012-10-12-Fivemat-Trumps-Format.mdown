@@ -1,6 +1,6 @@
 Title: Fivemat
 Date: October 12, 2012
-Summary: > format
+Summary: \> format
 Flags: link
 
 You heard it [here][1] folks. I also feel the same as [Tim][2] on the
