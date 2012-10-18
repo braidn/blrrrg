@@ -1,0 +1,48 @@
+###Mission -->
+
+I hold three things close to my heart when I am working with a team,
+consulting for a business, or subcontracting:
+
+1. Become entrenched in the success of the project. How much money are we
+going to save/make the business when the project is finished?
+1. Take pride in every facet of the project. How can we effectively 
+alleviate technical debt now, not when the project has finished?
+1. Be a solution (brilliant or otherwise)
+
+###Pitch -->
+
+I currently do not work on an hourly basis. What I do offer is 14 hour
+"weeks" that are dedicated to you and an brilliant project. All 14 hours
+will be dedicated to one client running from Monday to Sunday of each
+week sprint. Purchasing multiple back-to-back weeks is allowed and
+encouraged; however, splitting weeks into 1/2, 1/3, or 1/4 sections is
+not.
+
+If you have taken the time to read through some of my blog articles,
+love the above three points and would like to get in contact with
+me please do so in the next section
+
+###Contact -->
+
+Phone: 415.935.3151  
+Twitter: [@braidn][1]  
+Email: b [at] bradendouglass [dot] com  
+
+###Skills -->
+
+For the technical crowd who wants to know if I have the chops for 'X'
+
+* Ruby (1.9)
+* Ruby On Rails (2.3.x - 3.2.x)
+* Javascript
+* Node.js
+* DOM Manipulation (jQuery)
+* CoffeeScript
+* Unix/Linux
+* GIT
+* SQL (Postgres + MySQL)
+* HTML + CSS + Haml + SASS + LESS
+* Vim + Tmux (pair programming)
+
+
+[1]: https://twitter.com/braidn
