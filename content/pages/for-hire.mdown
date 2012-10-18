@@ -38,6 +38,8 @@ For the technical crowd who wants to know if I have the chops for 'X'
 * Node.js
 * DOM Manipulation (jQuery)
 * CoffeeScript
+* TDD + BDD
+* Agile + Kanban
 * Unix/Linux
 * GIT
 * SQL (Postgres + MySQL)
