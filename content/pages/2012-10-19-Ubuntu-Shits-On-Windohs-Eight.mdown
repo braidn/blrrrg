@@ -3,7 +3,7 @@ Date: October 19, 2012
 Summary: like Windohs
 Flag: link
 
-Yesterday I tweeted this [image][1] and was thinking along these [the
+Yesterday I tweeted this [image][1] and was thinking along these [
 lines][2]. Windows and the Microsoft brand have come along way in the
 past couple of years. Shit, they even have a [responsive home page][3]
 these days. But closeting Windows 8 before it touches shelves would be the
