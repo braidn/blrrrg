@@ -1,7 +1,7 @@
 Title: Ubuntu Shitting On Things
 Date: October 19, 2012
 Summary: like Windohs
-Flag: link
+Flags: link
 
 Yesterday I tweeted this [image][1] and was thinking along these [
 lines][2]. Windows and the Microsoft brand have come along way in the
