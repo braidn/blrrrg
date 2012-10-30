@@ -22,7 +22,11 @@ with a "[brown field app][4]". If you are a hiring manger, please think
 carefully about your technical questions and __DON'T__ make the
 participant scribble their answer on a board.
 
+_Update_: [This blog post][5] nicely defines some of the more "technical"
+reasons behind why programming on whiteboards makes little sense.
+
 [1]: https://gimmebar.com/view/502bb359aac422024400002d/big
 [2]: https://gimmebar.com/view/50368ee329ca154c66000002/big
 [3]: http://www.getharvest.com/
 [4]: https://en.wikipedia.org/wiki/Brownfield_(software_development)
+[5]: http://seeknuance.com/2008/02/15/interview-whiteboard-coding-tests-are-usually-worthless/
