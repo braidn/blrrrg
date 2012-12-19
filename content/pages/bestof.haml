@@ -1,0 +1,11 @@
+- Nesta::Page.find_articles.each do |article|
+  - if article.flagged_as?('bestof')
+    .hero-unit
+      %h1
+        %a{:href => "#{article.abspath}"}
+          =article.title
+      %div.indexarticledate
+        Written For:
+        =format_date(article.date)
+      %section.articles
+        = article.summary
