@@ -1,6 +1,7 @@
 Title: The Hardest Thing
 Date: September 3, 2012
 Summary: is quiting your job.
+Flags: bestof
 
 If you agree with [this post][1] we have a problem. Srsly, like dialing
 [Houston][2] at this-very-moment [problem][3]. If saying goodbye to
