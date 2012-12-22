@@ -1,0 +1,73 @@
+Title: In The Pipe
+Date: December 21, 2012
+Summary 5 by 5...
+Flags: draft
+
+That's right bitches! We are done [here][1]. 2012 is all but a bunch of history, 
+something that we will remember in the [rear view mirror][2]. On a side note, 
+I would hope that some of those plays are due to my incessant linking to it. 
+To be fair though, it is pretty fucking epic. Anyway, if you aren't listening 
+to a [metric-shit-ton][3] of [this][4], you hate [this][5]
+
+In addition, [hat tip][6], the metric system is "__badass__"
+
+So what would a top ten of this year look like? Glad you asked. Without further 
+ado, keep it [real][7] for the rest of the year, be prepared for the 13, and 
+enjoy the list.
+
+1. [OSX][8]: Yes, perhaps I am a self proclaimed Apple lover but, it is hard to
+argue with the fit and finish of BSD, Linux, and Unix that Apple has accomplished 
+with their recent OS release. Kudos and if you have an issue with "planned 
+obsolescence", feel free to [buy one of these][9].
+1. [Paleo living][10]: I have spent a good part of the year following a rigorous 
+Paleo diet and am convinced that we are brainwashed by bread and McDonalds. 
+I have never felt better, stronger, etc. The food might seem a little weird 
+(beef heart) but, it is well worth the experience/experiment.
+1. [Quiting][11]: Not something that everyone should look to do. However, if you 
+are feeling stuck, now, rather than later is the best time to quit. Do something 
+fresh, exciting, scary, whatever!
+1. Podcasts: This one seems to slip into every top 10 list since 2009, when I started
+podcasting. If you yearn (in your pants yabbies) to learn, than it it hard not to glean 
+something from listening. Here are a few current ones from a [recent Instacast dump][12].
+1. [Rdio][13]: Hot on the list of audible items, Rdio and it's stylish design 
+wax the music nerd in me. Having a plethora of mp3s on my computer doesn't make 
+much sense when you can stream an unlimited amount of anything.
+1. [Apartment Therapy][14]: My wife and myself recently moved into our first 
+apartment where we didn't share space with friends or a roommate. After living 
+for so long with people, you shed most of your unneeded belongings. This means 
+that we had a lot of shopping to do and much of it inspired from this blog.
+1. [Apple's New iMac][15]: Being a laptop man, I rarely look towards Apple's 
+desktop offerings. However, this has changed with their recent upgrade. I have 
+spent a few minutes with the 27inch model and the take away is: the Fusion drive 
+seems brilliant and overall the machine is a beast of power and beauty.
+1. Surgery. If you are an athlete and you are sitting on a past injury...and you 
+have health insurance, you are a moron. I have been nursing a failing shoulder for 
+nearly 10 years. This year I gave up and had surgery and I will never look back.
+1. Trivia: wading into the trivia waters can be a shark filled affair. There are 
+some players out there that are unbelievable with the knowledge they have access to 
+at the tip of their subconscious. I gave it a whirl and although, our team has yet 
+to become spectacular, we have learned a lot. Moral? Do something you suck at and 
+keep doing it even if you never get better.
+1. Javascript: Javascript was my [language of the year][16]. In addition, I learned 
+Coffeescript, a little bit of Node, and a bunch of other random stuff. I am still 
+no where near as efficient in it as I am Ruby; however, there is a spot in my heart 
+for this unruly little functional language.
+
+Yep, that's all she wrote.
+
+[1]: https://gimmebar.com/view/5032f46faac422800200001a/big
+[2]: http://youtu.be/-JFfN5pKzFU
+[3]: http://www.urbandictionary.com/define.php?term=metric+shit+ton
+[4]: http://rd.io/x/QVoeADMzpQ
+[5]: https://gimmebar.com/view/5045518529ca15f836000020/big
+[6]: http://youtu.be/4LJw6PAi5Q8
+[7]: https://gimmebar.com/view/504f465629ca15bb4b000000/big
+[8]: https://www.apple.com/osx/whats-new/
+[9]: https://en.wikipedia.org/wiki/Microsoft_Surface 
+[10]: http://robbwolf.com/what-is-the-paleo-diet/
+[11]: https://gimmebar.com/view/50b6270eaac4228f36000009/big
+[12]: https://www.dropbox.com/s/ow7dlm20y6qbpba/Subscriptions-bPhone.opml
+[13]: http://www.rdio.com/ 
+[14]: http://www.apartmenttherapy.com/ 
+[15]: http://www.apple.com/imac/
+[16]: http://pragprog.com/book/tpp/the-pragmatic-programmer
