@@ -1,0 +1,37 @@
+Title: The Old Guard
+Date: January 04, 2013 
+Summary: of the Web
+Flags: draft
+
+Do you happen to listen to these things called [smodcasts][1]? If you don't 
+than there is a good chance you missed [this episode of the Web Ahead][2]. 
+[Andy Clark][3] had a solid rant concerning the Old VS New guard of the web. 
+Another person who feels relatively passionate towards this subject would be 
+[Drew Wilson][4] who puts on [Valio Con][5], which aims at bringing "young guns" 
+into the speaking spotlight.
+
+Does anyone remember when Coda and Textmate were new on the scene? When I see 
+people continuing to use these tools I make a concoious effort to interrupt their 
+[workflow][7] and ask them what they are working on in [Coffeescript][6]? Or 
+better yet: how they enjoy Compass? Sure this could be construed as a "dick" 
+approach however, you learn a lot about people while being said dick. In 99% 
+of these mentioned interactions I am gifted with a face that expresses both 
+confusion and an utter sense of [discomfort][8].
+
+If you were to prod deeper into what these "Web Professionals" do, you realize 
+that whatever it is, it has no outside influence. They don't spend Saturdays 
+flipping through specs or reading other people's code on Github. Rather, they 
+go to work and do the same thing they did yesterday; only changing when a client 
+shows them something new. This reactive form of learning is what separrates the 
+Old from the New.
+
+
+
+[1]: https://en.wikipedia.org/wiki/Podcast
+[2]: http://5by5.tv/webahead/45
+[3]: https://twitter.com/Malarkey
+[4]: http://www.drewwilson.com/
+[5]: http://valiocon.com/
+[6]: http://coffeescript.org/
+[7]: https://gimmebar.com/view/50730705aac422613b000001/big
+[8]: https://gimmebar.com/view/50368ee329ca154c66000002/big
