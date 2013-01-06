@@ -33,7 +33,7 @@ yes, it is. Why? Well, the fact is that you have been resting on HTML and jQuery
 for too damn long. It is time to wake the fuck up, smell the Coffeescript and 
 learn all the cool things that 'the kids are doing.' Why? The simple answer is 
 that you have already coded yourself out of a job. If you want to keep learning, 
-that job will likely still be there. However, if you continue to be a crumdgeon 
+that job will likely still be there. However, if you continue to be a curmudgeon 
 about the whole subject, than you just might be... Properly Fucked.
 
 With all good posts, this shall end with an epic list. The list will be broken 
@@ -44,7 +44,7 @@ give it a whirl. Hate it? Drop and try something else.
 
 1. [Roots.cx][10]
 1. [Junior][11] (Mobile Focus)
-1. [Yeoman][12]
+1. [Yeoman][12] (Utility)
 1. [Gravity][18]
 1. [Lungo][13] (Mobile Focus)
 1. [Reverie][14]
