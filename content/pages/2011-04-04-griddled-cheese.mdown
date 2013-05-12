@@ -1,8 +1,11 @@
 Title: Griddled Cheese
 Date: April 04, 2011
 
-<img src="http://c522735.r35.cf2.rackcdn.com/wireframeresource20a.jpg" alt="Web Grid, a thing of beauty" />
+![Web Grid, a thing of beauty][1]
 
 A clean and simple way to help align your layouts? 100% worth checking out because it kicks ass.
 
-<a href="http://griddle.it/">Griddle.it</a>
+[Griddle.it][2]
+
+[1]: http://c522735.r35.cf2.rackcdn.com/wireframeresource20a.jpg
+[2]: http://griddle.it/

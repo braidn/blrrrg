@@ -1,6 +1,16 @@
 Title: SXSW 2011 Intro
 Date: March 08, 2011
 
-<a href="http://sxsw.com/">SXSW</a> is right around the corner and anyone who has ever been before knows that they spend an inordinate amount of time getting ready. Probably a considerable amount of time more, than let's say, Keisha trying to figure out how to spell her name at the DMV. If by chance you have no fucking clue what "South By South West" (duh, the "X" is in place of the "B") is, please take the time out of your day from Youtube-ing Justin Bieber and do some research. Anyway, sudo-funny dude <a href="http://twitter.com/alexblagg">Alex Blagg </a>has compiled this video to help you out:
+[SXSW][1] is right around the corner and anyone who
+has ever been before knows that they spend an inordinate amount of time getting
+ready. Probably a considerable amount of time more, than let's say, Keisha
+trying to figure out how to spell her name at the DMV. If by chance you have no
+fucking clue what "South By South West" (duh, the "X" is in place of the "B")
+is, please take the time out of your day from "Youtub-ing" Justin Bieber and do
+some research. Anyway, sudo-funny dude [Alex Blagg][1] has compiled this video to
+help you out:
 
 <iframe title="YouTube video player" width="550" height="390" src="http://www.youtube.com/embed/hx3FC_DWsGQ" frameborder="0" allowfullscreen></iframe>
+
+[1]: http://sxsw.com/
+[2]: http://twitter.com/alexblagg
