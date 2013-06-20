@@ -8,8 +8,8 @@ At the moment there isn't too much going on over there. However, if you are a lo
 
 For all the haters out there, sipping on all their haterade, [fuck yeah][4]. I __can__ launch something. 
 
-[1]: www.triadstartups.com
-[2]: www.twitter.com/_davidhorne_
+[1]: http://triadstartups.com
+[2]: http://twitter.com/_davidhorne_
 [3]: https://en.wikipedia.org/wiki/Piedmont_Triad
 [4]: http://yahoo.tumblr.com/
 [5]: https://github.com/braidn/t_startups
