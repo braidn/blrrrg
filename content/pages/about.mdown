@@ -26,6 +26,7 @@ with me. Please do.
 __CURRENT hire-ability Status:__ [NTB][6] ([Accepting Freelance or Remote Work][13])
 
 1. [Tweets][1]
+1. [Instant Message][14]
 1. [My Work][2]
 1. [What I might know][7]
 1. [Podcast Backlog][3]
@@ -47,3 +48,4 @@ __CURRENT hire-ability Status:__ [NTB][6] ([Accepting Freelance or Remote Work][
 [11]: http://www.fark.com/topic/florida
 [12]: http://www.gravatar.com/avatar/1241f003b8bfcd6b0875ec4ed76711e3.png
 [13]: http://cloudbacon.com/for-hire
+[14]: braidn@dukgo.com
