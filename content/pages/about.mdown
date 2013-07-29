@@ -36,13 +36,13 @@ __CURRENT hire-ability Status:__ [NTB][6] ([Accepting Freelance or Remote Work][
 1. [BOOM][12]
 
 [1]: http://twitter.com/#!/braidn
-[2]: https://github.com/bradendouglass
+[2]: https://github.com/braidn
 [3]: http://va.wiltj.com/muf/pcepisodes/
 [4]: http://www.linkedin.com/in/bradendouglass
 [5]: http://www.last.fm/user/gefunk
 [6]: https://gimmebar.com/view/4fe9a39629ca157e63000006/big
-[7]: https://github.com/bradendouglass/Knowledge-Repo
-[8]: http://bradendouglass.github.com/Resume/
+[7]: https://github.com/braidn/Knowledge-Repo
+[8]: http://braidn.github.com/Resume/
 [9]: http://cloudbacon.com
 [10]: https://gimmebar.com/loves/braden
 [11]: http://www.fark.com/topic/florida
