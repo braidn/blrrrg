@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'nesta', '0.9.13'
 gem 'kramdown'
