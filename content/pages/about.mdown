@@ -48,6 +48,6 @@ __CURRENT hire-ability Status:__ [NTB][6] ([TAKEN][13])
 [11]: http://www.fark.com/topic/florida
 [12]: http://www.gravatar.com/avatar/1241f003b8bfcd6b0875ec4ed76711e3.png
 [13]: https://gimmebar.com/view/50b6270eaac4228f36000009/big
-[14]: braidn@dukgo.com
+[14]: http://webchat.freenode.net/?channels=%23%23todomofo-bot
 [15]: http://business.time.com/2012/12/24/why-does-canada-have-a-maple-syrup-cartel/
 [16]: http://allyouhaterssuckmyballs.com/
