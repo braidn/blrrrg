@@ -7,10 +7,10 @@ don't care about me, I suggest you either [check out some articles][9] or go
 [here][10].
 
 I spent a good amount of my life growing up in the bitter North, in a state that 
-many people, to this day, think is part of Canada: Maine. From there I began my 
+many people, to this day, think is part of Canada: Maine. From there, I began my 
 migration South/West which left me at a small Quaker institution for College 
-where I accumulated a bunch of knowledge about Computer Science/Political Science 
-and Theology. From there, I wandered from Virginia to Wyoming, found a wife, and 
+where I accumulated a bunch of knowledge about Computer Science, Political Science 
+and Theology. Afterwards, I wandered from Virginia to Wyoming, found a wife, and 
 [landed on Florida][11] in 2009. 
 
 I found myself bored with technology and decided to take up Ruby/Rails along with 
