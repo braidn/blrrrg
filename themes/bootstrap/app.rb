@@ -8,7 +8,7 @@ module Nesta
     #
     # Put your assets in themes/bootstrap/public/bootstrap.
     #
-    use Rack::Static, :urls => ["/bootstrap"], :root => "themes/bootstrap/public"
+    use Rack::Static, :urls => ["/components"], :root => "themes/bootstrap/public"
     Tilt.prefer Tilt::KramdownTemplate
 
     not_found do

@@ -1,17 +1,18 @@
 -# From old stuff
 - Nesta::Page.find_articles.each do |article|
-  .hero-unit
-    %h1
-      %a{:href => "#{article.abspath}"}
-        =article.title
-    %div.indexarticledate
-      - if article.flagged_as?('link')
-        %i.icon-retweet
-        For:
-      - else
-        Written For:
-      =format_date(article.date)
-    - if article.summary
-      %section.articlessummary
-        =article.summary
+  .row
+    .panel
+      %h1
+        %a{:href => "#{article.abspath}"}
+          =article.title
+      %div
+        - if article.flagged_as?('link')
+          %i.fi-comments
+          For:
+        - else
+          Written For:
+        =format_date(article.date)
+      - if article.summary
+        %section.articlessummary
+          #{article.summary.to_s}
   -#= article_summaries(latest_articles)
