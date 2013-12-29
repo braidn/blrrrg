@@ -11,39 +11,30 @@ alleviate technical debt now, not when the project has finished?
 
 ###Pitch -->
 
-I currently do not work on an hourly basis. What I do offer is 14 hour
-"weeks" that are dedicated to you and your brilliant project. All 14 hours
-will be dedicated to one client running from Monday to Sunday of each
-week sprint. Purchasing multiple back-to-back weeks is allowed and
-encouraged; however, splitting weeks into 1/2, 1/3, or 1/4 segments is
-not.
-
-If you have taken the time to read through some of my blog articles,
-love the above three points and would like to get in contact with
-me please do so in the next section
+Currently, I am not taking on any side work. However, if you think your idea is compelling and want to sell me on it feel free to get in contact. I love to talk shop and who knows what might happen from there.
 
 ###Contact -->
 
 Phone: 415.935.3151  
 Twitter: [@braidn][1]  
-Email: b [at] bradendouglass [dot] com  
+Email: bradenwork [at] gmail [dot] com  
 
 ###Skills -->
 
 For the technical crowd who wants to know if I have the chops for 'X'
 
-* Ruby (1.9)
-* Ruby On Rails (2.3.x - 3.2.x)
-* Javascript
+* Ruby (1.8/1.9/2.x)
+* Ruby On Rails (2.3.x - 4.x)
 * Node.js
-* DOM Manipulation (jQuery)
-* CoffeeScript
+* Ember.js (actively learning)
+* Javascript + Coffeescript
+* DOM Manipulation (jQuery/Zepto)
 * TDD + BDD
 * Agile + Kanban
-* Unix/Linux
+* Shell Programming
 * GIT
 * SQL (Postgres + MySQL)
-* HTML + CSS + Haml + SASS + LESS
+* HTML + CSS (HAML/LESS/SASS/Stylus/Jade/Slim)
 * Vim + Tmux (pair programming)
 
 
