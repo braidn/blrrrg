@@ -1,4 +1,6 @@
-
+Title: Pencils, Like Panthers
+Date: January 2, 2014
+Summary: for your mind
 
 Pencils are the panthers of the creative world (that's right, I said it). They silently lay there until something brilliant passes by. They are often overlooked for their ink staining brethren and even subject to extreme prejudice through insane feats of "[over-engineering][1]." However any [sane man][2] would agree, that the pencil is one of the most most interesting avenues to pull the scribbles of creativity from your brain to paper. I have even [mentioned them several times][3] here on this blrrg.
 
@@ -10,6 +12,8 @@ The problem inherent in pencils is that there are two damn many of them leading 
 
 Remember: every good engineer has an unequivocal, perhaps even irrational love of their favorite pencil.
 
+Oh, and [happy fucking 2014, hugs for everyone][9]. Do us a favour and update your copywright footers.
+
 [1]: http://www.pencilrevolution.com/2005/12/russian-space-pen/
 [2]: https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)
 [3]: http://cloudbacon.com/2012-08-29-A-Programmer-Journal
@@ -18,3 +22,4 @@ Remember: every good engineer has an unequivocal, perhaps even irrational love o
 [6]: http://www.pentel.com/store/sharp-kerry-mechanical-pencil
 [7]: http://fieldnotesbrand.com/shop/
 [8]: http://www.jetpens.com/Uni-Lead-Holder-Refill-2-mm-B-Pack-of-6/pd/1577
+[9]: https://gimmebar.com/view/528bbed3aac422ce02000015/big
