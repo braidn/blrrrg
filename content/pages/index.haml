@@ -4,7 +4,7 @@
     .panel
       %h1
         %a{:href => "#{article.abspath}"}
-          =article.title
+          =article.name
       %div
         - if article.flagged_as?('link')
           %i.fi-comments

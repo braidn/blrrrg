@@ -1,6 +1,6 @@
-- if @page.date && @page.title
+- if @page.published
   .panel
-    %h1= @page.title
+    %h1= @page.name
     .articledate= format_date(@page.date)
 .postcontent
   ~ @page.to_html(self)
