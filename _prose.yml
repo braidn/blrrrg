@@ -3,7 +3,7 @@ prose:
   rooturl: 'content/pages'
   metadata: 
     content/pages: 
-      - name: "human_title"
+      - name: "title"
         field: 
           element: "text"
           label: "Title"
