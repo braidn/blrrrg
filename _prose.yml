@@ -1,6 +1,6 @@
 --- 
 prose:
-  rooturl: content/pages
+  rooturl: 'content/pages'
   metadata: 
     content/pages: 
       - name: title
