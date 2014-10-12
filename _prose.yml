@@ -3,10 +3,6 @@ prose:
   rooturl: 'content/pages'
   metadata: 
     content/pages:
-      - name: "published"
-        field:
-          element: "hidden"
-          value: "true"
       - name: "link text"
         field: 
           element: "text"
@@ -33,3 +29,7 @@ prose:
           value: ""
           placeholder: "link, draft"
           type: "text"
+      - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
