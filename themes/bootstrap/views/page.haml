@@ -1,4 +1,4 @@
-- if @page.title?
+- if @page.date && @page.title
   .panel
     %h1= @page.title
     .articledate= format_date(@page.date)
