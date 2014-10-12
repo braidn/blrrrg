@@ -3,26 +3,26 @@ prose:
   rooturl: 'content/pages'
   metadata: 
     content/pages: 
-      - name: title
+      - name: 'title'
         field: 
-          element: text
-          label: Title
-          type: text
+          element: 'text'
+          label: 'Title'
+          type: 'text'
           value: ""
-      - name: date
+      - name: 'date'
         field: 
-          element: text
+          element: 'text'
           label: "Date (Sunday, October 12, 2014)"
           value: ""
-      - name: summary
+      - name: 'summary'
         field: 
-          element: text
-          label: Summary
-          type: text
+          element: 'text'
+          label: 'Summary'
+          type: 'text'
           value: ""
-      - name: flags
+      - name: 'flags'
         field: 
-          element: text
-          label: Flags
-          type: text
+          element: 'text'
+          label: 'Flags'
+          type: 'text'
           value: "link, draft"
