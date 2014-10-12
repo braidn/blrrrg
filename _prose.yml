@@ -2,7 +2,11 @@
 prose:
   rooturl: 'content/pages'
   metadata: 
-    content/pages: 
+    content/pages:
+       - name: "published"
+        field:
+          element: "hidden"
+          value: "true"
       - name: "human_title"
         field: 
           element: "text"
