@@ -3,7 +3,7 @@ prose:
   rooturl: 'content/pages'
   metadata: 
     content/pages:
-       - name: "published"
+      - name: "published"
         field:
           element: "hidden"
           value: "true"
