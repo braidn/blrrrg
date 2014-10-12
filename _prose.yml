@@ -1,0 +1,28 @@
+--- 
+prose:
+  rooturl: content/pages
+  metadata: 
+    content/pages: 
+      - name: title
+        field: 
+          element: text
+          label: Title
+          type: text
+          value: ""
+      - name: date
+        field: 
+          element: text
+          label: "Date (Sunday, October 12, 2014)"
+          value: ""
+      - name: summary
+        field: 
+          element: text
+          label: Summary
+          type: text
+          value: ""
+      - name: flags
+        field: 
+          element: text
+          label: Flags
+          type: text
+          value: "link, draft"
