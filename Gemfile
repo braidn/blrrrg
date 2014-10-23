@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 ruby '2.0.0'
 
-gem 'nesta', '0.9.13'
+gem 'nesta'
+gem 'mr-sparkle'
+gem 'nesta-plugin-jekyll-metadata'
 gem 'kramdown'
 gem 'rspec'
 gem 'capybara'
