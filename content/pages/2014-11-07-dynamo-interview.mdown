@@ -10,9 +10,9 @@ date: "Friday, November 7, 2014"
 
 Yep, that's right! After a ginormous hiatus from podcasting (no one remembers My Untitled Folder regardless of its epic name), I have returned. Take a listen and learn a little bit about the person behind this shit show of a blog. Also a few links for some of what was mentioned throughout the podcast (are they still called show notes?) are detailed below.
 
-[Jackson Wyoming](https://en.wikipedia.org/wiki/Jackson,_Wyoming)
-[Ergodox](http://ergodox.org/)
-[Standing Desk](http://multitable.com/index.php/manual-modtable-base.html)
-[OmniFocus](https://www.omnigroup.com/omnifocus/)
-[Wiki](https://github.com/braidn/Knowledge-Repo)
-[Wicked Weed](http://www.wickedweedbrewing.com/)
+1. [Jackson Wyoming](https://en.wikipedia.org/wiki/Jackson,_Wyoming)
+1. [Ergodox](http://ergodox.org/)
+1. [Standing Desk](http://multitable.com/index.php/manual-modtable-base.html)
+1. [OmniFocus](https://www.omnigroup.com/omnifocus/)
+1. [Wiki](https://github.com/braidn/Knowledge-Repo)
+1. [Wicked Weed](http://www.wickedweedbrewing.com/)
