@@ -2,17 +2,24 @@
 %html{lang: 'en'}
   %head
     %meta{charset: 'utf-8'}
-    - if @description
-      %meta{name: 'description', content: @description}
-    - if @keywords
-      %meta{name: 'keywords', content: @keywords}
+    %meta{name: 'description', content: @description || "Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only." }
+    %meta{name: 'keywords', content: @keywords || "ruby, javascript, vim, getting shit down, programming"}
     %link{href: '/components/foundation/css/foundation.min.css', media: 'screen', rel: 'stylesheet'}
     %link{href: '/components/foundation-icons/foundation-icons.css', media: 'screen', rel: 'stylesheet'}
     %link{href: '/articles.xml', rel: 'alternative', type: "application/atom+xml"}
     %script{src: '/components/modernizr/modernizr.js'}
 
-    %title
-      Cloudbacon
+    %meta{name:"twitter:card", content:"summary"}
+    %meta{name:"twitter:description", content: @description || "Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only." }
+
+    -if @page.abspath == '/'
+      %title
+        Cloudbacon A Blog About Everything...But Mostly Programming And Awesome
+      %meta{name:"twitter:title", content:"Cloudbacon A Blog About Everything...But Mostly Programming And Awesome"}
+    - else
+      %title
+        =@page.title
+      %meta{name:"twitter:title", content: @page.title}
   %body
     .contain-to-grid
       %nav.top-bar{style: "overflow: hidden", data: { topbar: true }}
