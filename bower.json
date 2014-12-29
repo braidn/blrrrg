@@ -1,0 +1,22 @@
+{
+  "name": "blrg",
+  "version": "0.0.1",
+  "homepage": "https://cloudbacon.com",
+  "authors": [
+    "braidn <me@braidn.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "themes/bootstrap/public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.0.2",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0"
+  }
+}
