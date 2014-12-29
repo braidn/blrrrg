@@ -22,32 +22,30 @@
       %meta{name:"twitter:title", content: @page.title}
   %body
     .container
-      %nav.top-bar{style: "overflow: hidden", data: { topbar: true }}
-        %ul.title-area
-          %li.name
-            %h1
+      %header.centered-navigation
+        .centered-navigation-wrapper
+          %ul.centered-navigation-menu.show
+            %li.nav-link
+              %a{href: '/about'}
+                about
+            %li.nav-link
+              %a{href: random_post_path}
+                random
+            %li.nav-link.logo
+              %img{src: 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
+              %a{href: '/bestof'}
+                %img{src: 'http://c522735.r35.cf2.rackcdn.com/Bacon.png'}
+            %li.nav-link
               %a{href: '/'}
                 - unless @page.abspath == '/'
                   %i.fi-rewind
                 = Nesta::Config.title
-        %section.top-bar-section
-          %ul.right
-            %li
-              %a{href: random_post_path}
-                random
-            %li
-              %a{href: '/about'}
-                about
-            %li
+            %li.nav-link
               %a{href: '/for-hire'}
                 for-hire
-            %li
-              %a{href: 'http://www.twitter.com/braidn'}
-                %img{src: 'http://www.pairprogramwith.me/badge.png', width: '100px'}
-          %ul.left
-            %img.nav.pull-left{src: 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
-            %a{href: '/bestof'}
-            %img.nav.pull-left{src: 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', style: 'padding-top: 7px;'}
+            -# %li.nav-link.logo
+            -#   %a{href: 'http://www.twitter.com/braidn'}
+            -#     %img{src: 'http://www.pairprogramwith.me/badge.png', width: '100px'}
 
     .container
       = yield
