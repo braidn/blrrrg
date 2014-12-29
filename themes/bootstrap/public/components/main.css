@@ -401,10 +401,21 @@ input[type="submit"] {
         color: #333; }
   .centered-navigation li.logo.nav-link {
     display: none;
+    margin-left: 1em;
     line-height: 0; }
     @media screen and (min-width: 53.75em) {
       .centered-navigation li.logo.nav-link {
         display: inline; } }
+  .centered-navigation li.logo-text.nav-link {
+    margin-left: -1.5em;
+    color: rgba(51, 51, 51, 0.7);
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: .5em; }
+    @media screen and (max-width: 500px) {
+      .centered-navigation li.logo-text.nav-link {
+        margin-left: 0px; } }
   .centered-navigation .logo img {
     margin-bottom: -0.66667em;
     max-height: 2em;

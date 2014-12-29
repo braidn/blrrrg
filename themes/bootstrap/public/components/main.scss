@@ -4,6 +4,8 @@
 @import "neat/app/assets/stylesheets/neat";
 @import "base/base";
 
+$mobile-screen: new-breakpoint(max-width 500px 4);
+
 .container {
   @include outer-container;
 }
@@ -225,10 +227,24 @@
 
   li.logo.nav-link {
     display: none;
+    margin-left: 1em;
     line-height: 0;
 
     @include media($large-screen) {
       display: inline;
+    }
+  }
+
+  li.logo-text.nav-link {
+    margin-left: -1.5em;
+    color: transparentize($base-font-color, .3);
+    font-family: $serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+
+    @include media($mobile-screen) {
+      margin-left: 0px;
     }
   }
 
@@ -238,3 +254,6 @@
     opacity: .6;
   }
 }
+
+//Typography and Blog Content
+

@@ -35,7 +35,7 @@
               %img{src: 'http://c522735.r35.cf2.rackcdn.com/cloud.png'}
               %a{href: '/bestof'}
                 %img{src: 'http://c522735.r35.cf2.rackcdn.com/Bacon.png'}
-            %li.nav-link
+            %li.nav-link.logo-text
               %a{href: '/'}
                 - unless @page.abspath == '/'
                   %i.fi-rewind
@@ -43,6 +43,9 @@
             %li.nav-link
               %a{href: '/for-hire'}
                 for-hire
+            %li.nav-link
+              %a{href: 'http://www.twitter.com/braidn'}
+                other
             -# %li.nav-link.logo
             -#   %a{href: 'http://www.twitter.com/braidn'}
             -#     %img{src: 'http://www.pairprogramwith.me/badge.png', width: '100px'}
