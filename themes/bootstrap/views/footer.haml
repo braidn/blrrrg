@@ -1,17 +1,28 @@
 - if ! @page.date
-  %footer.branding.row
-  %hr
-    %h5.subheader
-      This Blrrg Powered by
-      = succeed "." do
-        %a{:href => "http://nestacms.com"} Nesta CMS,
-        %a{:href => 'http://haml-lang.com/'} HAML,
-        %a{:href => 'http://daringfireball.net/projects/markdown/'} Markdown,
-        %a{:href => 'http://www.heroku.com/'} Heroku,
-        %a{:href => 'http://foundation.zurb.com/'} Foundation,
-        %a{:href => 'http://wercker.com/'} Wercker
-        &hellip;
-        and 
-        %a{:href => 'https://untappd.com/user/bradendouglass'}beer 
-        \:: Built-for #{Date.today.year}
+  %footer.footer
+    %ul
+      %li
+        %h5.subheader
+          This Blrrg Powered by:
+    .footer-secondary-links
+      %ul
+        %li
+          %a{:href => "http://nestacms.com"} Nesta CMS,
+        %li
+          %a{:href => 'http://daringfireball.net/projects/markdown/'} Markdown,
+        %li
+          %a{:href => 'http://www.heroku.com/'} Heroku,
+        %li
+          %a{:href => 'http://bourbon.io/'} Bourbon,
+        %li
+          %a{:href => 'http://neat.bourbon.io/'} Neat,
+        %li
+          %a{:href => 'http://bitters.bourbon.io/'} Bitters,
+        %li
+          %a{:href => 'http://wercker.com/'} Wercker
+          &hellip;
+          and
+        %li
+          %a{:href => 'https://untappd.com/user/bradendouglass'}beer
+          \:: Built-for #{Date.today.year}.
 
