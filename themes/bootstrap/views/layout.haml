@@ -21,7 +21,7 @@
         =@page.title
       %meta{name:"twitter:title", content: @page.title}
   %body
-    .contain-to-grid
+    .container
       %nav.top-bar{style: "overflow: hidden", data: { topbar: true }}
         %ul.title-area
           %li.name
@@ -49,7 +49,7 @@
             %a{href: '/bestof'}
             %img.nav.pull-left{src: 'http://c522735.r35.cf2.rackcdn.com/Bacon.png', style: 'padding-top: 7px;'}
 
-    .row
+    .container
       = yield
       %footer
         = haml :footer, layout: false
@@ -58,4 +58,3 @@
       = haml :analytics, layout: false
 
     %script{src: '/components/jquery/jquery.min.js' }
-    %script{src: '/components/foundation/js/foundation.min.js' }

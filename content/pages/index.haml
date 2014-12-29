@@ -1,18 +1,20 @@
 -# From old stuff
-- Nesta::Page.find_articles.each do |article|
-  .row
-    .panel
-      %h1
+.cards
+  - Nesta::Page.find_articles.each do |article|
+    .card
+      %h1.card-header
         %a{:href => "#{article.abspath}"}
           =article.title
-      %div
-        - if article.flagged_as?('link')
-          %i.fi-comments
-          For:
-        - else
-          Written For:
-        =format_date(article.date)
       - if article.summary
-        %section.articlessummary
+        %section.card-copy
           #{article.summary.to_s}
+      %div.card-stats
+        - if article.flagged_as?('link')
+          %span
+            %i.fi-comments
+              Linked On:
+        - else
+          %span
+            Written On:
+        =format_date(article.date)
   -#= article_summaries(latest_articles)
