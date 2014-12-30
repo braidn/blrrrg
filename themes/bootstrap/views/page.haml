@@ -1,6 +1,7 @@
 - if @page.date && @page.title
-  .panel
+  %article.type-system-geometric
     %h1= @page.title
-    .articledate= format_date(@page.date)
-.postcontent
-  ~ @page.to_html(self)
+    %p.date= format_date(@page.date)
+%p
+  %span
+    ~ @page.to_html(self)
