@@ -1,26 +1,24 @@
-##About The Author
+#About The Author
 
-Turtles... all the way down
-
-[Yello][16], my name is Braden Douglass! If for some reason you are here because you 
-don't care about me, I suggest you either [check out some articles][9] or go 
+[Yello][16], my name is Braden Douglass! If for some reason you are here because you
+don't care about me, I suggest you either [check out some articles][9] or go
 [here][10].
 
-I spent a good amount of my life growing up in the bitter North, in a state that 
-many people, to this day, think is part of Canada: Maine. From there, I began my 
-migration South/West which left me at a small Quaker institution for College 
-where I accumulated a bunch of knowledge about Computer Science, Political Science 
-and Theology. Afterwards, I wandered from Virginia to Wyoming, found a wife, and 
-[landed on Florida][11] in 2009. 
+I spent a good amount of my life growing up in the bitter North, in a state that
+many people, to this day, think is part of Canada: Maine. From there, I began my
+migration South/West which left me at a small Quaker institution for College
+where I accumulated a bunch of knowledge about Computer Science, Political Science
+and Theology. Afterwards, I wandered from Virginia to Wyoming, found a wife, and
+[landed on Florida][11] in 2009.
 
-I found myself bored with technology and decided to take up Ruby/Rails along with 
-programming for the web. As an aside, I actually began an on-again-off-again 
-relationship with programming when I was 16 with Python and table based HTML. 
-In the past 4 years I have found and grown my passion 
-for crafting code. Now, I create things using a combination of 
+I found myself bored with technology and decided to take up Ruby/Rails along with
+programming for the web. As an aside, I actually began an on-again-off-again
+relationship with programming when I was 16 with Python and table based HTML.
+In the past 4 years I have found and grown my passion
+for crafting code. Now, I create things using a combination of
 Ruby/Rails/Javascript/HTML/Vim but, this is always in flux. I currently work for
 the best damn place to work: CANADA. In addition, I may work there but, I have no knowledge
-of [this incident][15].  
+of [this incident][15].
 Below you will find a plethora of methods to get in contact with me. Please do.
 
 __CURRENT hire-ability Status:__ [NTB][6] ([TAKEN][13])

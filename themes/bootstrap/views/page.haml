@@ -2,6 +2,11 @@
   %article.type-system-geometric
     %h1= @page.title
     %p.date= format_date(@page.date)
-%p
-  %span
-    ~ @page.to_html(self)
+    %p
+      %span
+        ~ @page.to_html(self)
+- else
+  %article.type-system-geometric
+    %p
+      %span
+        ~ @page.to_html(self)
