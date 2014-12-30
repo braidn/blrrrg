@@ -12,9 +12,9 @@ describe 'Home Page' do
   it 'has a list of links as a header' do
     expect(page).to have_css('ul > li > a')
   end
-  
+
   it 'has a list of posts' do
-    expect(page).to have_css('.postcontent > div')
+    expect(page).to have_css('.cards > .card')
   end
 
    it 'has a google analytics container to track traffic' do
