@@ -1,0 +1,62 @@
+---
+published: true
+link text: 2014 Year In
+date: "Saturday, January 10, 2015"
+summary: "Review. Get it while it's hot cause it is only going to be around for a year."
+description: 2014 Year in review. A reflection of what went through my mind
+keywords: "review, 2014, reflection"
+---
+
+This seems to be the normal kind of thing these days. Write a year in review, reflect, generate some add dollars, and keep the Internet fixated on your blog long enough to seem somewhat relevant through to 2016. Without messing with the end of your weekend, or getting in the way of your new found reading skills (zing, nope) let’s begin what will only be, potentially, the most exhilarating year in review... Well until next year that is. Oh, yeah. One more thing: If for some unholy reason you need to pull a TLDR, skip to the end. Predictions for 2015 are abound. 
+
+#### Why work is important.
+Work should be a rather large influence in life. We spend nearly 8 hours toiling away at it for five days strait. Some, well most of us spend even more time at it. The uneducated few, often times say this is due to our in-ability to produce results or that we are slow or unproductive. However, 99% of these people are incorrect. Most of us spend extra time at work honing our skills or appealing to customers because we, the 99%, actually adore their jobs. 
+
+I am no different, I love every aspect of building the digital world. From creating elaborate hoax interfaces(much like the redesign around here) to intricate message passing, semi pure OOP style backends to pass data around, and even a little API style development here and there. Since there is so much overlap with work/play life, this is a great place to look at what was shipped in 2014:
+
+#### List of accomplishments
+The first and by far the largest is breaking ground on 3 new projects. The general Ruby smell was there, underpinning the backend; however, there was a ton of learning on the front-end. React, Angular(which I am still skeptical about) and a heavy smattering of Backbone rounded out the Javascript libraries and frameworks. These new projects involved upgrading Spree, maintaining and improving test coverage, feature implementation and a general heap of awesome, fairly well written code.
+
+Side project completion was up dramatically in 2014. Where side projects usually became just another repository tick box in GitHub, 2014 changed that in a large way. EmailGrouper(name still in transition) was thought up, created, implemented in the summer of 2014. Then, during a tumultuous fall, was rewritten from pojo style JS to Ruby utilizing Rails. Although perhaps not the most sexy thing in the world, this app was a great test bed for learning the ins-and-outs of MiniTest, along with creating a more vanilla Rails experience over the normal Spree inspired store.
+
+Now for some accomplishments that definitely fit within the realm of work but might not be so code based:
+
+I visited the team at Dynamo(my home) four times over the course of the year. One time spending nearly a month in the wonderful city that is Montreal. Canada is much different than the States, doubly so since Montreal is in the French, Québec quarter. Language aside, everyone is just a smidgen more friendly, more out going, more open, and without a doubt more fit. Anyone who is on a remote team(it is pretty fucking epic, I highly recommend it) should have a goal to see their team and especially, hug them on a quarterly basis(as the very minimum). Visiting semi-often has lead to better team dynamics, understanding of how everyone works, and best of all: Meeting significant others, children, families, and figuring out who in the office can drink you under the table. Due to their “Canadian-ness” that would be every single one of them.
+
+Now for the unfortunate news, the stuff that may have been missed in 2014. For starters the goal of learning a language every year, as highlighted by the boys behind *The Pragmatic Programmer* sort of fell by the wayside. Sure, technically I learned two languages: GoLang and Rust. Both were more of a skim than an actual learn. The duties of work really usurped my programming time and dealing with other co-founders in a startup equated to even less time. Besides this though, and maybe missing a few months where I planned to run through a whole Field Notes book during the month, goal completion and expectations for work were met right around the 100% figure.
+
+### Goal Related
+Speaking of goals. 2014 was perhaps the first time in history where all the goals that were planned out for the year were stuffed into OmniFocus and reviewed on a weekly basis. This brings a somewhat silly concept (goals in general) top of mind every Saturday and Sunday. They are played out in an “in your face” style and one can hardly complain that a goal was forgotten when a review like this is so frequent.
+
+Many of 2014’s goals centered around being a better team member, as highlighted above, visiting the office on more specific intervals, reading and writing more, focusing on my marriage, and a smattering of strength goals. All 14, two per quarter, half and full year were accomplished. Small things like using the plethora of Field Notes to actually take notes, purchasing new and much needed clothes, and getting 135 pounds over my head in a specific manner. Overall, 2014 was a great year for goals, and the setup for 2015 looks twice as ambitious. 
+
+### Personal Related
+Last, and by far the least are the personal accomplishments throughout the year. 2014 was another bombshell year for these. The wife and I hit a large home run by actually buying a house together. Sure it is small, and perhaps a little too cold for her liking in the winter but, it fits us nicely and doesn’t take two days to just clean the bathrooms. Seriously, large houses suck. 
+
+With the house and the remote job came a much needed office upgrade. My first, and likely last proper standing desk was purchased along with a few other items to make my life a little easier while staying home all day. Other things include, new couches, ridding the area around the house of termites using only “natural” means and other such homely, somewhat boring accomplishments. In addition to the home, we planned and executed on a fun vacation to Colombia early in 2015 and took a trip that was based solely on exploration to Colorado in early December.
+
+Strength is a big thing in my life at the moment and although I had some major shoulder surgery just two years ago, the rebound has been slow but, gratifying. 2014 marked my ability to properly sit at the very bottom of a Snatch without a gigantic amount of pain. This quickly lead me to being able to perform handstand pushups which I have never been able to accomplish. In addition, some of the better numbers throughout the year include:
+
+1. 505 lb Deadlift
+1. 515 lb JLift
+1. 245 lb High Hang Clean
+1. 295 lb Zercher
+
+Life in 2014 was definitely not the easiest but, it did give way to some fun accomplishments that were pretty integral in living a much more meaningful and purpose driven life.
+
+## Predictions for 2015
+Aww, the best part of these 2014 in review posts: predictions! That, and all the awesome sponsor money these posts accrue... anyway. My best guess is this year is going to be epic although, not so much in the tech realm. The introduction of the iWatch and all of the wearable technology will somewhat diminish the already existing awesome sauce infused infrastructure we have. Sure wearables will make a dent in the marketplace, but their adoption will be slow and somewhat rife with pain.
+
+The rest of technology, perhaps the underground part or the slow tech movement(is that still a thing?) will make an interesting comeback. Offline first application development will see a much higher rise in usage leading to web based applications having a much better chance against their native counterparts. Web components, the ones seen in React will aid in the creation of better documented, easier to work on, “native-er” UI’s overall. Due to this, the larger frameworks out there like Angular and Ember are going to have to come to terms with their size and the overall load they cause on these smaller devices. 
+
+Speaking of devices in general. Phones will continue to grow, disproportionate to our ear sizes. The usage and need of Phablet’s was legitimized this year with the iPhone 6+’s break out home run by Apple. Google quickly followed suite with the Nexus 6 and while we will not likely see many bigger phones in 2015, there will be many more “large phone” options. Maybe I am getting a bit older, and my eyesight just isn’t what it was when I was young but, staring at a minuscule iWatch screen holds no interest. 
+
+And for a few Dark Horses:
+
+1. .Net will realize the foolishness of their ways and force every .Net developer to return to the far superior Classic ASP.
+1. Selfie, the word will be eradicated from the language ergo allowing us to control our facial features again without the aid of seeing them. That and the famous selfie stick will see more widespread banning.
+1. Apple Pay/Google Wallet will basically eradicate the reason to carry around physical credit cards. In places where cash is still king... cash will remain the dominant player. Items like Coin, etc are already obsolete, only the early adopters will use or buy them. In addition, the ridiculous text fields that house credit card numbers online will also become moot. Thereby allowing a cognitive sigh of relief for anyone who has thought of more secure or quicker ways to take people’s money online.
+1. Google will relent in their quest to own everyone’s email data and sunset the Gmail service. Thereby removing any major player in the space using Dart and force everyone to find a new, more secure, less add driven email client.
+1. Microsoft will release a new browser that uses the Blink rendering engine and will be the first release since IE7 to run natively on a Mac. No one will use it but, everyone will have to figure out how to support it in 3 years when they jump ship to Gecko.
+
+One can only hope.
