@@ -53,10 +53,10 @@ Speaking of devices in general. Phones will continue to grow, disproportionate t
 
 And for a few Dark Horses:
 
-* .Net will realize the foolishness of their ways and force every .Net developer to return to the far superior Classic ASP.
-* Selfie, the word will be eradicated from the language ergo allowing us to control our facial features again without the aid of seeing them. That and the famous selfie stick will see more widespread banning.
-* Apple Pay/Google Wallet will basically eradicate the reason to carry around physical credit cards. In places where cash is still king... cash will remain the dominant player. Items like Coin, etc are already obsolete, only the early adopters will use or buy them. In addition, the ridiculous text fields that house credit card numbers online will also become moot. Thereby allowing a cognitive sigh of relief for anyone who has thought of more secure or quicker ways to take people’s money online.
-* Google will relent in their quest to own everyone’s email data and sunset the Gmail service. Thereby removing any major player in the space using Dart and force everyone to find a new, more secure, less ad driven email client.
-* Microsoft will release a new browser that uses the Blink rendering engine and will be the first release since IE7 to run natively on a Mac. No one will use it but, everyone will have to figure out how to support it in 3 years when they jump ship to Gecko.
+> .Net will realize the foolishness of their ways and force every .Net developer to return to the far superior Classic ASP.
+> Selfie, the word will be eradicated from the language ergo allowing us to control our facial features again without the aid of seeing them. That and the famous selfie stick will see more widespread banning.
+> Apple Pay/Google Wallet will basically eradicate the reason to carry around physical credit cards. In places where cash is still king... cash will remain the dominant player. Items like Coin, etc are already obsolete, only the early adopters will use or buy them. In addition, the ridiculous text fields that house credit card numbers online will also become moot. Thereby allowing a cognitive sigh of relief for anyone who has thought of more secure or quicker ways to take people’s money online.
+> Google will relent in their quest to own everyone’s email data and sunset the Gmail service. Thereby removing any major player in the space using Dart and force everyone to find a new, more secure, less ad driven email client.
+> Microsoft will release a new browser that uses the Blink rendering engine and will be the first release since IE7 to run natively on a Mac. No one will use it but, everyone will have to figure out how to support it in 3 years when they jump ship to Gecko.
 
 One can only hope.
