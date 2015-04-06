@@ -1,18 +1,18 @@
---- 
-box: wercker/ruby
-build: 
-  steps: 
+---
+box: wercker/rvm
+build:
+  steps:
     - bundle-install
-    - script: 
+    - script:
         code: |
             echo "ruby version $(ruby --version) running"
             echo "from location $(which ruby)"
             echo -p "gem list: $(gem list)"
         name: "echo ruby information"
-    - script: 
+    - script:
         code: "bundle exec rspec"
         name: rspec
-deploy: 
-  steps: 
-    - heroku-deploy: 
+deploy:
+  steps:
+    - heroku-deploy:
         key-name: GO_BOAT
