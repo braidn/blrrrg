@@ -1,0 +1,13 @@
+---
+published: true
+link text: On Building
+date: "Friday, May 29, 2015"
+summary: and when not to
+description: just building things is just floundering
+keywords: "building, startups, small towns"
+flags: draft
+---
+
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
