@@ -1,0 +1,26 @@
+!!! XML
+%urlset(xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
+  %url
+    %loc= path_to('/', :uri => true)
+    %changefreq daily
+    %priority 1.0
+    %lastmod= @last.xmlschema
+  %url
+    %loc= path_to('/bestof', :uri => true)
+    %changefreq weekly
+    %priority 1.0
+    %lastmod= @last.xmlschema
+  %url
+    %loc= path_to('/about', :uri => true)
+    %changefreq weekly
+    %priority 1.0
+    %lastmod= @last.xmlschema
+  %url
+    %loc= path_to('/for-hire', :uri => true)
+    %changefreq weekly
+    %priority 1.0
+    %lastmod= @last.xmlschema
+  - @pages.each do |page|
+    %url
+      %loc= path_to(page.path, :uri => true)
+      %lastmod= page.last_modified.xmlschema
