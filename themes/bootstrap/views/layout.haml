@@ -19,6 +19,10 @@
       %title
         Cloudbacon a blog about everything...but mostly programming and awesome. From the mind of Braden Douglass
       %meta{name:"twitter:title", content:"Cloudbacon a blog about everything...but mostly programming and awesome. From the mind of Braden Douglass"}
+    - elsif @page.abspath == '/bestof'
+      %title
+        The very best of what Cloudbacon and the world of Braden Douglass have to offer.
+      %meta{name:"twitter:title", content:"Cloudbacon a blog about everything...but mostly programming and awesome. From the mind of Braden Douglass"}
     - else
       %title
         =@page.title

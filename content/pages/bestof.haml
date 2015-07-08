@@ -2,7 +2,7 @@
   - if article.flagged_as?('bestof')
     .hero-unit
       %h1
-        %a{:href => "#{article.abspath}"}
+        %a{href: "#{article.abspath}"}
           =article.title
       %div.indexarticledate
         Written For:
