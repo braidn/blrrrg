@@ -1,0 +1,12 @@
+---
+published: true
+link text: Exploring Mini Code Detoxes
+date: "Sunday, July 12, 2015"
+summary: and how small breaks add up to a whole lot
+description: Article exploring ways in which programmers can detox from over work.
+flags: draft
+---
+
+## A New Post
+
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
