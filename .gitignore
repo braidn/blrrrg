@@ -3,3 +3,5 @@
 *.swp
 bin/*
 bin/
+_site/*
+_site

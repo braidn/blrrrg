@@ -7,8 +7,8 @@ relative_permalinks: true
 # Setup
 title:               Cloudbacon
 tagline:             'A flowy thought place'
-description:         'Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="http://www.twitter.com/braidn">the mind of Braidn</a>'
-url:                 http://lanyon.getpoole.com
+description:         'Silent ramblings of a journeyman programmer, humorist, taskmaster, and  minitel core team member. Delicious responses plucked from the <a href="http://www.twitter.com/braidn">mind of braidn</a>'
+url:                 http://cloudbacon.com
 baseurl:             ''
 paginate:            5
 
