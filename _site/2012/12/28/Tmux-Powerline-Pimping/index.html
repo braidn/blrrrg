@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta content='Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only.' name='description'>
+  <meta content='ruby, javascript, vim, getting shit down, programming' name='keywords'>
+  <meta content='SBXXrnW2v5Elw-cI3bPH80gzqH0kYjLruN0e3zHlNYg' name='google-site-verification'>
+
+  <title>
+    
+      Tmux Powerline Pimping &middot; Cloudbacon
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="twitter.com/braidn">the mind of Braidn</a></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Cloudbacon</a>
+            <small>A flowy thought place</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Tmux Powerline Pimping</h1>
+  <span class="post-date">28 Dec 2012</span>
+  <p>Alright folks if you don’t use <a href="http://pragprog.com/book/bhtmux/tmux">Tmux</a> you are pretty much doing it 100% wrong
+and you won’t get much out of this post. Also, I understand… or “<a href="https://gimmebar.com/view/50340ae129ca15593d000005/big">hear</a>” that
+Screen is <a href="https://gimmebar.com/view/50305c7729ca153546000001/big">wicked awesome-tastic</a>; however, <a href="http://www.urbandictionary.com/define.php?term=I+could+give+two+shits">I couldn’t</a> care less.</p>
+
+<p>If for by some miracle, you do use Tmux, why aren’t you using <a href="https://github.com/erikw/tmux-powerline">this</a>? Sure,
+it is a little colorful, and a bit noisy… but, yeah feel free to tell your
+friends you found it, and you didn’t hear it from me. Right, since most of the
+segments are just bash scripts I have been searching for one that will show off
+the current temp of the machine. What joy I must have been in when I found <a href="https://coderwall.com/p/cmw1mq">this
+snippet from Coderwall</a>. Although, it is wrong.</p>
+
+<p>Yeah, I was <a href="https://gimmebar.com/view/504f465629ca15bb4b000000/big">wicked surprised</a> as well. Besides, does “Coderwall”
+sound like a place where people go to circlejerk to anyone else… wait, is it?</p>
+
+<p>It appears that between that…“Coderwall” and now, Tmux-powerline has gone
+through a rewrite and yielded the snippet useless. Since there is a <a href="http://jsfiddle.net/">real place
+for these kinds of things</a>, here is the <a href="https://gist.github.com/4404483">correct code in the form of a gist</a>.
+Place the code into a newly written file in the segments directory and name it
+something smart(with a <code>.sh</code> file extension). Then, run <code>chmod a+x filename</code> to
+make the script <a href="https://gimmebar.com/view/50b6270eaac4228f36000009/big">super executable</a>. Finally, add it into your theme and</p>
+
+<p>BOOM!</p>
+
+<p>The only problem is smcFanControl in the menu bar and in Tmux both use the same
+binary to read the temp. However, on my Macbook Air there is a 5-10 degree
+differance between the two. Must be due to the fact that the temp is in <a href="https://gimmebar.com/view/502ea8eaaac4223116000014/big">Celcius</a>.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/05/03/webpack-rails-sprockets/">
+            Webpack Hot Reload And Rails
+            <small>03 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/04/05/infinity-keyboard-info/">
+            Infinity Keyboard
+            <small>05 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/03/20/debugging-on-go/">
+            Problem Solving In Golang
+            <small>20 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

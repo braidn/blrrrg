@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta content='Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only.' name='description'>
+  <meta content='ruby, javascript, vim, getting shit down, programming' name='keywords'>
+  <meta content='SBXXrnW2v5Elw-cI3bPH80gzqH0kYjLruN0e3zHlNYg' name='google-site-verification'>
+
+  <title>
+    
+      Cucumber 101 &middot; Cloudbacon
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="twitter.com/braidn">the mind of Braidn</a></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Cloudbacon</a>
+            <small>A flowy thought place</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Cucumber 101</h1>
+  <span class="post-date">18 Aug 2012</span>
+  <p>I know it is pretty fucking cliched; however, it is hard to go through a
+<a href="http://www.rubythreads.com/products/tatft">Ruby day</a> without some <a href="http://cageme.herokuapp.com/random">surious</a> testing. That’s right, if you
+don’t know what “TATFT” means than you haven’t been doing <a href="https://en.wikipedia.org/wiki/Software_craftsmanship">craftsmen</a>
+level software development for all that long. In this post we are going
+to take a newly formed [[Rails]] application and get it up to speed with
+some simple <a href="http://cukes.info/">Cucumber</a> style tests. In addition, this will be my
+first software based post, which is kind of exciting…I think.</p>
+
+<p>The first thing that needs to be done is cracking open that <a href="http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg">Gemfile</a>
+and let’s add in these lines:</p>
+
+<p><code>ruby
+group :test do
+  gem 'cucumber-rails', :require =&gt; false
+  gem 'capybara-webkit'
+  gem 'database_cleaner'
+end
+</code></p>
+
+<p>If you are one of <a href="http://imgur.com/FHWMO">those people</a> who feel the need to place version
+numbers in your Gemfile, go ahead. As an aside, I recommend NOT doing
+this. Use your Gemfile.lock and your version control <a href="https://devcenter.heroku.com/articles/bundler">du jour</a> to
+keep gem versions inline with your dev and production platforms.</p>
+
+<p>The three gems you added into your Rails application are as follows:</p>
+
+<ol>
+  <li>[[Cucumber-rails]] adds all the requires into your app where needed. A
+<code>rails g cucumber:install</code> will also need to be run after bundle
+installing the above gems.</li>
+  <li>Database cleaner will cleanse your test environment after each test.</li>
+  <li>Capybara-webkit is a handy gem for running <code>@javascript</code> tagged tests
+in a <a href="http://images3.makefive.com/images/entertainment/books/top-5-harry-potter-characters/nearly-headless-nick-7.jpg">headless environment</a>. It does require you download/compile
+QT-Webkit; however, this is a breeze with Homebrew (it is listed as
+‘qt’)</li>
+</ol>
+
+<p>Once you finnish installing QT (Tested on 10.8.0 @2012.08.18 and working
+great) you should head over to <code>/railsAppRoot/features/support/env.rb</code> and add in this
+string:</p>
+
+<p><code>ruby
+Capybara.javascript_driver = :webkit
+</code></p>
+
+<p>And VOILA! You are ready to start testing! For a handy way to run
+commands/tests, using <a href="http://henican.com/wp-content/uploads/2011/10/scared-baby.jpg">command line</a> Vim and Tmux, read <a href="http://henrik.nyh.se/2012/07/tests-on-demand-using-vimux-and-turbux-with-spork-and-guard/">this post</a>
+by someone way smarter than myself. Keep your eyes peeled for another
+post on Cucumber stories and how to write reusable yet sensible tests in
+your Rails app.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/05/03/webpack-rails-sprockets/">
+            Webpack Hot Reload And Rails
+            <small>03 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/04/05/infinity-keyboard-info/">
+            Infinity Keyboard
+            <small>05 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/03/20/debugging-on-go/">
+            Problem Solving In Golang
+            <small>20 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+---
+title: Seagate Hybrid Drive Solution
+layout: post
+---
+
+![ssd hybrid drive](http://c522735.r35.cf2.rackcdn.com/hybridhd.jpeg)
+
+In this past
+[post](http://cloudbacon.com/posts/08022011-Breath-Life-Into-A-Laptop/) I
+mentioned using a ["hybrid hard
+drive"](http://en.wikipedia.org/wiki/Hybrid_drive) for secondary storage. In
+this case, the hybrid part means that there is a very small, 4 gigs to be
+exact, amount of space set aside for caching purposes. If the drive was being
+used for boot purposes, it would use those 4 gigs to allocate popular
+applications and files that were used frequently. This would speed up the app
+launching process and give the allure of having a much faster, SSD.
+
+This specific drive has been under fire for some time by the Mac crowd for
+disabling, or completely ignoring the internal power management settings. One
+of the larger problems being, that the drive blatantly refused to spin down
+when not in use. For the forum lover there is quite an extensive amount of
+knowledge posted
+[here](http://forums.seagate.com/t5/Momentus-XT-Momentus-Momentus/Momentus-XT-APM-spindown-feature-causes-quot-lag-spikes-quot-in/td-p/55656).
+However, it doesn't seem like Seagate has found a fix...yet?
+
+Since upgrading the drive to it's newest firmware (SD25), my drive was
+exhibiting some of these odd behaviors. Everything seemed fine during spin-up;
+however, after the system ejected the disk, it would fail to spin-down. At
+first, I thought that spotlight indexing was causing problems. Wrong, this was
+disabled. The culprit seemed to be a previously deleted file or folder sitting
+around in the .trash folder.
+
+Deleting BOTH the .spotlightv100** hidden folder along with .trash solved the
+issue in a heartbeat. Apparently, there are some
+[methods](http://superuser.com/questions/89556/how-disable-mac-snow-leopard-creating-spotlight-v100-and-trash-folders-in-usb-f#116879)
+to force these folders from being created; however, I have yet to try them. In
+addition, this is a fix for the people using these drives as storage, and not
+for their main boot partition. If anyone has any other nifty solutions, I would
+	love to hear about them

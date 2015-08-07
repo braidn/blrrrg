@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta content='Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only.' name='description'>
+  <meta content='ruby, javascript, vim, getting shit down, programming' name='keywords'>
+  <meta content='SBXXrnW2v5Elw-cI3bPH80gzqH0kYjLruN0e3zHlNYg' name='google-site-verification'>
+
+  <title>
+    
+      Infinity Keyboard &middot; Cloudbacon
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="twitter.com/braidn">the mind of Braidn</a></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Cloudbacon</a>
+            <small>A flowy thought place</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Infinity Keyboard</h1>
+  <span class="post-date">05 Apr 2015</span>
+  <p>As an avid keyboardist, keyboarder… whatever. I jumped on the very first <a href="https://www.massdrop.com/buy/infinity-keyboard-kit">Inifinity Keyboard</a> offered by Massdrop back in November of 2014. Having built it, played with it and attempted to program it with a missing web interface; there is definitely more than a few words on my mind. However, this post is more of an introduction to the knowledge gained throughout my time with it, instead of a true review/product breakdown. <a href="https://github.com/braidn/Knowledge-Repo">GitHub houses a random collection of markdown files</a>. <a href="https://github.com/braidn/Knowledge-Repo/blob/master/InfinityKllInfo.md">One specifically</a> highlights ways to build/config/customize the Infinity’s layouts.</p>
+
+<p>Hopefully this helps folks out who are struggling with the seeming lack of information surrounding this obscure but, somewhat interesting <a href="https://www.overleaf.com/read/zzqbdwqjfwwf">way to define keyboard layouts</a>. If for any reason you happen to want to add or correct anything, feel free to open a GitHub issue.</p>
+
+<p>One last thing: There seems to be a lot of talk surrounding the bounce/debounce rate of these boards. Some of them seem to exibit double key presses from one single keypress. While this is a configurable option in the KLL files, it should not be a need if the board was properly soldered. A very easy fix is to flux/solder the connections up with quality 60/40 rosin core solder.</p>
+
+<h3 id="update-2015-04-12">Update 2015-04-12</h3>
+
+<p>I have finally compiled all of the build scripts into one KLL based directory that could be wrapped in Git. The <a href="https://github.com/braidn/infinity">Git repo is, as always on GitHub</a> and everyone should fork it if they are looking for a quick way to bootstrap their Infinity based Keyboard.</p>
+
+<p>In other news, the awesome folks at Massdrop have <a href="https://www.massdrop.com/buy/infinity-ergodox">released an ErgoDox keyboard</a> variant that will be powered by the same configurator/keyboard mapping language. The great thing about these keyboards using the same controller is only needing to have one <a href="https://github.com/ojbucao/workman">workman-p mapping</a> that can be flashed to different keyboards. Which means, although I own and adore my now gen1 ErgoDox, I will definetly be picking up the new version. Likely with stiffer, Cherry MX Tactile Greys.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/05/03/webpack-rails-sprockets/">
+            Webpack Hot Reload And Rails
+            <small>03 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/03/20/debugging-on-go/">
+            Problem Solving In Golang
+            <small>20 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/01/24/js-for-a-week/">
+            Javascript For A Week
+            <small>24 Jan 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

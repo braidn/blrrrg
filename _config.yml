@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Cloudbacon
+tagline:             'A flowy thought place'
+description:         'Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="http://www.twitter.com/braidn">the mind of Braidn</a>'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Braden Douglass
+  url:               https://twitter.com/braidn
+  email:             me@braidn.com
+
+# Custom vars
+version:             1.0.0
+gems:
+  - jekyll-sitemap

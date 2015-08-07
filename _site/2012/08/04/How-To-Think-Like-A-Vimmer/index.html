@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta content='Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses only.' name='description'>
+  <meta content='ruby, javascript, vim, getting shit down, programming' name='keywords'>
+  <meta content='SBXXrnW2v5Elw-cI3bPH80gzqH0kYjLruN0e3zHlNYg' name='google-site-verification'>
+
+  <title>
+    
+      How To Think Like A Vimer &middot; Cloudbacon
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Silent ramblings of a journeyman programmer, humorist, card shark and purveyor of immitation squid. Delicious responses plucked from <a href="twitter.com/braidn">the mind of Braidn</a></p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+
+    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
+    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <span class="sidebar-nav-item">Currently v1.0.0</span>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>
+      &copy; 2015. All rights reserved.
+    </p>
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Cloudbacon</a>
+            <small>A flowy thought place</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">How To Think Like A Vimer</h1>
+  <span class="post-date">04 Aug 2012</span>
+  <p>SO this post isn’t going to help all of you Textmate, Textmate2,
+SublimeText, emacs, or nano nerds out there. Nope, it is just for the
+good ole folks who have their shit together and use the wonder that is
+Vi or Vim. I haven’t written a whole lot on the subject in a while;
+however, plan on something a little more <a href="http://picturesofpeoplescanningqrcodes.tumblr.com/">noob</a> friendly sometime soon.</p>
+
+<p>When you pick up a piece of actual paper, you know the <a href="http://www.inhabitots.com/wp-content/uploads/2008/09/halloween1.jpg">scary stuff</a>
+that exists in real life, do you think of how you build your sentences?
+Moreover, do you think about how to navigate back through them if you
+need to <a href="http://sale.images.woot.com/Illiterate_RainbowjiuDetail.png">edit</a> anything when you are finished? I am going to go out
+on a limb and say that most people have never <a href="http://3.bp.blogspot.com/-oByir_N-0rI/Tkaq3pX44_I/AAAAAAAAk-I/QJBS12_973o/s640/Marcus.png">expired</a> one thought
+on these concepts.</p>
+
+<p>Why? When it comes to the bulk of our verbal creation these days, we are sitting on
+a computer and we need to navigate in between a myriad of
+lines and words to edit whatever we are working on. If this is true, why
+don’t we take the time to sit down and think of the most effective way
+to get from point A to point B? Here is a test:</p>
+
+<ol>
+  <li>Sit down at your computer and pull up(in your <a href="http://www.vim.org/">editor-du jour</a>)
+some prose</li>
+  <li>Look at how the editor structures the text, look at the line breaks,
+the spacing, how many words are placed on a line, etc.</li>
+  <li>Place the cursor anywhere on the page, this will be your start point</li>
+  <li>Find a place that needs editing, maybe it is a misspelled word, bad
+punctuation, whatever</li>
+  <li>Lasty, figure out how to get there <strong>without</strong> using the mouse and
+with as <strong>few keystrokes</strong> as humanly possible.</li>
+</ol>
+
+<p>This is how a vimer <a href="http://cdn.quotesnsayings.net/wp-content/uploads/2012/01/Finding-Out-That-Someone-Does-The.png">does it</a>. Also I am not too sure it is “Vimer”
+or “Vimmer”.</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2015/05/03/webpack-rails-sprockets/">
+            Webpack Hot Reload And Rails
+            <small>03 May 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/04/05/infinity-keyboard-info/">
+            Infinity Keyboard
+            <small>05 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2015/03/20/debugging-on-go/">
+            Problem Solving In Golang
+            <small>20 Mar 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>
