@@ -11,6 +11,8 @@ description:         'Silent ramblings of a journeyman programmer, humorist, tas
 url:                 http://cloudbacon.com
 baseurl:             ''
 paginate:            5
+github:
+  repo:             'https://github.com/braidn/Nesta-Cloudbacon-Blog'
 
 # About/contact
 author:
@@ -19,6 +21,6 @@ author:
   email:             me@braidn.com
 
 # Custom vars
-version:             1.0.0
+version:             1.1.5
 gems:
   - jekyll-sitemap

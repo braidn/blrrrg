@@ -1,3 +1,8 @@
+---
+layout: page
+title: Partner Up
+---
+
 ##Mission -->
 
 I hold three things close to my heart when I am working with a team,
@@ -13,13 +18,18 @@ alleviate technical debt now, not when the project has finished?
 
 ##Pitch -->
 
-Currently, I am not taking on any side work. However, if you think your idea is compelling and want to sell me on it feel free to get in contact. I love to talk shop and who knows what might happen from there.
+Currently, I am not taking on any side work.
+However, if you think your idea is compelling
+and want to sell me on it feel free to get in contact.
+I love to talk shop and who knows what might happen from there.
 
 ##Contact -->
 
-Phone: 415.935.3151
-Twitter: [@braidn][1]
-Email: bradenwork [at] gmail [dot] com
+In order of response switftness
+
+1. Twitter: [@braidn][1]
+1. Email: me [at] braidn [dot] com
+1. Phone: 415.935.3151
 
 ##Skills -->
 
