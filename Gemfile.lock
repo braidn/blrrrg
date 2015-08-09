@@ -51,6 +51,9 @@ GEM
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    jgd (1.6.2)
+      jekyll (>= 1.5.1)
+      trollop (= 2.0)
     kramdown (1.8.0)
     liquid (2.6.3)
     listen (2.10.1)
@@ -78,6 +81,7 @@ GEM
       hitimes
     toml (0.1.2)
       parslet (~> 1.5.0)
+    trollop (2.0)
     typhoeus (0.7.2)
       ethon (>= 0.7.4)
     yajl-ruby (1.2.1)
@@ -90,6 +94,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-sitemap
+  jgd
 
 BUNDLED WITH
    1.10.5
