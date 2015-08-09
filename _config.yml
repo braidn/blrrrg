@@ -9,7 +9,6 @@ title:               Cloudbacon
 tagline:             'A flowy thought place'
 description:         'Silent ramblings of a journeyman programmer, humorist, taskmaster, and  minitel core team member. Delicious responses plucked from the <a href="http://www.twitter.com/braidn">mind of braidn</a>'
 url:                 http://cloudbacon.com
-baseurl:             ''
 paginate:            5
 github:
   repo:             'https://github.com/braidn/Nesta-Cloudbacon-Blog'
