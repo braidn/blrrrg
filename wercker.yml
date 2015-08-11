@@ -1,9 +1,9 @@
 ---
 box: ruby
-ruby: 2.2.2
 build:
     steps:
         - bundle-install
+        
         - script:
           name: generate production site
           code: |-
