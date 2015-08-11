@@ -1,17 +1,25 @@
 ---
+published: false
 layout: post
 title: On Building
-published: false
+
 ---
 
+# Heading1
 Just a hypothetical situation:
 you, yes you, I know talkinng to the reader isn't a blrg thing but,
 hey think about youself.
+
+## Heading2
+
 You live in a small area of the country,
 mauybe a city of 600,000 to 1million residents that is looking to foster a startup, scrappy culture.
 A scene that is focused on biotech, technology, and anything 'new.'
 Now think of everyone who can
 program, think, write, and plan
+
+## Heading3
+
 all scrambling to build products.
 Either the SASS variants where they can be gobbled up by the Twitters or Stripes.
 Or just businesses in general that provide online solutions to old school problems.

@@ -55,6 +55,7 @@ GEM
       jekyll (>= 1.5.1)
       trollop (= 2.0)
     kramdown (1.8.0)
+    libv8 (3.16.14.11)
     liquid (2.6.3)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -75,8 +76,12 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.3.2)
+    ref (2.0.0)
     safe_yaml (1.0.4)
     sass (3.4.16)
+    therubyracer (0.12.2)
+      libv8 (~> 3.16.14.0)
+      ref
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -95,6 +100,7 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   jgd
+  therubyracer
 
 BUNDLED WITH
    1.10.5
