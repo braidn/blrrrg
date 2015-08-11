@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://cloudbacon.com/sitemap.xml
