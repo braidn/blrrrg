@@ -1,17 +1,18 @@
 ---
 title: Ruby Job of The Week
 layout: post
+
 ---
 
 Ruby, Rails, and "micro-builders" like Sinatra are seeing a boon these days in
 the engineering world. Just a few days ago (er last night I guess) we had a
 going away party for a prominent Rails dev in town who is on their way to
-[Living Social](www.livingsocial.com). As I was perusing through
+[Living Social](http://livingsocial.com). As I was perusing through
 [taskrabbit](http://www.taskrabbit.com/) today I happened to see a rather cute
 sticky note that said they are [hiring](http://www.taskrabbit.com/main/careers)
 for a senior Rails engineer with 5k as a signing bonus! And to top off all this
 	hiring madness, One of my favorite rails based companies: [Engine
-	Yard](www.engineyard.com) is on the
+	Yard](http://engineyard.com) is on the
 	[lookout](http://hire.jobvite.com/Jobvite/jobvite.aspx?b=nTGPvgwE) for an App
 	Support Engineer with a heaping amount of Rails power.
 

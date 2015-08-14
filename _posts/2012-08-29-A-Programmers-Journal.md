@@ -1,6 +1,7 @@
 ---
 title: A Journal
 layout: post
+
 ---
 
 If you aren't quite as [addicted][1] to [Hacker news][2] as most of us
@@ -48,13 +49,13 @@ way of you and your creativity.
 Fin...just promise me: "Don't use a fucking text file for your
 programming journal"
 
-[1]: http://dribbble.s3.amazonaws.com/users/21414/screenshots/478981/addicted.jpg
+[1]: http://cloudbacon.com
 [2]: http://news.ycombinator.com/
 [3]: https://gist.github.com/3444793
 [4]: http://www.amazon.com/Official-Visual-Basic-Programmers-Journal/dp/078970465X?tag=duckduckgo-d-20
 [5]: http://youtu.be/-JFfN5pKzFU
 [6]: https://gimmebar.com/view/503258b5aac422d76f000036/big
-[7]: http://cloudbacon.com/2012-08-14-Fun-Found-In-Notecards
+[7]: http://cloudbacon.com/2012/08/14/Fun-Found-In-Notecards
 [8]: https://gimmebar.com/view/50340b0029ca154d3d000026/big
 [9]: http://edison.rutgers.edu/
 [10]: http://www.teslauniverse.com/nikola-tesla-books-notebook-from-edison-machine-works-by-nikola-tesla

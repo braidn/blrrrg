@@ -1,6 +1,7 @@
 ---
 title: Something Random
 layout: post
+
 ---
 
 This post will be a [quick and dirty][1] rundown of what is banging
@@ -50,7 +51,7 @@ It flows better that way...
 
 [1]: https://gimmebar.com/view/5031916aaac422225b000016/big
 [2]: http://1.bp.blogspot.com/-PMU7W3HEbaQ/T8NBPZ66XFI/AAAAAAAABYk/AQCRm7tEoMM/s1600/friendship_kittens.png
-[3]: https://lh5.googleusercontent.com/-Z51A_ZeS5_U/UD2YH_wk47I/AAAAAAAA2Ko/Cu4FFmV7e6M/6282012025632iwsmt.jpeg
+[3]: http://cloudbacon.com
 [4]: https://a248.e.akamai.net/camo.github.com/dbf5c065a2351c45eff08176351af29716fe7bec687474703a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f6973737565732d6e6578742f746e672e706e67
 [5]: http://founderware.co/start-up/ten-rules-for-shared-working-spaces/
 [6]: http://alexgiampapa.files.wordpress.com/2011/08/pickingyournose.jpg

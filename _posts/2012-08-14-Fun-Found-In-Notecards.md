@@ -1,6 +1,7 @@
 ---
 title: Note Cards For
 layout: post
+
 ---
 
 Uh, I know, another post on some kind of [sudo][1](see what I did there) [productivity][2] ideal.
@@ -47,7 +48,7 @@ Go forth and be more productive with small cardz!
 [3]: http://www.pakalertpress.com/wp-content/uploads/2012/05/8-suspicious-events-surrounding-the-Miami-zombie-attack.jpg
 [4]: http://www.etsy.com/listing/96193234/britches
 [5]: https://gimmebar.com/view/502a845aaac422e922000005/big
-[6]: http://frictionless.bigcartel.com/product/capture-cards
+[6]: http://cloudbacon.com
 [7]: http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg
 [8]: http://codinghorror.typepad.com/.a/6a0120a85dcdae970b012877707dd5970c-pi
 [9]: http://youtu.be/-JFfN5pKzFU

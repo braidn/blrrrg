@@ -1,6 +1,7 @@
 ---
 title: I Could Care Less About
 layout: post
+
 ---
 
 If you don't know what [splat][1] means than you are in the wrong
@@ -44,7 +45,7 @@ Go home.
 [9]: http://us5.memecdn.com/How-I-feel-about-America_c_66102.jpg
 [10]: http://www.litigationandtrial.com/2012/08/articles/attorney/patent-infringement/apple-v-samsung/
 [11]: http://9to5mac.com/2012/08/27/youve-seen-apples-internal-memo-to-employees-on-the-verdict-now-heres-samsungs/
-[12]: http://blog.smartbear.com/Portals/175832/images/office-space-boss1.jpg
+[12]: http://cloudbacon.com
 [13]: http://youlooknicetoday.com/
 [14]: http://blogs.computerworld.com/windows/20889/new-microsoft-logo-rants-and-raves-itbwcw
 [15]: http://youtu.be/-JFfN5pKzFU

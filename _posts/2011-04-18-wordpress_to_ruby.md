@@ -1,13 +1,14 @@
 ---
 title: A Triumphant Return to Cloudbacon
 layout: post
+
 ---
 
 And we are BACK!. That's right, I haven't really been gone, vacationing, or
 really anything else more glamorous than sitting around on my duff. However,
 what is really changed...again...is the blog. In less, than 2 months Cloudbacon
-has migrated from [Posterous](www.posterous.com), to
-[Wordpress](www.wordpress.org), and now resides in flat text files.
+has migrated from Posterous, to
+[Wordpress](https://wordpress.org/), and now resides in flat text files.
 
 You are absolutely wrong, wait what did you guess that we are using as a CMS
 now? I would put some serious money down to deny that you guessed

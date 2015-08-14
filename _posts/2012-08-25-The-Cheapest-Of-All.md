@@ -1,6 +1,7 @@
 ---
 title: The Cheapest Of All
 layout: post
+
 ---
 
 I happened across [this article][1] this week and was rather
@@ -41,7 +42,7 @@ generation of people with their wallets closed and their minds [sudo][13] open).
 [6]: http://www.psmag.com/wp-content/uploads/2011/11/mmw-competitive-112911.jpg
 [7]: http://sundial.csun.edu/wp-content/uploads/2010/02/SO18-Tea-610x462.jpg
 [8]: https://gimmebar.com/view/50340ae129ca15593d000005/big
-[9]: http://blog.craftzine.com/Death_Star_watermelon.jpg
+[9]: https://cloudbacon.com
 [10]: http://experification.files.wordpress.com/2012/07/life2.jpg
 [11]: https://gimmebar.com/view/50368ee329ca154c66000002/big
 [12]: http://grist.org/list/2012-01-04-this-guy-only-owns-15-things/

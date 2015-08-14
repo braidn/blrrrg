@@ -1,6 +1,7 @@
 ---
 title: Why Environment Matters
 layout: post
+
 ---
 
 I have a friend, and bless his heart, he loves to hold over my head, my once
@@ -10,7 +11,7 @@ were unreliable and not worth my money. So what did the <del>fashion</del> OS
 conscious hipster use back then? For me, it was Linux, and mainly because I had
 been using it since around 2000 or when I hit 16.
 
-[Alex Payne](twitter.com/al3x) wrote a wonderfully eloquent and [simple
+[Alex Payne](http://twitter.com/al3x) wrote a wonderfully eloquent and [simple
 piece](http://al3x.net/2008/09/08/al3xs-rules-for-computing-happiness.html)
 concerning rules for optimal "computing happiness" (something
 I care deeply about). The recommendation on

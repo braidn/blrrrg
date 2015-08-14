@@ -1,6 +1,7 @@
 ---
 title: Quicksilver Still Can't Make The Cut
 layout: post
+
 ---
 
 It's true, I have never really been much of a fan of the ancient productivity
@@ -15,7 +16,7 @@ Recently the Quicksilver Project was [picked up](http://www.qsapp.com) by a
 group of very talented and driven developers who have a laundry list of grand
 plans for the ailing product. With Quicksilver making a rapid comeback, I
 decided to drop my current productivity love affair:
-[Alfred](www.alfredapp.com) and give the beast a whirl for the span of a long
+[Alfred](http://alfredapp.com) and give the beast a whirl for the span of a long
 weekend(4-5 days).
 
 **User Experience**  Quicksilver still has one of the best looking UXs for its

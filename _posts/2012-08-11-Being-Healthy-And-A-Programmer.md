@@ -1,6 +1,7 @@
 ---
 title: Being Healthy And A Programmer
 layout: post
+
 ---
 
 OH yes sir(and/or/maybe mam), it is completely doable. Since the [dawn of
@@ -38,7 +39,7 @@ programmer!
 [5]: http://codinghorror.typepad.com/.a/6a0120a85dcdae970b012877707dd5970c-pi
 [6]: http://blog.lenovo.com/images/uploads/hero/TopView_T430s_crop.jpg
 [7]: http://wildomarmagazine.files.wordpress.com/2011/10/shut_your_pie_hole.jpg
-[8]: http://punchfork.com/recipes/spaghetti%20squash
+[8]: http://cloudbacon.com
 [9]: http://www.livestrong.com/article/481929-increased-blood-sugar-weight-gain/
 [10]: http://smarterware.org/7102/how-and-why-i-switched-to-a-standing-desk
 [11]: https://en.wikipedia.org/wiki/Forth_(programming_language)

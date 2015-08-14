@@ -1,6 +1,7 @@
 ---
 title: The Software Behind
 layout: post
+
 ---
 
 There are a lot of good ones out there at the moment, so without further
@@ -56,7 +57,7 @@ others benefit from a simple list manager.
 [4]: http://www.43folders.com/2004/09/03/introducing-the-hipster-pda
 [5]: http://ethan.schoonover.usesthis.com/
 [6]: http://www.davidco.com/
-[7]: http://www.apple.com/ios/features.html#reminders
+[7]: http://cloudbacon.com
 [8]: http://www.6wunderkinder.com/wunderlist/
 [9]: http://www.bluebison.net/sketchbook/2008/0108/kiwi-small.png
 [10]: https://gimmebar.com/view/503258b5aac422d76f000036/big
@@ -64,4 +65,4 @@ others benefit from a simple list manager.
 [12]: http://asana.com/
 [13]: https://cheddarapp.com/
 [14]: http://www.getflow.com/
-[15]: http://gadgetsdna.com/wp-content/uploads/2010/03/SystemPanel-fo-Android-3-280x500.png
+[15]: http://cloudbacon.com

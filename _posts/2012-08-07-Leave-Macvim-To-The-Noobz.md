@@ -49,9 +49,9 @@ me a [message][17] on the Twitters and tell me how it is going.
 [4]: http://www.officialpsds.com/images/thumbs/Care-Bears-psd38826.png
 [5]: http://www.oddee.com/_media/imgs/articles2/a97173_g114_4-ny.jpg
 [6]: https://en.wikipedia.org/wiki/Why_the_lucky_stiff
-[7]: http://cloudbacon.com/2011-05-10-why-the-lucky-stiff-quote
-[8]: http://lh4.ggpht.com/-jMFKFfLHVjY/UCDVwf66tlI/AAAAAAAAD5I/DdnlV635SWY/this%252520keyboard%252520is%252520not%252520quite%252520in%252520my%252520reach%25252017%252520June.jpg
-[9]: http://www.cloudbacon.com/2012-07-03-Vim-Can-Suck
+[7]: http://cloudbacon.com/2011/05/10/why-the-lucky-stiff-quote
+[8]: http://cloudbacon.com
+[9]: http://www.cloudbacon.com/2012/07/03/Vim-Can-Suck
 [10]: http://www.linuxcertif.com/man/1/tmux/
 [11]: http://pragprog.com/book/bhtmux/tmux
 [12]: http://teamsteevo.files.wordpress.com/2008/10/fail-owned-cow-curiosity-fail.jpg

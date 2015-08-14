@@ -1,6 +1,7 @@
 ---
 title: Do One Thing Every Day
 layout: post
+
 ---
 
 [Pants][1], if for some reason you don't know what goes in them.
@@ -41,7 +42,7 @@ Fin.
 [3]: http://8.mshcdn.com/wp-content/gallery/amercia/%40warpafx.jpg
 [4]: https://gimmebar.com/view/50340b0029ca154d3d000026/big
 [5]: https://gimmebar.com/view/50368ee329ca154c66000002/big
-[6]: http://cloudbacon.com/2012-08-02-30-Days-of-Blogging
+[6]: http://cloudbacon.com/2012/08/02/30-Days-of-Blogging
 [7]: https://encrypted.google.com/search?tbm=isch&q=official&tbs=imgo:1&biw=1440&bih=828&sei=IHM9UNmJEoym8ATepIGoDw
 [8]: http://lifehacker.com/281626/jerry-seinfelds-productivity-secret
 [9]: http://www.memlane.com/wp-content/uploads/2012/05/Apple-Remote-01.jpg

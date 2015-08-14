@@ -6,7 +6,7 @@ layout: post
 The interesting blog: [Betabeat](http://www.betabeat.com/) highlighted a
 wonderful
 [cockup](http://www.betabeat.com/2011/12/27/ruby-developers-offended-by-2800-ruby-class/)
-by [Art.sy](http://art.sy/about)'s main programming squeeze, [Daniel
+by [Art.sy](http://cloudbacon.com)'s main programming squeeze, [Daniel
 Doubrovkine](https://twitter.com/dblockdotorg). In short, he began a thread on
 the [NYC-rb](http://www.meetup.com/NYC-rb/messages/archive/) mailing list and
 like any other [Internetz shit storm](http://youtu.be/-JFfN5pKzFU), things got

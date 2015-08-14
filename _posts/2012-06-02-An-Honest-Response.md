@@ -33,4 +33,4 @@ I miss something? Why the fuck is the word "Check" capitalized? Maybe
 that's their name.
 
 
-[1]: http://greensboro.craigslist.org/bik/2992518454.html
+[1]: http://greensboro.craigslist.org/

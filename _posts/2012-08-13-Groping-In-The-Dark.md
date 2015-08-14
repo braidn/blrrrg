@@ -44,5 +44,5 @@ Fuck, this makes me [sound like one of these guys][13]....
 [9]: http://1.bp.blogspot.com/_FfZMBBaCF8w/SJdo-hpFfkI/AAAAAAAAB6Q/WD7et8UdAI4/s400/create.jpg
 [10]: https://en.wikipedia.org/wiki/Metric_time
 [11]: http://voices.yahoo.com/todays-youth-generation-blue-ribbon-winners-148076.html
-[12]: http://fc00.deviantart.net/fs70/f/2010/173/a/d/Cousin_IT_by_Nastyguy.jpg
+[12]: http://cloudbacon.com
 [13]: http://youtu.be/4r7wHMg5Yjg
