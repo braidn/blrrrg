@@ -1,6 +1,7 @@
 ---
 title: Groping
 layout: post
+
 ---
 
 There comes a time in [everyone's lives][1], hopefully when they are
@@ -33,7 +34,7 @@ urine. Just something to snap them out of their haze.
 
 Fuck, this makes me [sound like one of these guys][13]....
 
-[1]: http://www.nextnature.net/wp-content/uploads/2012/01/tilapia-swimming-in-tank-530x397.jpg
+[1]: http://www.gettingtotruelove.com/wp-content/uploads/2012/09/The-turning-point-in-relationships-sign.jpg
 [2]: http://youtu.be/T5ictPToU9M
 [3]: http://tlc.howstuffworks.com/tv/toddlers-tiaras
 [4]: http://reidreport.com/blog/wp-content/uploads/2011/07/murdoch.jpg

@@ -1,6 +1,7 @@
 ---
 title: 30 Day Blogging Challenge
 layout: post
+
 ---
 
 THROWDOWN! What the fuck am I thinking with all of this? Anyway some of the
@@ -39,5 +40,5 @@ keyboard. Until tomorrow...also some general rules are below!
 [1]: http://youtu.be/-JFfN5pKzFU
 [2]: http://www.elitekeyboards.com/products.php?sub=pfu_keyboards,hhkbpro2&pid=pdkb400bn
 [3]: https://en.wikipedia.org/wiki/Metric_time
-[4]: http://chzmemebase.files.wordpress.com/2011/12/internet-memes-lets-take-the-law.jpg
+[4]: http://cloudbacon.com
 [5]: http://www.theonion.com/articles/chickfila-debuts-new-homophobic-sandwich,28888/
