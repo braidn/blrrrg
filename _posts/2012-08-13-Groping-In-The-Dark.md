@@ -36,7 +36,7 @@ Fuck, this makes me [sound like one of these guys][13]....
 
 [1]: http://www.gettingtotruelove.com/wp-content/uploads/2012/09/The-turning-point-in-relationships-sign.jpg
 [2]: http://youtu.be/T5ictPToU9M
-[3]: http://tlc.howstuffworks.com/tv/toddlers-tiaras
+[3]: http://www.tlc.com/tv-shows/toddlers-tiaras
 [4]: http://reidreport.com/blog/wp-content/uploads/2011/07/murdoch.jpg
 [5]: http://articles.cnn.com/2006-02-12/politics/cheney_1_katharine-armstrong-birdshot-saturday-afternoon-armstrong-ranch?_s=PM:POLITICS
 [6]: https://en.wikipedia.org/wiki/Standard_and_Poors

@@ -38,7 +38,7 @@ generation of people with their wallets closed and their minds [sudo][13] open).
 [2]: http://www.mobilize.org/wp-content/uploads/2012/07/millennials-30-up
 [3]: http://cloudbacon.com/2011/12/19/People-Can-Not-Read
 [4]: http://youtu.be/-JFfN5pKzFU
-[5]: http://tweedrun.com/blog/wp-content/uploads/2011/02/PennyFarthing.jpg
+[5]: http://blog.krrb.com/wp-content/uploads/2013/04/phs414PennyFarthing1880s.jpg
 [6]: http://www.psmag.com/wp-content/uploads/2011/11/mmw-competitive-112911.jpg
 [7]: http://sundial.csun.edu/wp-content/uploads/2010/02/SO18-Tea-610x462.jpg
 [8]: https://gimmebar.com/view/50340ae129ca15593d000005/big
