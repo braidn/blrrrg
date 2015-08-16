@@ -21,7 +21,7 @@ disabling, or completely ignoring the internal power management settings. One
 of the larger problems being, that the drive blatantly refused to spin down
 when not in use. For the forum lover there is quite an extensive amount of
 knowledge posted
-[here](http://forums.seagate.com/t5/Momentus-XT-Momentus-Momentus/Momentus-XT-APM-spindown-feature-causes-quot-lag-spikes-quot-in/td-p/55656).
+[here](http://cloudbacon.com).
 However, it doesn't seem like Seagate has found a fix...yet?
 
 Since upgrading the drive to it's newest firmware (SD25), my drive was
