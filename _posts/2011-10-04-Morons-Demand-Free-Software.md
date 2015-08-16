@@ -1,6 +1,7 @@
 ---
 title: On Demanding Free Awesome-Software
 layout: post
+
 ---
 
 If...perhaps you had been sitting under a chair hiding from your
@@ -40,7 +41,7 @@ You consistently stealing their apps isn't assisting them in any way.
 
 In addition, people should be pining to pay for this software, especially
 Growl, because it truly is kick ass. It should be your honor and
-[giri](http://en.wikipedia.org/wiki/Giri_(Japanese\)) to pay for these great
+[giri](https://en.wikipedia.org/wiki/Giri_%28Japanese%29) to pay for these great
 products. The minimal payment helps feed the developers and allows them to
 focus on the software that you have paid for and love.
 

@@ -1,6 +1,7 @@
 ---
 title: On Starting New
 layout: post
+
 ---
 
 Many people have asked me, well...not really asked inasmuch as wondered why I

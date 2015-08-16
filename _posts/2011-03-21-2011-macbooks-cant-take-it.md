@@ -1,6 +1,7 @@
 ---
 title: 2011 MacBooks Can't Take It
 layout: post
+
 ---
 
 ![Fry an egg on a mac][1]
@@ -40,12 +41,14 @@ productivity sponge; however, arm yourself with a video of the issue and go see
 an Apple Genius. Moreover, have fun, you spent 2k on a machine that will last a
 good long time and dominate most applications during it.
 
+__Note__: Some of the thread links here no longer work... thanks Apple.
+
 [1]: http://c522735.r35.cf2.rackcdn.com/overheating-laptop.jpeg
 [2]: http://www.marco.org/3991237704
 [3]: http://search.twitter.com/search?q=%23dickbar
 [4]: http://gigaom.com/2011/03/20/in-att-t-mobile-merger-everybody-loses/
 [5]: http://www.apple.com/macbookpro/
-[6]: http://discussions.apple.com/thread.jspa?messageID=13143936
+[6]: http://cloudbacon.com
 [7]: http://www.apple.com/thunderbolt/
-[8]: http://discussions.apple.com/thread.jspa?threadID=2768351
-[9]: http://discussions.apple.com/thread.jspa?threadID=2768351
+[8]: http://cloudbacon.com
+[9]: http://cloudbacon.com

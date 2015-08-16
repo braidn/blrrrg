@@ -1,6 +1,7 @@
 ---
 title: Mac App Store and Bootable Images
 layout: post
+
 ---
 
 Anyone worth their Mac loving salt knows how hardware agnostic the OS is. Need
@@ -9,7 +10,7 @@ harddrives but, want to avoid being out a machine for a couple of important
 days?
 
 A bootable image is a "snapshot" of everything that is going on at the [block
-level](http://en.wikipedia.org/wiki/Block_\(data_storage\)) of your OS. In most
+level](https://en.wikipedia.org/wiki/Block_%28data_storage%29) of your OS. In most
 cases, these images are captured using a firewire drive (hopefully soon to be
 Thunderbold drive) and can be used to run any other piece of Apple
 hardware(computers, not iPads). Well sort of.

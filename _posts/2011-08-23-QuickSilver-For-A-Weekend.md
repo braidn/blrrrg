@@ -20,7 +20,7 @@ decided to drop my current productivity love affair:
 weekend(4-5 days).
 
 **User Experience**  Quicksilver still has one of the best looking UXs for its
-[time](http://en.wikipedia.org/wiki/Quicksilver_\(software\)). It jumps into
+[time](https://en.wikipedia.org/wiki/Quicksilver_%28software%29). It jumps into
 view with big blocks that are easy to see and clearly show the user what they
 are doing at the very moment. Launchbar, with its tiny "unibar" easily fails
 hard in this category. Quicksilver's simple select what you want to do(noun),

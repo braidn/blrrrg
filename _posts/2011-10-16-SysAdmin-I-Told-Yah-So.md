@@ -12,6 +12,6 @@ also why I love [Alex Payne][2] so damn much. Worth the read:
 Article: ["I'll Probably Never Hire Another Pure SysAdmin"][3]
 -- Author: [John Peebles][4]
 
-[2]: http://cloudbacon.com/2011/05/It_Is_Just_Environmental/
+[2]: http://cloudbacon.com/2011/05/It-Is-Just-Environmental/
 [3]: http://peebs.org/2011/10/16/ill-probably-never-hire-another-pure-sysadmin/
 [4]: http://twitter.com/johnjpeebles

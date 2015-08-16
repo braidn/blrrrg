@@ -1,6 +1,7 @@
 ---
 title: Rails Custom Code
 layout: post
+
 ---
 
 
@@ -19,5 +20,5 @@ You are welcome.
 [3]: https://gist.github.com/bradendouglass/5114104#file-completely_fucking_custom_controller-rb
 [4]: https://gimmebar.com/view/503258b5aac422d76f000036/big
 [5]: https://gist.github.com/bradendouglass/5114104#file-not_fucking_customs_controller-rb
-[6]: http://amplicate.com/hate/wales/540484-wales-is-a-smelly-shithole/
+[6]: http://cloudbacon.com
 [7]: http://www.urbandictionary.com/define.php?term=shithole

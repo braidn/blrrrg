@@ -1,6 +1,7 @@
 ---
 title: Why Is Twitter Scared Again? Oh Right
 layout: post
+
 ---
 
 Late last week, [Ryan Sarver][1] (head of
@@ -23,6 +24,6 @@ railroaded by this decision?
 
 [1]: http://twitter.com/rsarver
 [2]: http://groups.google.com/group/twitter-development-talk/browse_thread/thread/c82cd59c7a87216a?pli=1
-[3]: http://mettadore.com/ruby/ruby-cant-scale/
+[3]: http://blog.sentientmonkey.com/post/470450184/ruby-cant-scale-dont-listen-to-john-metta
 [4]: http://twitter.com/dickc
 [5]: http://c522735.r35.cf2.rackcdn.com/client_ss.jpeg

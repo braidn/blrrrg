@@ -1,6 +1,7 @@
 ---
 title: Compilation Starts With A 'C'
 layout: post
+
 ---
 
 Yeah, this might be a rather simple statement, mainly because the word Compilation really truly starts with the letter: 'c'. However, the idea also extends to the C language.  Anytime a C program is built and sent off to its consumers there is a semi-complicated, definitely fiddly make/build process. This is what defines a compiled language like C or [Golang][1] from there interpreted brethren. An example of some interpreted languages would be the following: [Ruby][2], [Python][3], [Forth][4]. Is there an actual Forth "official" website? If for some reason you are human, and don't quite "grok" what Forth is, [this is a pretty good explanation][5].
@@ -31,4 +32,4 @@ Yes, [this][11]
 [10]: https://gimmebar.com/view/504f465629ca15bb4b000000/big
 [11]: https://the-pastry-box-project.net/ed-finkler/2014-october-6
 [12]: https://en.wikipedia.org/wiki/Pipeline_(Unix)
-[13]: http://cloudbacon.com/2011-12-19-People-Can-Not-Read
+[13]: http://cloudbacon.com/2011/12/19/People-Can-Not-Read

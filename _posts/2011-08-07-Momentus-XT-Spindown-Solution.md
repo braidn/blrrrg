@@ -1,12 +1,13 @@
 ---
 title: Seagate Hybrid Drive Solution
 layout: post
+
 ---
 
 ![ssd hybrid drive](http://c522735.r35.cf2.rackcdn.com/hybridhd.jpeg)
 
 In this past
-[post](http://cloudbacon.com/posts/08022011-Breath-Life-Into-A-Laptop/) I
+[post](http://cloudbacon.com/2011/08/02/Breath-Life-Into-A-Laptop/) I
 mentioned using a ["hybrid hard
 drive"](http://en.wikipedia.org/wiki/Hybrid_drive) for secondary storage. In
 this case, the hybrid part means that there is a very small, 4 gigs to be

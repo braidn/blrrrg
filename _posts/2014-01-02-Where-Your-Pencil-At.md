@@ -1,6 +1,7 @@
 ---
 title: Pencils, Like Panthers
 layout: post
+
 ---
 
 Pencils are the panthers of the creative world (that's right, I said it). They silently lay there until something brilliant passes by. They are often overlooked for their ink staining brethren and even subject to extreme prejudice through insane feats of "[over-engineering][1]." However any [sane man][2] would agree, that the pencil is one of the most most interesting avenues to pull the scribbles of creativity from your brain to paper. I have even [mentioned them several times][3] here on this blrrg.
@@ -17,7 +18,7 @@ Oh, and [happy fucking 2014, hugs for everyone][9]. Do us a favour and update yo
 
 [1]: http://www.pencilrevolution.com/2005/12/russian-space-pen/
 [2]: https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)
-[3]: http://cloudbacon.com/2012-08-29-A-Programmer-Journal
+[3]: http://cloudbacon.com/2012/08/29/A-Programmers-Journal
 [4]: http://www.jetpens.com/Pencils/ct/1319
 [5]: http://www.projectno8.com/products/drafting-pencil-green?category=274
 [6]: http://www.pentel.com/store/sharp-kerry-mechanical-pencil
