@@ -1,9 +1,10 @@
 ---
 box: ruby
+export X_NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 build:
     steps:
         - bundle-install
-        
+
         - script:
           name: generate production site
           code: |-
