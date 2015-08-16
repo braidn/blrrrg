@@ -1,6 +1,7 @@
 ---
 title: Vim Can Suck
 layout: post
+
 ---
 
 OS X is generally a wonderful operating system. Sure there are plenty of
@@ -82,5 +83,5 @@ brilliant and lacking at the same time!
 [7]: http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg
 [8]: http://mxcl.github.com/homebrew/
 [9]: https://github.com/Homebrew/homebrew-dupes
-[10]: http://www.cloudbacon.com/posts/2011-04-18-wordpress_to_ruby/
+[10]: http://www.cloudbacon.com/2011/04/18/wordpress-to-ruby/
 [11]: https://en.wikipedia.org/wiki/Package_management_system

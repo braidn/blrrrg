@@ -34,7 +34,7 @@ programmer!
 
 [1]: http://www.talkmovie.net/wp-content/uploads/2011/03/Tron-Legacy3.jpg
 [2]: http://tubulocity.com/wp-content/uploads/2010/01/fat_cyclist.jpg
-[3]: http://www.medicalbillingandcoding.org/sitting-kills/
+[3]: http://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html
 [4]: http://diabetic-calendar.com/
 [5]: http://codinghorror.typepad.com/.a/6a0120a85dcdae970b012877707dd5970c-pi
 [6]: http://blog.lenovo.com/images/uploads/hero/TopView_T430s_crop.jpg

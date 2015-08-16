@@ -1,6 +1,7 @@
 ---
 title: Productivity High
 layout: post
+
 ---
 
 ![Merlin Mann's Epic Mug][1]
@@ -21,4 +22,4 @@ something new.
 [2]: http://www.merlinmann.com/
 [3]: http://twitter.com/hotdogsladies
 [4]: http://macpowerusers.com/2011/03/mpu-046-workflows-with-merlin-mann-ii/
-[5]: http://traffic.libsyn.com/macpowerusers/MPU046.mp3
+[5]: http://www.relay.fm/mpu/46

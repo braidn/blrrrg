@@ -35,8 +35,8 @@ us a little closer to attaining it? No? Well fuck off(said by a
 generation of people with their wallets closed and their minds [sudo][13] open).
 
 [1]: http://www.theatlantic.com/business/archive/2012/08/cars-not-for-us-the-cheapest-generation-explains-the-freedom-of-not-owning/261516/
-[2]: http://mobilize.org/wp-content/uploads/2012/07/millennials-30-up.jpg
-[3]: http://cloudbacon.com/2011-12-19-People-Can-Not-Read
+[2]: http://www.mobilize.org/wp-content/uploads/2012/07/millennials-30-up
+[3]: http://cloudbacon.com/2011/12/19/People-Can-Not-Read
 [4]: http://youtu.be/-JFfN5pKzFU
 [5]: http://tweedrun.com/blog/wp-content/uploads/2011/02/PennyFarthing.jpg
 [6]: http://www.psmag.com/wp-content/uploads/2011/11/mmw-competitive-112911.jpg
