@@ -12,9 +12,6 @@ build:
         - script:
           name: jekyll doctor
           code: bundle exec jekyll doctor
-        - script:
-          name: html proof
-          code: ./script/cibuild
 deploy :
   steps :
     - script:
