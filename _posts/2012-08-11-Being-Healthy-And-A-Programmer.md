@@ -32,7 +32,7 @@ backend of your life in order for you to continue to do what you love
 well into your old age. Go [forth][11] and be a healthy, kick-ass
 programmer!
 
-[1]: http://www.talkmovie.net/wp-content/uploads/2011/03/Tron-Legacy3.jpg
+[1]: http://cdn.collider.com/wp-content/uploads/Tron-Legacy-movie-image-211.jpg
 [2]: http://tubulocity.com/wp-content/uploads/2010/01/fat_cyclist.jpg
 [3]: http://www.lifehack.org/articles/lifestyle/why-sitting-is-killing-you.html
 [4]: http://diabetic-calendar.com/
