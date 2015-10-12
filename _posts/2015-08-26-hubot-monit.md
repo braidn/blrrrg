@@ -32,7 +32,7 @@ A couple of things to make this thing work:
 
 Happy annoying your fellow Slack mates with kittens and Archer quotes. Also, if for some reason Matt removes the above link, [here is my forked gist][7]
 
-Edit for Oct 11, 2015
+Update for Oct 11, 2015
 
 Since writing this, we have moved on from Monit to God.
 God, may require Ruby but,
