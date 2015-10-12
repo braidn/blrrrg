@@ -22,7 +22,7 @@ The campers, in their packing extravaganze happen to have brought a rope.
 This allows them to pull the required flashlight back across the bridge without having to walk it back.
 
 And... why do these suck? It's simple: we don't use Haskell or ML in the real world (not many of us).
-We also, as web programmers([apparently not even kernel programmers][5]) really use recursion.
+We also, as web programmers([apparently not even kernel programmers][5]) rarely use recursion.
 And if we did, Babel or some other transpiler would deconstruct it for us(t's faster that way).
 Yet, it is a constant that we will be inundated with these questions during the interview process.
 
