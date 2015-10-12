@@ -32,6 +32,19 @@ A couple of things to make this thing work:
 
 Happy annoying your fellow Slack mates with kittens and Archer quotes. Also, if for some reason Matt removes the above link, [here is my forked gist][7]
 
+Edit for Oct 11, 2015
+
+Since writing this, we have moved on from Monit to God.
+God, may require Ruby but,
+overall it has been a much more stable choice over Monit.
+Monit seemed to generate new instances of the Slackbot
+And never cleanup the old pids.
+This left the users confused when they interacted with the bot because
+any command would be multiplied by the amount of instances currently running.
+Not good when you are trying to not spam your team's Slack channel.
+
+God has been exceptionally reliable and always seems to reap the previous PID before creating another instance.
+
 [1]: http://www.wired.com/2015/08/slack-overrun-bots-friendly-wonderful-bots
 [2]: https://hubot.github.com/
 [3]: https://github.com/slackhq/hubot-slack
