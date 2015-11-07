@@ -1,48 +1,22 @@
 ---
 prose:
-  rooturl: 'content/pages'
+  rooturl: '_posts'
   metadata:
-    content/pages:
-      - name: "link text"
+    _posts:
+      - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
           type: "text"
-      - name: "date"
+      - name: "tags"
         field:
           element: "text"
-          label: "Date"
-          placeholder: "(Sunday, October 12, 2014)"
+          label: "Tags"
           value: ""
+          placeholder: "bitching, ruby"
           type: "text"
-      - name: "summary"
-        field:
-          element: "text"
-          label: "Summary"
-          value: ""
-          type: "text"
-      - name: "description"
-        field:
-          element: "text"
-          label: "Description(meta)"
-          value: ""
-          type: "text"
-      - name: "keywords"
-        field:
-          element: "text"
-          label: "Keywords(meta)"
-          placeholder: "breakfast, lunch, dinner"
-          value: ""
-          type: "text"
-      - name: "flags"
-        field:
-          element: "text"
-          label: "Flags"
-          value: ""
-          placeholder: "link, draft"
-          type: "text"
-      - name: "published"
+      - name: "layout"
         field:
           element: "hidden"
-          value: "true"
+          value: "post"
