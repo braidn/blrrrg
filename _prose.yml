@@ -2,6 +2,7 @@
 prose:
   rooturl: '_posts'
   metadata:
+    media: 'media'
     _posts:
       - name: "title"
         field:
