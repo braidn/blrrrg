@@ -7,13 +7,11 @@ prose:
       - name: "title"
         field:
           element: "text"
-          label: "Title"
-          value: ""
-          type: "text"
+          label: "title"
       - name: "tags"
         field:
           element: "text"
-          label: "Tags"
+          label: "tags"
           value: ""
           placeholder: "bitching, ruby"
           type: "text"
