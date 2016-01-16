@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: retrospective
-published: false
+published: true
 title: Twenty Fifteen Retrospective
 ---
 
@@ -76,7 +76,7 @@ Last year, when it came to writing was most definitely the worst and that should
 So with high hopes, and perhaps a pretty sweet desk setup, 
 here is to 2016!
 
-
+![IMG_0972.jpeg]({{site.baseurl}}/media/IMG_0972.jpeg)
 
 [1]: http://niko.bokay.io
 [2]: http://www.amazon.com/MultiTable-Height-Adjustable-Desk-Base/dp/B005NJUQVG/
