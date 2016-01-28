@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: "podcasting, dynatech, dynamo, technology, news"
-published: false
+published: true
 title: DynaTech Double O Nine
 ---
 
