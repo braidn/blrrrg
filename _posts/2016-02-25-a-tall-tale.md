@@ -2,7 +2,7 @@
 layout: post
 tags: "repost, remote work"
 published: true
-title: A tall tale
+title: A Tall Tale
 ---
 
 
