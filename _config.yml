@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Cloudbacon
-tagline:             'A flowy thought place'
+tagline:             'Ramblings from someone named "braidn"'
 description:         'Silent ramblings of a journeyman programmer, humorist, taskmaster, and  minitel core team member. Delicious responses plucked from the <a href="http://www.twitter.com/braidn">mind of braidn</a>'
 url:                 http://cloudbacon.com
 paginate:            5
