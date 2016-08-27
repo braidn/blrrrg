@@ -50,8 +50,64 @@ and were a good break from the much more technical, language specific talks
 
 Speaking of the softer side of programming, 
 many talks touched on the term: 'happiness.' 
-Especially, focusing on how to better find 'all the happiness' in the 
+Especially, focusing on how to better find 'all the happiness' in programming. 
+A lot of these talks focused around API's which is [always interesting.][7]
+While others focused on the mental health side 
+that sometimes takes a backburner in this profession. 
 
+Regardless of what part of the web you build, 
+happiness and health should be top of mind. 
+However, these softer talks so rarely get added to conference schedules. 
+This omission leads people in the industry to 
+talk about these intensly important items only in backchannels 
+or in small group settings. 
+These smaller settings often give relief but can lead to invalidation. 
+Opening so many talks up to these concepts during Abstractions 
+really legitimized that we as group of people need to take happiness and health seriously.
+
+As an active speaker / want to be active speaker in the community, 
+there are many 'call for papers' proposals active right now for conferences in 2017. 
+If you, feel as strongly as the folks at Abstractions about this subject, 
+I highly encourage submitting a talk. 
+The worst thing that could happen is conference organizers shoot your talk down. 
+
+###_Takeaway #3_: Containerization Is The Way Forward 
+
+Containers, the [Docker kind][8] are still quite hot. 
+Granted several of the sponsors for Abstractions were companies 
+that profit on this technology. 
+However, there was a still a good amount of chatter in the halls around this concept. 
+
+Devops is super hard and doubly so with a distributed application architecture. 
+The hope of build once, and run anywhere is still top of mind for engineers. 
+After listening to a few talks, 
+it's abundantly clear that there are many players in this space.
+The struggle is real though when striving to deploy a swath of mini applications, 
+that all talk together and rely on one another. 
+However, it's one of those technologies that just hasn't shaken itself out completely. 
+Which from a builder's standpoint is a little crazy. 
+I am not interested in deploying an app to production and have the management layer/company disolve days later.
+
+###_Takeaway #4_: There are Some Fun Talks On Their Way
+
+Many of the talks that we heard throughout Abstractions, 
+I have yet to hear on [Confreaks.tv][9] or Youtube. 
+There is likely a very good reason for this: 
+
+Many circuit speakers will introduce new and experimental talks at these 'smaller conferences.' 
+Afterwards, they will judge how well it went, 
+what was the pulse of the audience, 
+and especially what did the other speakers think. 
+They will then tweak what's needed and then resubmit the talk to bigger,
+more 'renouned' conferences. 
+
+All 23 (besides 1 actually) talks that I attended were very well thought out and 
+would draw just as much of a crowd at any other conference. 
+
+###_Takeaway #5_: There is Plenty Of Space For The Generalist
+
+Larger scale (Abstractions had 6 tracks) generalist conferences, 
+the ones that don't specifically focus on a single topic ([Railsconf][10])
 
 [1]: http://abstractions.io
 [2]: http://www.codemash.org
@@ -59,3 +115,7 @@ Especially, focusing on how to better find 'all the happiness' in the
 [4]: http://elixir-lang.org
 [5]: http://elm-lang.org
 [6]: http://www.sandimetz.com
+[7]: https://youtu.be/TcTGWIEI6Lk?list=PLQNruX2oZ7ZHF2ElDFL_CTerqnTY5cmpo
+[8]: http://www.docker.com/
+[9]: http://confreaks.tv/
+[10]: http://railsconf.com/
