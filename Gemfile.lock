@@ -79,9 +79,11 @@ GEM
     ref (2.0.0)
     safe_yaml (1.0.4)
     sass (3.4.16)
+    stringex (2.6.1)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
+    thor (0.19.1)
     timers (4.0.1)
       hitimes
     toml (0.1.2)
@@ -100,4 +102,9 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   jgd
+  stringex
   therubyracer
+  thor
+
+BUNDLED WITH
+   1.12.5
