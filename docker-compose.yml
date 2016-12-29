@@ -1,0 +1,15 @@
+version: '2'
+services: 
+  web:
+    image: braidn/ruby-full-stack:2.3.1
+    command: bundle exec jekyll server --watch --force_polling --host 0.0.0.0
+    ports: 
+      - '4000:4000'
+    volumes: 
+      - .:/src/repo
+    volumes_from:
+      - bundle_cache
+  bundle_cache:
+    image: busybox
+    volumes:
+      - /src/repo/.bundle
