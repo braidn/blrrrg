@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.3.1
+install:
+- "./bin/setup"
+script:
+- bundle exec jekyll build --trace
+- bundle exec htmlproofer ./_site --only-4xx --allow-hash-href
+after_success:
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && "./bin/automated"
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - USERNAME: braidn
+  - EMAIL: braden.douglass@gmail.com
+  - secure: WwPz4suiyBwuEufTBbfWGNYoO8H2BtJmsa3tEkfs/8eaDKGdtSNg/UNuetrmqSIrGiB1W09SGLOTEnmrkuyeHcgnJPBQPu7PiYO0mWypkL7uQXyYvrf5D5WtS1GyMVvXi2rghhv1MoQTXB910+0RVCU/ic/6pFjRdAJdZNxJHvQJFMZVNwux27A3VVPeCgIdC3MAe/Zl2Stty4BB26gREBxazghqhQnuRYT11A+nCqvlEpojzFzdeUMZVCMhxM9PiYGo/WAjzmsV11LbdLVsBOQTM3D/WTsQDtR8tbxtBjiTa9FkpZG0O2oiUmVcNsjbOL8IuGiw7BB6pvxBYOeLqx7AWyG0Y2L7Z3XQa6FGwd0gwxeNldY8I/Nynpk8O+zNx8juE/a9yFxIRJf1ZknAbmew+qobX0Xn1GAXonMOBrwfOGSljRoFugjTTagvF6AJ7cZ1L1NZBYZijcSxE9gqw2r4OaoOfSTMlqNin1x7q6T2E1w8DbiM8490WSwNiXkuUpAaC7VzhdXPT0+68iGsZ/rEeICgf59DufjAgQSNaDhG8sy9CZ74RNN0mKIARqXksSnhqjA9mUmD45Z8no+AMf6SVHVv0jZNHVdNML7AmMUT7J2mAQz2IW/CkvGhdGF1Ubxrr5xn9BWW3ngLes9evDscgaWWFSK5OMOF4nZOTpY=
