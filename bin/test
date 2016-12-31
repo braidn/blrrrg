@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
+# Exit if any subcommand fails
+set -e
+
 bundle exec jekyll build --trace
 bundle exec htmlproof ./_site --only-4xx --verbose
