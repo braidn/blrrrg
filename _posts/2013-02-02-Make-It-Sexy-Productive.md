@@ -74,7 +74,7 @@ These three arms have kept my mind free to creativly think about upcoming projec
 as well as keep everything considered "current," on track. Things will probably change, they always do,
 rest assured, I might write about it.
 
-[1]: http://5by5.tv/mikesonmics/53
+[1]: #
 [2]: https://gimmebar.com/view/50730705aac422613b000001/big
 [3]: http://www.urbandictionary.com/define.php?term=lamen+terms
 [4]: http://www.urbandictionary.com/define.php?term=IRL

@@ -12,5 +12,5 @@ lickatron][4]
 
 [1]: http://mlkshk.com/p/KEYA
 [2]: http://youtu.be/hVrLloM1Al8
-[3]: http://paravelinc.com/work/microsoft.php
+[3]: http://paravelinc.com/work/microsoft/
 [4]: http://scm-l3.technorati.com/11/01/31/25951/steve-ballmer.jpg
