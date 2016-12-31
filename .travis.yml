@@ -4,8 +4,7 @@ rvm:
 install:
 - "./bin/setup"
 script:
-- bundle exec jekyll build --trace
-- bundle exec htmlproof ./_site --only-4xx --verbose
+- "./bin/local"
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && "./bin/deploy"
 env:
