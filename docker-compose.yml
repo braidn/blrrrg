@@ -7,6 +7,7 @@ services:
       - '4000:4000'
     volumes: 
       - .:/src/repo
+      - ./keys:/root/.ssh/
     volumes_from:
       - bundle_cache
   bundle_cache:
