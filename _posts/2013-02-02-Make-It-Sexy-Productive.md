@@ -5,7 +5,7 @@ layout: post
 ---
 
 Before you blow your precious time on this post, feel free to listen to this
-[podcast][1] __AND__ then come back and finish reading. Done? Ok, great. My takeaway
+podcast __AND__ then come back and finish reading. Done? Ok, great. My takeaway
 was that my "productive" life is filled with all kinds of tangents. Most, never
 diverge back into anything. They remain un-attended appendages, dangling in my
 mind until some unforseen force lops them off.
@@ -74,7 +74,6 @@ These three arms have kept my mind free to creativly think about upcoming projec
 as well as keep everything considered "current," on track. Things will probably change, they always do,
 rest assured, I might write about it.
 
-[1]: #
 [2]: https://gimmebar.com/view/50730705aac422613b000001/big
 [3]: http://www.urbandictionary.com/define.php?term=lamen+terms
 [4]: http://www.urbandictionary.com/define.php?term=IRL

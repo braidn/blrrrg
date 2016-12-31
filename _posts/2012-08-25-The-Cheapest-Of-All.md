@@ -5,7 +5,7 @@ layout: post
 ---
 
 I happened across [this article][1] this week and was rather
-unastonished to hear that [we][2] are the cheapest generation ever.
+unastonished to hear that we are the cheapest generation ever.
 Since many of my readers [can't actually read][3] here is a quick
 one-over.
 
@@ -35,7 +35,6 @@ us a little closer to attaining it? No? Well fuck off(said by a
 generation of people with their wallets closed and their minds [sudo][13] open).
 
 [1]: http://www.theatlantic.com/business/archive/2012/08/cars-not-for-us-the-cheapest-generation-explains-the-freedom-of-not-owning/261516/
-[2]: #
 [3]: http://cloudbacon.com/2011/12/19/People-Can-Not-Read
 [4]: http://youtu.be/-JFfN5pKzFU
 [5]: http://blog.krrb.com/wp-content/uploads/2013/04/phs414PennyFarthing1880s.jpg
