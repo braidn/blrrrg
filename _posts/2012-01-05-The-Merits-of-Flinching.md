@@ -17,7 +17,7 @@ What then?
 Nothing actually. The equation is really quite simple (10-30 somethings) == (a
 bunch of video-game players). Even NPR...well ok, the really cool guys at
 Freakonomics Radio are making
-[quips](http://www.freakonomics.com/2012/01/04/why-is-%E2%80%9Ci-don%E2%80%99t-know%E2%80%9D-so-hard-to-say-a-new-freakonomics-radio-podcast/)
+[quips](#)
 at the youth and their love of video games. Without experienceing situations
 that scare us, how can we grow mentally and physically? Julien Smith's new book:
 [Flinch](http://www.amazon.com/s?url=search-alias=aps&field-keywords=flinch&tag=alfredapp-20)
