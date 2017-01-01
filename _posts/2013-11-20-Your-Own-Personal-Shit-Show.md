@@ -34,7 +34,7 @@ this place was owned by the Swedish Anti-Powerpoint party.
 
 [1]: http://m.us.wsj.com/articles/SB10001424052702304243904579200142398477748
 [2]: http://www.amazon.com/The-Island-Day-Before-Umberto/dp/0156030373/ref=sr_1_14?ie=UTF8&qid=1385003384&sr=8-14&keywords=umberto+eco
-[3]: https://vimeo.com/78124534
+[3]: #
 [4]: http://www.quotationspage.com/quote/722.html
 [5]: http://www.twitter.com/braidn
 [6]: http://dynalog.tumblr.com/
