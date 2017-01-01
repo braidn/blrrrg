@@ -36,7 +36,7 @@ Go home.
 
 [1]: http://www.codejacked.com/know-your-keyboard-bang-splat-whack/
 [2]: http://25.media.tumblr.com/8tqDWct6W70gfanxSJXIGOMO_500.jpg
-[3]: http://strictlystrengthproject.com/wp-content/uploads/HappyMon.jpg
+[3]: #
 [4]: http://teuxdeux.com/
 [5]: http://www.everythingaction.com/wp-content/uploads/2010/02/2003_the_rundown_020.jpg
 [6]: http://www.urbandictionary.com/define.php?term=I+could+give+two+shits

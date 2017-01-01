@@ -38,6 +38,6 @@ the book, you can thank me later
 [6]: https://gimmebar.com/view/50340aa129ca15433d000010/big
 [7]: http://youtu.be/xP1-oquwoL8
 [8]: https://gimmebar.com/view/50340ae129ca15593d000005/big
-[9]: http://storieswritingadventure.files.wordpress.com/2012/04/damien_canderle_gremlins2.jpg
+[9]: #
 [10]: https://gimmebar.com/view/503258b5aac422d76f000036/big
 [11]: https://gimmebar.com/view/5032f46faac422800200001a/big

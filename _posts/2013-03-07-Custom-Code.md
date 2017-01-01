@@ -16,9 +16,9 @@ For all new, old, aspiring, and even pining Rubyists out there: You suck unless 
 You are welcome.
 
 [1]: http://youtu.be/-JFfN5pKzFU
-[2]: https://gist.github.com/bradendouglass/5114104
-[3]: https://gist.github.com/bradendouglass/5114104#file-completely_fucking_custom_controller-rb
+[2]: https://gist.github.com/braidn/5114104
+[3]: https://gist.github.com/braidn/5114104#file-completely_fucking_custom_controller-rb
 [4]: https://gimmebar.com/view/503258b5aac422d76f000036/big
-[5]: https://gist.github.com/bradendouglass/5114104#file-not_fucking_customs_controller-rb
+[5]: https://gist.github.com/braidn/5114104#file-not_fucking_customs_controller-rb
 [6]: http://cloudbacon.com
 [7]: http://www.urbandictionary.com/define.php?term=shithole

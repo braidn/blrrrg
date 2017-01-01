@@ -58,7 +58,7 @@ others benefit from a simple list manager.
 [5]: http://ethan.schoonover.usesthis.com/
 [6]: http://www.davidco.com/
 [7]: http://cloudbacon.com
-[8]: http://www.6wunderkinder.com/wunderlist/
+[8]: https://www.wunderlist.com
 [9]: http://www.bluebison.net/sketchbook/2008/0108/kiwi-small.png
 [10]: https://gimmebar.com/view/503258b5aac422d76f000036/big
 [11]: https://gimmebar.com/view/5032f2bf29ca153c71000025/big

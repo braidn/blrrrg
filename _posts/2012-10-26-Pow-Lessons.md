@@ -21,7 +21,7 @@ Oh, and Happy [Whiskey][6] - [Journey][7] Friday!
 
 [1]: http://i.imgur.com/pa9xA.gif
 [2]: http://pow.cx/
-[3]: http://tmux.sourceforge.net/
+[3]: https://tmux.github.io
 [4]: http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg
 [5]: http://shechive.files.wordpress.com/2011/06/6715_f54b.gif
 [6]: http://i.imgur.com/FHWMO.gif

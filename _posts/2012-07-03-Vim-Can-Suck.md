@@ -76,12 +76,12 @@ brilliant and lacking at the same time!
 
 [1]: http://youtu.be/-JFfN5pKzFU
 [2]: http://img.gawkerassets.com/img/17phrnpizopotjpg/original.jpg
-[3]: http://www.cloudbacon.com/posts/2011-12-20-Command-T-Sucks/
+[3]: #
 [4]: https://code.google.com/p/macvim/
-[5]: https://wincent.com/products/command-://wincent.com/products/command-t
+[5]: #
 [6]: http://sjl.bitbucket.org/gundo.vim/
 [7]: http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg
 [8]: http://mxcl.github.com/homebrew/
 [9]: https://github.com/Homebrew/homebrew-dupes
-[10]: http://www.cloudbacon.com/2011/04/18/wordpress-to-ruby/
+[10]: #
 [11]: https://en.wikipedia.org/wiki/Package_management_system

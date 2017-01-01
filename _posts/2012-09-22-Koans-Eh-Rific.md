@@ -46,6 +46,6 @@ leveled up.
 [5]: http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382?tag=duckduckgo-d-20
 [6]: https://en.wikipedia.org/wiki/K%C5%8Dan#Varieties_in_koan-practice
 [7]: https://github.com/benmills/vimux
-[8]: http://tmux.sourceforge.net/
+[8]: https://tmux.github.io
 [9]: http://media.screened.com/uploads/0/5115/407558-airbud1_super.jpg
-[10]: http://thegrio.files.wordpress.com/2012/05/romney-looking-out-the-window-16x9.jpg?w=650
+[10]: #

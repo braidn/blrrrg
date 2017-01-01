@@ -21,4 +21,4 @@ ADHD? Well, a job of this caliber might be right up your alley.
 
 [1]: http://blog.socialcast.com/
 [2]: http://blog.socialcast.com/e2sday-the-hectic-schedule-of-a-social-media-manager/
-[3]: http://b.lesseverything.com/2011/2/1/infographs-are-ruining-the-internet
+[3]: #

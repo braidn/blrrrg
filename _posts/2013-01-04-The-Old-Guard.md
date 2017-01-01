@@ -89,7 +89,7 @@ care. Go forth (yes, spelled correctly) and learn!
 [10]: http://roots.cx/
 [11]: http://justspamjustin.github.com/junior/#home
 [12]: http://yeoman.io/
-[13]: http://lungo.tapquo.com/
+[13]: #
 [14]: http://themefortress.com/reverie/
 [15]: http://learnboost.github.com/stylus/
 [16]: http://lesscss.org/
@@ -100,7 +100,7 @@ care. Go forth (yes, spelled correctly) and learn!
 [21]: http://foundation.zurb.com/
 [22]: http://goldengridsystem.com/
 [23]: http://www.getskeleton.com/
-[24]: http://thatcoolguy.github.com/gridless-boilerplate/
+[24]: #
 [25]: http://backbonejs.org/
 [26]: http://emberjs.com/
 [27]: http://angularjs.org/

@@ -35,7 +35,7 @@ not so much Pam.
 
 
 
-[0]: http://thewebivore.com/why-you-shouldnt-invite-yehuda-katz-to-your-u
+[0]: #
 [1]: http://youtu.be/-JFfN5pKzFU
 [2]: http://5by5.tv/founderstalk/35
 [3]: http://www.the-joke-box.com/pictures/tomahawk-utility-belt.jpg

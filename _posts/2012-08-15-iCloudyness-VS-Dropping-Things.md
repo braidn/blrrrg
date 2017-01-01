@@ -52,4 +52,4 @@ Fucking epic!
 [10]: http://www.urbandictionary.com/define.php?term=Your%20other%20right&defid=4815784
 [11]: http://www.alfredapp.com/
 [12]: http://dayoneapp.com/
-[13]: http://yfiles.tumblr.com/post/28095580833/20-hours-with-mountain-lion
+[13]: #

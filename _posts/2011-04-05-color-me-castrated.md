@@ -61,7 +61,7 @@ something disruptive!
 
 [1]: http://c522735.r35.cf2.rackcdn.com/Color-iPhone-App.jpg
 [2]: http://www.color.com/
-[3]: http://www.businessweek.com/technology/content/mar2011/tc20110324_504360.htm
+[3]: #
 [4]: http://twit.tv/twit
 [5]: http://scobleizer.com/
 [6]: http://www.google.com/search?q=color+41+million&amp;tbm=blg

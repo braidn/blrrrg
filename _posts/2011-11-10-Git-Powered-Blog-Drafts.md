@@ -47,7 +47,7 @@ you are free to use 100% of your creative juices to…well create!
 Elegant solutions will always trample their off-the-shelf, boxed, rural cousins.
 
 [git-scm]: http://git-scm.com/
-[mathematism]: http://mathematism.com/2010/12/22/static-site-generators/
+[mathematism]: #
 [wikipedia]: http://en.wikipedia.org/wiki/SQL_injection
 [wordpress]: http://wordpress.com/
 [youtube]: http://www.youtube.com/watch?v=-JFfN5pKzFU

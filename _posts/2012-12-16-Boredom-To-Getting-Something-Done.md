@@ -35,5 +35,5 @@ will astonish everyone. Give it a whirl and [hit me up on twitter][10] with the 
 [6]: https://www.omnigroup.com/products/omnifocus/
 [7]: http://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289/ref=sr_1_1?ie=UTF8&qid=1355687216&sr=8-1&keywords=habits
 [8]: https://gimmebar.com/view/504f465629ca15bb4b000000/big
-[9]: https://www.facebook.com/wilt
+[9]: #
 [10]: https://twitter.com/braidn

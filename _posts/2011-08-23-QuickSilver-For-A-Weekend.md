@@ -68,6 +68,6 @@ its high crash rate (running on a 1st gen 17inch(2.66C2D/8gigs) Unibody w/ SSD
 to rescan for new items(fairly sure Quicksilver continues to use its own index,
 not Spotlight's). For the immediate future, this nerd is sticking with Alfred.
 In addition, I have a powerpack licences for Alfred so if you [don't feel like
-assisting really cool developers](https://www.facebook.com/wiltj), yet want
+assisting really cool developers](#), yet want
 some of the functionality mentioned above, stick with Quicksilver as a free
 solution.

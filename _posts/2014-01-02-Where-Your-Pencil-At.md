@@ -20,7 +20,7 @@ Oh, and [happy fucking 2014, hugs for everyone][9]. Do us a favour and update yo
 [2]: https://en.wikipedia.org/wiki/Walter_White_(Breaking_Bad)
 [3]: http://cloudbacon.com/2012/08/29/A-Programmers-Journal
 [4]: http://www.jetpens.com/Pencils/ct/1319
-[5]: http://projectno8.com/objects-stationery-pencil-silver/dp/6487
+[5]: #
 [6]: http://www.pentel.com/store/sharp-kerry-mechanical-pencil
 [7]: http://fieldnotesbrand.com/shop/
 [8]: http://www.jetpens.com/Uni-Lead-Holder-Refill-2-mm-B-Pack-of-6/pd/1577

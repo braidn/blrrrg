@@ -45,6 +45,6 @@ Fin.
 [6]: http://cloudbacon.com/2012/08/02/30-Days-of-Blogging
 [7]: https://encrypted.google.com/search?tbm=isch&q=official&tbs=imgo:1&biw=1440&bih=828&sei=IHM9UNmJEoym8ATepIGoDw
 [8]: http://lifehacker.com/281626/jerry-seinfelds-productivity-secret
-[9]: http://www.memlane.com/wp-content/uploads/2012/05/Apple-Remote-01.jpg
+[9]: #
 [10]: https://hollyapp.com/
 [11]: https://gimmebar.com/view/50305c7729ca153546000001/big

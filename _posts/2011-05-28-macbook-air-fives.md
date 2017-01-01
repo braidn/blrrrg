@@ -7,7 +7,7 @@ layout: post
 known as [Minimal Mac](http://minimalmac.com/). When he interviews guests he
 asks, what he likes to call the "MacBook Air question." The gist of the
 question breaks down to: you are given the base [11-inch MacBook
-Air](http://store.apple.com/us/configure/MC505LL/A?mco=MTk0MjI1MTk) model and
+Air](#) model and
 you need to choose the five most important applications you would install on
 it.
 

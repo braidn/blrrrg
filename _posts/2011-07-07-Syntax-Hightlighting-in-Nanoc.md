@@ -50,7 +50,7 @@ __Edit:__
 Funny thing being, I now rely on gist code snippets to get the job done.
 
 [9]:http://sass-lang.com/
-[8]:http://nanoc.stoneship.org/docs/api/3.1/Nanoc3/Filters/ColorizeSyntax.html
+[8]: #
 [7]:https://github.com/richleland/pygments-css
 [6]:https://github.com/github/albino
 [5]:https://github.com/

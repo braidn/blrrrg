@@ -31,5 +31,5 @@ tub. Moral behind all of these attacks? [Be safe, be seen][5].
 [1]: http://www.wwl.com/Louisiana-man-accused-of-biting---a-chunk-of-the-v/13347809
 [2]: http://youtu.be/4awVqRr1eCo
 [3]: http://youtu.be/8vuZ8jSVNUI
-[4]: http://www.covered2go.co.uk/_assets/wwf.gif
+[4]: #
 [5]: http://www.motivationals.org/demotivational-posters/demotivational-poster-7861.jpg

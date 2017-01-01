@@ -38,11 +38,11 @@ generation of people with their wallets closed and their minds [sudo][13] open).
 [3]: http://cloudbacon.com/2011/12/19/People-Can-Not-Read
 [4]: http://youtu.be/-JFfN5pKzFU
 [5]: http://blog.krrb.com/wp-content/uploads/2013/04/phs414PennyFarthing1880s.jpg
-[6]: http://www.psmag.com/wp-content/uploads/2011/11/mmw-competitive-112911.jpg
+[6]: #
 [7]: http://sundial.csun.edu/wp-content/uploads/2010/02/SO18-Tea-610x462.jpg
 [8]: https://gimmebar.com/view/50340ae129ca15593d000005/big
 [9]: https://cloudbacon.com
-[10]: http://experification.files.wordpress.com/2012/07/life2.jpg
+[10]: #
 [11]: https://gimmebar.com/view/50368ee329ca154c66000002/big
 [12]: http://grist.org/list/2012-01-04-this-guy-only-owns-15-things/
 [13]: http://msnbcmedia.msn.com/j/msnbc/Components/Photo/_new/080730-ped-texting-vmed-12p.380%3B380%3B7%3B70%3B0.jpg

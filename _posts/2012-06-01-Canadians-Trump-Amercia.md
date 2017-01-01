@@ -10,5 +10,5 @@ Well that is a damn good question actually. If you happen to have been under a r
 [3]: http://images.mocpages.com/user_images/40975/12704221704_SPLASH.jpg
 [4]: http://thenewcivilrightsmovement.com/wp-content/uploads/2012/05/amercia.jpg
 [5]: http://gothamist.com/attachments/jen/2012_01_shcool.jpg
-[6]: http://www.hackett.com/images/WORLD/Sponsorships/AMR/AALook_1_Large.jpg
+[6]: #
 [7]: http://i28.tinypic.com/2uenw5l.jpg

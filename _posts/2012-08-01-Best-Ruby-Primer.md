@@ -13,7 +13,7 @@ craftsmen][5] and are looking for a quick-and-dirty intro to a great
 language, then this book is what you are <strike>torrenting</strike> looking for.
 
 [1]: /about
-[2]: https://github.com/bradendouglass/gollum-wiki-pages/blob/master/ReadingList.markdown
+[2]: #
 [3]: http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452/ref=sr_1_1?ie=UTF8&qid=1343843967&sr=8-1&keywords=design+patterns+in+ruby
 [4]: http://youtu.be/-JFfN5pKzFU
 [5]: https://en.wikipedia.org/wiki/Software_Craftsmanship

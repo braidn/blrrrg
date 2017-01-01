@@ -34,7 +34,7 @@ throughout a couple more posts. Come back tomorrow...or whatever.
 [1]: http://tremendousnews.com/wp-content/uploads/2009/10/drunk-urinal.jpg
 [2]: http://2.bp.blogspot.com/-GTXZyOmzHaA/TfHMTu4JfOI/AAAAAAAAAzo/BQ7pgmBblno/s1600/finkle_630x_2.jpg
 [3]: https://www.airtime.com/
-[4]: http://www.hovding.com/en/how
+[4]: #
 [5]: http://cloudbacon.com
 [6]: http://supershopsite.com/product_image/Pet/merrick-turducken-dog-food-case-of-24-55oz-cans.jpg
 [7]: http://youtu.be/-JFfN5pKzFU

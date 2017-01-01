@@ -33,5 +33,5 @@ it will accrue. In addition, mine will likely never see production.
 It is far from perfect; however, embodies a very clear function and process. Without further
 ado... BOOM!
 
-[1]: https://github.com/bradendouglass
-[2]: https://github.com/bradendouglass/rails_presentation
+[1]: https://github.com/braidn
+[2]: https://github.com/braidn/rails_presentation

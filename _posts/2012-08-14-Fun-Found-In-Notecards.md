@@ -55,7 +55,7 @@ Go forth and be more productive with small cardz!
 [10]: http://productivity.stackexchange.com/questions/1236/how-to-discern-between-actionable-items-and-someday-maybe
 [11]: http://www.javaranch.com/journal/2003/04/immutable.htm
 [12]: http://www.creativesoutfitter.com/product/26/action-cards
-[13]: http://www.getfrictionless.com/products/capture-cards-green
+[13]: #
 [14]: http://www.levenger.com/Circa-Notebooks-326/Circa-Refills-715/Special-Request-trade;-Horizontal-Grid-4-x-6-Cards-8595.aspx
 [15]: http://www.moleskineus.com/memopocket.html
 [16]: http://www.amazon.com/STEELMASTER-Steel-Capacity-Inches-263835BLA/dp/B00006IFE9/ref=pd_sbs_op_7
