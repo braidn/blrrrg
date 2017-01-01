@@ -7,7 +7,6 @@ services:
   - docker
 script:
 - bundle exec jekyll build --trace
-
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && "./bin/deploy"
 env:
