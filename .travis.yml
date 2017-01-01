@@ -7,7 +7,6 @@ services:
   - docker
 script:
 - bundle exec jekyll build --trace
-- docker run -i --rm -v "$(pwd)/_site:/site" 18fgsa/html-proofer /site --only-4xx --allow-hash-href --log-level debug
 
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && "./bin/deploy"
