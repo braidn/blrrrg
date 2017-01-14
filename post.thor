@@ -24,7 +24,8 @@ class Post < Thor # :nodoc:
       post.puts 'layout: post'
       post.puts 'published: false'
       post.puts "title: #{title}"
-      post.puts "tags: 'some, tags, separated, by, commas'"
+      post.puts "tags: "
+      post.puts "- tag1"
       post.puts '---'
     end
   end
