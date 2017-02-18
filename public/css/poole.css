@@ -123,8 +123,24 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
+}
+
+/* Post Listing */
+ul.this, ul.past {
+  list-style: none;
+}
+
+ul.this > li, ul.past > li {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: .4rem;
+}
+
+time {
+  width: 15%;
 }
 
 /* Misc */
