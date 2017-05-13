@@ -20,11 +20,11 @@ and Theology. Afterwards, I wandered from Virginia to Wyoming, found a wife, and
 I found myself bored with technology and decided to take up Ruby/Rails along with
 programming for the web. As an aside, I actually began an on-again-off-again
 relationship with programming when I was 16 with Python and table based HTML.
-In the past 4 years I have found and grown my passion
+In the past 7 years I have found and grown my passion
 for crafting code. Now, I create things using a combination of
-Ruby/Rails/Javascript/HTML/Vim but, this is always in flux. I currently work for
-the best damn place to work: CANADA. In addition, I may work there but, I have no knowledge
-of [this incident][15].
+Ruby/Rails/Javascript/HTML/Vim but, this is always in flux. 
+
+Currently I am working for a wonderful beauty company named: [Glossier][17]. 
 Below you will find a plethora of methods to get in contact with me. Please do.
 
 __CURRENT hire-ability Status:__ [NTB][6] ([TAKEN][13])
@@ -33,15 +33,12 @@ __CURRENT hire-ability Status:__ [NTB][6] ([TAKEN][13])
 1. [Instant Message][14]
 1. [My Work][2]
 1. [What I might know][7]
-1. [Podcast Backlog][3]
-1. [Tread Carefully][4]
-1. [Resu-may][8]
+1. [Resumay][4]
 1. [Audio I Just Listened To][5]
 1. [BOOM][12]
 
 [1]: http://twitter.com/#!/braidn
 [2]: https://github.com/braidn
-[3]: http://va.wiltj.com/muf/pcepisodes/
 [4]: http://www.linkedin.com/in/bradendouglass
 [5]: http://www.last.fm/user/gefunk
 [6]: https://gimmebar.com/view/4fe9a39629ca157e63000006/big
@@ -52,6 +49,7 @@ __CURRENT hire-ability Status:__ [NTB][6] ([TAKEN][13])
 [11]: http://www.fark.com/topic/florida
 [12]: http://www.gravatar.com/avatar/1241f003b8bfcd6b0875ec4ed76711e3.png
 [13]: https://gimmebar.com/view/50b6270eaac4228f36000009/big
-[14]: http://webchat.freenode.net/?channels=%23ruby
+[14]: https://riot.im/app/#/room/!CaplWkoZSEeladUPcE:matrix.org
 [15]: http://business.time.com/2012/12/24/why-does-canada-have-a-maple-syrup-cartel/
 [16]: http://allyouhaterssuckmyballs.com/
+[17]: https://www.glossier.com
