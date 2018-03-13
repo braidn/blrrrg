@@ -1,13 +1,12 @@
 version: '3'
 services: 
   web:
-    image: braidn/ruby-full-stack:2.3.4
+    build: ./
     command: bundle exec jekyll server --watch --force_polling --host 0.0.0.0
     ports: 
       - 4000:4000
     volumes: 
       - .:/src/repo
-      - ./keys:/root/.ssh/
-      - bundle_cache:/src/repo/.bundle
+      - bundle_cache:/src/bundle
 volumes:
   bundle_cache:
