@@ -1,6 +1,7 @@
 .DS_Store
 .sass-cache/*
 .node-version
+node_modules/*
 *.swp
 keys/*
 _site/*
