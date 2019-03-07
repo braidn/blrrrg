@@ -7,3 +7,6 @@ keys/*
 _site/*
 _site
 tags
+.envrc
+.cache/*
+public/*
