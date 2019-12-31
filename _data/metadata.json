@@ -1,0 +1,15 @@
+{
+  "title": "Cloudbacon",
+  "url": "http://cloudbacon.com",
+  "author": {
+    "name": "Braden Douglass",
+    "gig": {
+      "name": "Glossier.inc",
+      "title": "Senior Engineer",
+      "work": "producing interesting APIs",
+      "url": "https://glossier.com"
+    },
+    "email": "me@braidn.com",
+    "github": "https://github.com/braidn"
+  }
+}
