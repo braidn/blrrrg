@@ -16,9 +16,15 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "concurrently": "^5.0.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "remark-cli": "^7.0.1",
+    "remark-lint": "^6.0.5",
+    "remark-preset-lint-recommended": "^3.0.3"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3"
+  },
+  "remarkConfig": {
+    "plugins": ["remark-preset-lint-recommended"]
   }
 }
