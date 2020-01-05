@@ -52,8 +52,8 @@ not by extreme heat but,
 the lack of any real catalyst.
 Take a good inward look and decide on what is more important:
 
-1. A space devoid of creativity, risk, and change. However, filled with security.
-1. Or a codebase that's in rapid flux. A space where people are free to explore and are empowered to try?
+1.A space devoid of creativity, risk, and change. However, filled with security.
+1.Or a codebase that's in rapid flux. A space where people are free to explore and are empowered to try?
 
 There's of course no right answer to the above. 
 Some of us gravitate one way or the other. 

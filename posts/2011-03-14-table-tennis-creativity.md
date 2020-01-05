@@ -1,8 +1,6 @@
 ---
 title: Table Tennis Creativity
-date: 2011-03-14
-categories:
-  - Career
+date: '2011-03-14'
 ---
 
 <img src="http://c522735.r35.cf2.rackcdn.com/chalk-ping-pong-table.jpeg" alt="Ping Pong Table" />

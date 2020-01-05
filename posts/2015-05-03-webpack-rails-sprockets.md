@@ -20,8 +20,8 @@ A few caveats about running these scripts:
 top level in your Rails app.
 1. The common/development script assumes that assets  will be served from a server.
 This means you will need a few `javascript_include_tags` wrapped in `Rails.env`
-1. The two urls for this server are: http://localhost:8080/webpack-dev-server.js
-and http://localhost:8080/bundle.js.
+1. The two urls for this server are: [http://localhost:8080/webpack-dev-server.js](http://localhost:8080/webpack-dev-server.js)
+and [http://localhost:8080/bundle.js](http://localhost:8080/bundle.js).
 1. To run the Dev script: `$(npm bin)/webpack-dev-server --config webpack.config.js --hot --progress --inline --display-chunks`
 1. And the Prod script: `$(npm bin)/webpack --config webpack.production.js`
 1. Currently there is only one 'entry point' defined as 'app'.

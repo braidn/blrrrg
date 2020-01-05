@@ -21,7 +21,7 @@ There are a couple of reasons for this change:
 If you can't read, THUMBS UP, you know where you are, yet you might not be able
 to do too much else from here...including reading this. Anyway, if you absolutely
 dislike the whole [iconographic](http://en.wikipedia.org/wiki/Iconography) thing,
-feel free to send me some FUD at braden[at]buyurifemme{dot}com.
+feel free to send me some FUD at braden{at}buyurifemme{dot}com.
 
 In finishing this up, there are a lot of articles built into my backlog, so they
 might be on their way out but, really no one knows. At most, don't hold your breath.

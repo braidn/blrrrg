@@ -7,7 +7,7 @@ date: '2017-09-25'
 Never have I heard anyone explain Twitter as well as [Tim Bray in the following post][1]:
 
 > I left out Twitter because it's not actually a company, 
-it's a dysfunctional non profit that accidentally provides a service.
+> it's a dysfunctional non profit that accidentally provides a service.
 
 Pure gold
 
