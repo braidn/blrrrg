@@ -6,7 +6,7 @@
     "baseURL": "https://cloudbacon.com",
     "description": "Thoughts transposed to octal from the mind of perpetual software engineer in training: Braden Douglass",
     "fb_app_id": "576633496522346"
-  }
+  },
   "author": {
     "name": "Braden Douglass",
     "github": "https://github.com/braidn",
@@ -17,6 +17,6 @@
       "title": "Senior Engineer",
       "work": "producing interesting APIs",
       "url": "https://glossier.com"
-    },
+    }
   }
 }
