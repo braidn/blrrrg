@@ -4,8 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Eleventy blog" />
-    <title>{{ title }}</title>
+    <title>{{ metadata.title }}</title>
+
+    <meta name="description" content="{{metadata.site.description}}">
+    <meta name="robots" content="index,follow">
+    <meta name="generator" content="Eleventy">
+
+    <!--Twitter Card-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{metadata.site.twitter}}">
+    <meta name="twitter:creator" content="@{{metadata.author.twitter}}">
+    <meta name="twitter:url" content="{{metadata.site.baseURL}}">
+    <meta name="twitter:title" content="{{metadata.title}}">
+    <meta name="twitter:description" content="{{ metadata.site.description }}">
+    
+    <!--Schema-->
+    <link rel="author" href="{{metadata.author.twitter}}">
+    <link rel="publisher" href="{{metadata.site.baseURL}}">
+    <meta itemprop="name" content="{{metadata.title}}">
+    <meta itemprop="description" content="{{ metadata.site.description }}">
+    
+    <!-- Facebook OpenGraph -->
+    <meta property="fb:app_id" content="{{metadata.site.fb_app_id}}">
+    <meta property="og:url" content="{{metadata.site.baseURL}}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{metadata.title}}">
+    <meta property="og:description" content="{{ metadata.site.description }}">
+    <meta property="og:site_name" content="{{metadata.title}}">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="{{site.author.twitter}}">
+
     <link
       href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:500,600,700"
       rel="stylesheet"

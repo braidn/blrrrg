@@ -1,16 +1,22 @@
 {
-  "title": "Cloudbacon",
+  "title": "Cloudbacon | Musings by Braden Douglass",
   "url": "http://cloudbacon.com",
+  "site": {
+    "twitter": "https://twitter.com/CloudbaconBlog",
+    "baseURL": "https://cloudbacon.com",
+    "description": "Thoughts transposed to octal from the mind of perpetual software engineer in training: Braden Douglass",
+    "fb_app_id": "576633496522346"
+  },
   "author": {
     "name": "Braden Douglass",
+    "github": "https://github.com/braidn",
+    "twitter": "https://twitter.com/braidn",
+    "email": "me@braidn.com",
     "gig": {
       "name": "Glossier.inc",
       "title": "Senior Engineer",
       "work": "producing interesting APIs",
       "url": "https://glossier.com"
-    },
-    "email": "me@braidn.com",
-    "github": "https://github.com/braidn",
-    "twitter": "https://twitter.com/braidn"
+    }
   }
 }
