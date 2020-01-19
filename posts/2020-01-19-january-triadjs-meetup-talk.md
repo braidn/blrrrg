@@ -1,5 +1,5 @@
 ---
-title: January Triad JavaScript Presentation
+title: Triad JavaScript Speaker Series Presentation
 date: '2020-01-19'
 ---
 
