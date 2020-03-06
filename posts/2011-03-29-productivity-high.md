@@ -1,6 +1,6 @@
 ---
 title: Productivity High
-date: '2011-03-30'
+date: '2011-03-29'
 ---
 
 ![Merlin Mann's Epic Mug][1]

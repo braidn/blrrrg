@@ -1,6 +1,6 @@
 ---
 title: Ubuntu Shitting On Things
-date: '2012-10-19'
+date: '2012-10-20'
 ---
 
 Yesterday I tweeted this [image][1] and was thinking along these [

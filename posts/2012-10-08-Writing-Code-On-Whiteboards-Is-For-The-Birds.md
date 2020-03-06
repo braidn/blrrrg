@@ -1,6 +1,6 @@
 ---
 title: Hand Writing Code
-date: '2012-10-07'
+date: '2012-10-08'
 ---
 
 This should come to no surprise to anyone: I love searching for jobs.
