@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.site.description }}</subtitle>
-  <link href="{{ metadata.feedUrl }}" rel="self"/>
+  <link href="{{ metadata.site.feedUrl }}" rel="self"/>
   <link href="{{ metadata.site.baseURL }}"/>
   <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
   <id>{{ metadata.site.baseURL }}</id>
