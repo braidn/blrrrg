@@ -3,7 +3,7 @@
   "url": "https://cloudbacon.com",
   "site": {
     "twitter": "https://twitter.com/CloudbaconBlog",
-    "baseURL": "https://cloudbacon.com",
+    "baseURL": "https://cloudbacon.com/",
     "feedUrl": "https://cloudbacon.com/feed",
     "description": "Thoughts transposed to octal from the mind of perpetual software engineer in training: Braden Douglass",
     "fb_app_id": "576633496522346"
