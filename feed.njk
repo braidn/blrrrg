@@ -5,7 +5,7 @@
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.site.baseURL }}"/>
   <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
-  <id>{{ metadata.site.baseURL }}</id>
+  <guid>{{ metadata.site.baseURL }}</guid>
   <author>
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
@@ -16,7 +16,7 @@
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | rssDate }}</updated>
-    <id>{{ absolutePostUrl }}</id>
+    <guid>{{ absolutePostUrl }}</guid>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
