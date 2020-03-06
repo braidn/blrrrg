@@ -1,6 +1,6 @@
 ---
 title: Get Rid Of Command T
-date: '2011-12-28'
+date: '2011-12-20'
 ---
 
 Hardcore text editors always seem to make a concerted effort to actually ease

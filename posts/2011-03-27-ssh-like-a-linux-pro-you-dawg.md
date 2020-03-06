@@ -1,6 +1,6 @@
 ---
 title: SSH Like a Linux Pro You Dawg
-date: '2011-03-26'
+date: '2011-03-27'
 ---
 
 Neck beards rejoice! No longer must you feel trapped to use $cat commands to

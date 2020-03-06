@@ -1,6 +1,6 @@
 ---
 title: Duck Stepping Around Privacy in My Underwear
-date: '2011-03-15'
+date: '2011-03-16'
 ---
 
 ![Facebook Scratched Out][10]

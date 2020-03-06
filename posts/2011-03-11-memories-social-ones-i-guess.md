@@ -1,5 +1,5 @@
 ---
-date: '2011-03-08'
+date: '2011-03-11'
 title: Memories...Social Ones I Guess
 ---
 
