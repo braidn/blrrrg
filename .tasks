@@ -1,0 +1,9 @@
+# vim: set fenc=utf-8 ft=dosini:
+
+[file-fix]
+
+command=npx remark --quiet $(VIM_FILEPATH) -o
+cwd=<root>
+output=quickfix
+errorformat=%f:%l:%m
+save=1
