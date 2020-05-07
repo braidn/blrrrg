@@ -37,7 +37,8 @@ won't with Polka.
 Due to this,
 the example below and repo showcases a manual way of setting up [Wildcard][wc] with any [Node][node] http library or framework.
 
-Here's to more Functions over HTTP powered by JavaScripts new love of type system (Flow, Typescript or Hegel).
+Here's to more Functions over HTTP powered by JavaScript's new love of type systems
+([Flow][type1], [Typescript][type2] or [Hegel][type3]).
 
 Example server config:
 
@@ -67,7 +68,7 @@ polka()
 
 [Link to repository][repo]
 
-What's your opinion on RPC style APIs for internal consumption?
+What's your opinion on RPC style APIs for internal use?
 [Reach out to me on Twitter and let's chat][twit]
 
 [gql]: https://graphql.org/
@@ -91,3 +92,9 @@ What's your opinion on RPC style APIs for internal consumption?
 [repo]: https://github.com/braidn/wildcard-polka
 
 [twit]: https://twitter.com/braidn/
+
+[type1]: https://flow.org/
+
+[type2]: https://www.typescriptlang.org/
+
+[type3]: https://hegel.js.org/
