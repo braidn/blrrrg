@@ -6,6 +6,15 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPlugin(pluginRss);
 
+  let markdownIt = require("markdown-it");
+  let markdownFootnotes = require('markdown-it-footnote')
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).use(markdownFootnotes);
+
+  eleventyConfig.setLibrary("md", markdownLib);
+
   return {
     //Use ejs in html templates
     htmlTemplateEngine: "liquid"
