@@ -1,6 +1,7 @@
 ---
 title: Griddled Cheese
 date: '2011-04-04'
+highlight: true
 ---
 
 ![Web Grid, a thing of beauty][1]
