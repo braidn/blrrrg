@@ -1,6 +1,7 @@
 ---
 title: How To Think Like A Vimer
 date: '2012-08-04'
+highlight: true
 ---
 
 SO this post isn't going to help all of you Textmate, Textmate2,

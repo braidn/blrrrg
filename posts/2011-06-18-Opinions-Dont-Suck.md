@@ -1,6 +1,7 @@
 ---
 title: On Being Opinionated
 date: '2011-06-18'
+highlight: true
 ---
 
 Winning eh (look at the tags at the bottom)? Remember the saying? The one that

@@ -1,7 +1,7 @@
 ---
-published: true
 title: Being Remote And Successful
 date: '2017-05-11'
+highlight: true
 ---
 
 [This week heralds in another ass when it comes to building remote work cultures][1]. 
