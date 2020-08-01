@@ -1,6 +1,7 @@
 ---
 title: Show Yourself Off
 date: '2013-01-22'
+highlight: true
 ---
 
 Getting crazy ideas usually leads people down the road to a lot of fun, yet

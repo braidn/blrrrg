@@ -2,7 +2,44 @@
 layout: homepage.liquid
 title: Cloudbacon
 ---
-{% for post in collections.posts reversed %}
+
+<h3>Top 6</h3>
+<p>
+  For folks who are are absolutely new here or perhaps
+  have only showed up once, here is a curated list
+  to get to know me, my writing style and what to expect
+  from this space.
+</p>
+<p>
+  These posts will help anyone assertain not only the tone
+  that I aim for but, the content and depth that you can
+  expect from anything new that may appear in your RSS
+  reader or inbox of choice.
+</p>
+<p>
+  This list is also very transitional and <em>highly</em>
+  likely to change. If it's the only thing you read here,
+  make sure to come back by for a new list bimonthly
+</p>
+
+{% assign posts = collections.posts %}
+
+{% for post in posts reversed %}
+{% if post.data.highlight %}
+<div class="post">
+  <span class="post-title">
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </span>
+  <span class="post-date">
+    {{ post.date | date: '%b %Y' }}
+  </span>
+</div>
+{% endif %}
+{% endfor %}
+
+<h3>All Posts</h3>
+
+{% for post in posts reversed %}
 <div class="post">
   <span class="post-title">
     <a href="{{ post.url }}">{{ post.data.title }}</a>
