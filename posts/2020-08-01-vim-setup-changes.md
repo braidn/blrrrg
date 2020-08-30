@@ -13,9 +13,9 @@ I can't even think of another program that I have used for half that amount of t
 The three main changes that have come about this year all revolve around exploration,
 namely exploring these three things:
 
-1. Files
-1. Tasks
-1. Versioning
+1.  Files
+2.  Tasks
+3.  Versioning
 
 ### Files
 
@@ -66,7 +66,7 @@ In addition,
 ALE is constantly underlining problems and stealing a programmers focus away from their process of 'building'.
 
 VSCode has a wonderful concept of [build tasks][bld] which are often times used to actually build projects.
-However, this tool is more of a project runner than __just__ a way to build a project.
+However, this tool is more of a project runner than **just** a way to build a project.
 This allows users to run linters and formatters on their own time.
 
 With Vim there used to be no great way of doing this but,
@@ -84,7 +84,7 @@ This process makes Vim much more 'pure' to me and injects a lot less 'chrome' ar
 Instead, displaying issues directly in the quick open window.
 This again allows the programmer to pay attention to them or close the quick open window and get back to focusing the problem at hand.
 
-###GIT
+\###GIT
 
 Last large change for the moment is the move from [Fugitive][fug] to [Gina][gina].
 Both of these plugins provide a GIT like integration into Vim buffers.
@@ -106,7 +106,6 @@ or move cards around in a specific Kanban board.
 
 All of these changes edge, nudge, pivot my usage of Vim back to when I picked the little editor up (way back in 1994).
 And all three of these I have been using for almost three months now with no looking back.
-
 
 [quit]: https://github.com/hakluke/how-to-exit-vim
 
