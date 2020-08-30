@@ -54,7 +54,58 @@ especially when orienting one's self around a new project/microservice/whatever.
 
 ### Tasks
 
+When folks think about running tasks in Vim/Neovim,
+they often reach for tools like [ALE][ale].
+Linting and file fixing is usually what most folks want to do when hitting the save button.
+Although ALE runs asynchronously,
+it tends to be a tremendous resource hog.
 
+All those fans spinning makes Vim,
+feel way more like an IDE than it should.
+In addition,
+ALE is constantly underlining problems and stealing a programmers focus away from their process of 'building'.
+
+VSCode has a wonderful concept of [build tasks][bld] which are often times used to actually build projects.
+However, this tool is more of a project runner than __just__ a way to build a project.
+This allows users to run linters and formatters on their own time.
+
+With Vim there used to be no great way of doing this but,
+recently a new project has popped up called [asynctasks][atask].
+It's a way to define these build tasks and load them throughout a file system/project.
+The task definitions are powerful enough to specific to a file type.
+If that isn't flexible enough,
+there is the ability to have profiles per task, per file type!
+
+Utilizing this task based approach,
+Vim remains devoid of little red lines that steal a programmer from focusing on what matters.
+During a break,
+it allows a programmer to lint, build, and fix any issues that have crept up along the way.
+This process makes Vim much more 'pure' to me and injects a lot less 'chrome' around the Vim UI.
+Instead, displaying issues directly in the quick open window.
+This again allows the programmer to pay attention to them or close the quick open window and get back to focusing the problem at hand.
+
+###GIT
+
+Last large change for the moment is the move from [Fugitive][fug] to [Gina][gina].
+Both of these plugins provide a GIT like integration into Vim buffers.
+However,
+over the years, and especially with the move to Neovim,
+having asynchronous tasks has become a huge win to my productivity.
+
+Gina's built around this notion of asynchronous interactions with a GIT repo which makes it super snappy.
+It also has a small cognitive mapping load and a single command.
+All of this creates a simple interface to an otherwise not simple CLI tool.
+
+Honestly there was nothing really wrong with Fugitive and
+my move to Gina wasn't a result of a failure in Figitive.
+One of the tennants of my Vim usage throughout 2020 is to 'remove the chrome'.
+What this really means is removing UI bits that attempt to mimic ideas in other editors or IDE's.
+I want vim to be a place to write prose and build software.
+There is no need to be able to communicate with peers in Slack through Vim,
+or move cards around in a specific Kanban board.
+
+All of these changes edge, nudge, pivot my usage of Vim back to when I picked the little editor up (way back in 1994).
+And all three of these I have been using for almost three months now with no looking back.
 
 
 [quit]: https://github.com/hakluke/how-to-exit-vim
@@ -78,3 +129,13 @@ especially when orienting one's self around a new project/microservice/whatever.
 [lunv]: https://neovim.io/doc/user/lua.html
 
 [vsct]: https://learnvimscriptthehardway.stevelosh.com/
+
+[ale]: https://github.com/dense-analysis/ale
+
+[bld]: https://code.visualstudio.com/Docs/editor/tasks
+
+[atask]: https://github.com/skywind3000/asynctasks.vim
+
+[fug]: https://github.com/tpope/vim-fugitive
+
+[gina]: https://github.com/lambdalisue/gina.vim
