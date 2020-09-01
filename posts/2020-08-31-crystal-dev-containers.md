@@ -5,8 +5,8 @@ date: '2020-08-31'
 
 About a year ago,
 Microsoft released a way to [develop inside a container][vcontain] using VSCode.
-The idea is so wildly clever and simple,
-it, to this day, continues to blow my mind.
+The idea is so wildly clever and simple
+it blow my mind daily.
 The idea is simple:
 
 Build an environment for your code to run in, utilizing Docker images.
@@ -18,8 +18,10 @@ requiring the programmer to install zero dependencies (beyond Docker).
 No Node modules, Ruby gems, Go packages, etc.
 This also means that there's no need to weigh down a VSCode install with a bunch of language specific plugins.
 
+The only requirements to get started are, [Docker][dock], [VSCode][code], and a special [extension pack][ext]
+
 With [Crystal][crst] reaching a 1.0 milestone soon,
-I decided to hop in and create a Crystal specific dev container:
+I decided to dive in and create a Crystal specific dev container:
 
 ```dockerfile
 ARG VARIANT="20.04"
@@ -44,7 +46,7 @@ the entire Crystal development chain will be available through VSCode's terminal
 As an added bonus,
 When initializing a devcontainer in a repository,
 a `devcontainer.json` file is automatically created that allows for some container specific overides.
-The extension listed below, when added to the devcontainer.json extension collection,
+The extension listed below, when added to the `devcontainer.json` extension collection,
 will provide Language Server Support to any `.cr` file (along with a lot of other Crystal specific goodies).
 
 -   faustinoaq.crystal-lang
@@ -54,3 +56,9 @@ will provide Language Server Support to any `.cr` file (along with a lot of othe
 [crst]: https://crystal-lang.org/
 
 [curl]: https://gist.github.com/braidn/5ba7eb65a43bccbe30a1607152382955
+
+[dock]: https://www.docker.com/products/docker-desktop
+
+[code]: https://code.visualstudio.com/
+
+[ext]: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
