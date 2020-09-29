@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: newsletter
+  labels:
+    app: newsletter
+    env: development
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: newsletter
+  template:
+    metadata:
+      labels:
+        app: newsletter
+    spec:
+      containers:
+      - name: newsletter
+        image: ghost:3-alpine 
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 2368
