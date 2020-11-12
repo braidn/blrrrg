@@ -18,7 +18,7 @@
     "@11ty/eleventy": "^0.9.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "concurrently": "^5.0.0",
+    "concurrently": "^5.3.0",
     "markdown-it-footnote": "^3.0.2",
     "node-sass": "^4.13.1",
     "remark-cli": "^7.0.1",
