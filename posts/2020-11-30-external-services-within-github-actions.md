@@ -1,5 +1,5 @@
 ---
-title: Running Service Contaienrs in GitHub Actions
+title: Running Service Containers in GitHub Actions
 date: '2020-11-30'
 ---
 
