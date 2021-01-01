@@ -9,7 +9,7 @@ This meant that it was easy to get access to a myriad of services with one `npm 
 However,
 the downsize was the general HUGENESS of the node module.
 If folks were relying on a specific version of the V2 SDK by building it into a layer,
-this would mean a large performance loss in loading all that code into each Lambda cold start.
+this would mean a large performance loss in loading all that code into each Lambda's cold start.
 
 With the above announcement though,
 Those hefty layers are a thing of the past.
@@ -114,7 +114,7 @@ Meaning we need some foreign `!` methods between attribute assignment.
 This _just_ means that we are informing the compiler that we 'guarentee' that those assignments will never be `undefined`.
 Besides this,
 there isn't anything special here.
-We are building the value and names expressions for attributes that need to be updated and passing it to the `updateItem` function
+We are reconstructing the required attributes for the `updateItem` function and calling it on the database instance.
 
 ### Delete
 
