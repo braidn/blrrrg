@@ -24,18 +24,15 @@
     "node-sass": "^4.13.1",
     "remark-cli": "^7.0.1",
     "remark-lint": "^6.0.5",
-    "remark-preset-lint-recommended": "^3.0.3"
+    "remark-preset-lint-consistent": "^4.0.0"
   },
   "dependencies": {
     "remark-frontmatter": "^2.0.0"
   },
   "remarkConfig": {
     "plugins": [
-      "remark-preset-lint-recommended",
-      [
-        "list-item-indent",
-        "1"
-      ]
+      "preset-lint-consistent",
+      "remark-frontmatter"
     ]
   }
 }
