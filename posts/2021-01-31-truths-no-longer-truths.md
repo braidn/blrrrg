@@ -4,8 +4,8 @@ date: '2021-01-31'
 ---
 
 Software engineers are pretty great at holding onto ideas for...
-Well, what feels like finfinity.
-Some grey-beard will impart some slice of knowledge that completely blows us away when we were junior engineers.
+Well, what feels like infinity.
+Some grey-beard will impart a slice of knowledge that completely blows us away when we were junior engineers.
 Years later,
 seemly with little validation,
 we continue to clutch so dear to this knowledge.
@@ -47,7 +47,7 @@ The structure of this post is highly influenced by [this wonderfully written pie
 -   There are a small amount of tools required to be successful in programming.
     Collect pens, paper, keyboards. Use the best tools you can find.
 -   Never stop building and toying with ideas.
-    Even the most shallow explorations can lead to breakthroughs in more 'complex projects.'
+    Even the most shallow explorations can lead to breakthroughs in more complex projects.
 
 [post]: https://chriskiehl.com/article/thoughts-after-6-years "https://chriskiehl.com/article/thoughts-after-6-years"
 
