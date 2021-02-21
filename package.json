@@ -27,7 +27,6 @@
     "remark-preset-lint-consistent": "^4.0.0"
   },
   "dependencies": {
-    "eleventy-plugin-json-feed": "^0.0.7",
     "remark-frontmatter": "^2.0.0"
   },
   "remarkConfig": {
