@@ -24,14 +24,17 @@ Some policies are more inclusive than others but,
 the thing that _matters_ is that a policy exists and is available to everyone.
 
 If you are interviewing for a developer job at any company,
-I can't stress enough pushing for information around learning and development during the [reverse interview process][proc].
+I can't stress this enough:
+
+> Push for information around learning and development during the [reverse interview process][proc].
+
 If for some reason the company is small and they have a fixed budget,
 cool!
 These kind of budgets should not be deal breakers when it comes to assessing a career move.
 Situations like this allow devs to share the financial load from one year to the next.
 
 However, if the story is that there is no learning and development budget...
-Well that's a lot like the following: 
+Well that's a whole lot like: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZUurpO1KkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
