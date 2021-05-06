@@ -29,14 +29,48 @@ These packages will allow the tests to introspect a `.graphql` file,
 mock the return values and allow the suite's assertion matchers to work their magic.
 It's totally ok to install these as dev dependencies since they are not a requirement (usually) for runtime.
 
-<!-- Add code snippet -->
+```javascript
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+import { loadSchemaSync } from '@graphql-tools/load';
+import { GraphQLFileLoader } from '@graphql-tools/graphql-file-loader';
+import { addMocksToSchema } from '@graphql-tools/mock';
+import { graphql } from 'graphql';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const schema = loadSchemaSync(join(__dirname, '../schema.graphql'), {
+  loaders: [
+    new GraphQLFileLoader(),
+  ]
+});
+
+const mocks = {
+  String: () => "Funzones",
+  Boolean: () => false
+}
+
+const mockedSchema = addMocksToSchema({ schema, mocks })
+```
 
 Now that the schema is loaded,
 the only thing left is to write a query and execute it with the [graphql][gql] package.
 
-<!-- Add code snippet -->
+```javascript
+const query = `
+  query funzoneFinder {
+    funzoneById(id: "512f5428-63d1-4bf4-8c23-467ac944e58d") { content { description, title } }
+  }
+`
+const result = await graphql(mockedSchema, query)
+t.deepLooseEqual(result.data, { productById: {
+  content: {
+    description: "Funzones",
+    title: "Funzones"
+  }
+}}, "Funzones are actually fun")
+```
 
-The above example utilizes the lightweight and fabulous [Tape][tape] testing library.
+The above matcher example utilizes the lightweight and fabulous [Tape][tape] testing library.
 If most of an application is running outside of a browser,
 it's a much more lightweight and performant way of testing over [Jest][jest]
 
