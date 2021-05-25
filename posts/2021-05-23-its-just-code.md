@@ -5,7 +5,7 @@ date: '2021-05-23'
 
 It's been a long time (no seriously) since I have heard this phrase reiterated:
 
-> It's just code
+> 'It's just code'
 
 The emphasis being on the 'code' part of the comment.
 
@@ -20,13 +20,13 @@ Let's hypothesize that it's a problem brought to these folks from the wider engi
 It even maybe these people's jobs to breakdown and figure out smaller paths to solutions and a general way forward for everyone.
 Then their response is...
 
-> It's just code
+> 'It's just code'
 
 It is not only utterly flippant,
 it teaches other senior and principle engineers that it's OK to approach problems of this kind with this 'result'.
 There's no need to stretch and make anything better because...
 
-> It's just code.
+> 'It's just code'
 
 Unfortunately this is simply the wrong angle in almost all regards.
 There's a key communication breakdown above all else but,
@@ -42,7 +42,7 @@ If coding isn't suitable yet, showcasing requests for proposals during demo days
 
 Although these items might not be 'as easy' as saying:
 
-> It's just code
+> 'It's just code'
 
 They go a long way in building a culture that's less about blame and more about exploration and pushing boundaries.
 Questioning is half the battle when it comes to propelling an engineering culture forward.
