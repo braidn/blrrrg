@@ -15,7 +15,7 @@ these 'nuggets of gold' are often opinions that should be loosly held,
 rigorously tested on a yearly interval,
 and continually explored with other engineers in your discepline (front-end/back-end).
 
-Over the _entirety of 2020_ I began to question and
+Over the *entirety of 2020* I began to question and
 think a little differently concerning some of the above.
 The following is a list of opinions that I gathered, let go of, and ultimatly kept in my clutches.
 
@@ -23,30 +23,30 @@ The structure of this post is highly influenced by [this wonderfully written pie
 
 ### Items Dropped
 
--   TDD is the only way to build great software. TDD is one great way, there are so many more.
--   Never copy and paste. Not everyone has used Vim for a bajillion years.
--   Being correct is not some form of 'winning'. Listening and being mindful is.
--   Tools don't matter. Not really. There's bound to be a better one soon so don't die on the tool du jour's hill.
--   Your work sells itself. There is a distinct need to sell everything you do (inside and out of 'work').
+*   TDD is the only way to build great software. TDD is one great way, there are so many more.
+*   Never copy and paste. Not everyone has used Vim for a bajillion years.
+*   Being correct is not some form of 'winning'. Listening and being mindful is.
+*   Tools don't matter. Not really. There's bound to be a better one soon so don't die on the tool du jour's hill.
+*   Your work sells itself. There is a distinct need to sell everything you do (inside and out of 'work').
 
 ### Things Learned/Accumulated
 
--   Build your own tools within reason.
+*   Build your own tools within reason.
     Most of the time existing libraries carry too many tradeoffs and will ultimatly slow down the building of software.
--   Not all currencies have a unicode symobl.
+*   Not all currencies have a unicode symobl.
     After being in ecommerce all these years, this fact blows my brain.
--   [Make a mess][sandy]. There's a formatter, test suite, or linter that's got your back.
--   Nothing lasts forever. Whatever you build, make it small enough to quickly rewrite, perhaps in as much as two 'sprints'.
+*   [Make a mess][sandy]. There's a formatter, test suite, or linter that's got your back.
+*   Nothing lasts forever. Whatever you build, make it small enough to quickly rewrite, perhaps in as much as two 'sprints'.
 
 ### Opinions Still Closely Clutched!
 
--   Write well; exceptionally well.
+*   Write well; exceptionally well.
     Never give up when it comes to striving to make yourself better understood through prose.
--   Read anything that interests you. There are gems of knowledge in any form of writing.
--   Look for [the outliers][out]. They are the ones doing the hard/fun/exciting/non-boring work.
--   There are a small amount of tools required to be successful in programming.
+*   Read anything that interests you. There are gems of knowledge in any form of writing.
+*   Look for [the outliers][out]. They are the ones doing the hard/fun/exciting/non-boring work.
+*   There are a small amount of tools required to be successful in programming.
     Collect pens, paper, keyboards. Use the best tools you can find.
--   Never stop building and toying with ideas.
+*   Never stop building and toying with ideas.
     Even the most shallow explorations can lead to breakthroughs in more complex projects.
 
 [post]: https://chriskiehl.com/article/thoughts-after-6-years "https://chriskiehl.com/article/thoughts-after-6-years"
