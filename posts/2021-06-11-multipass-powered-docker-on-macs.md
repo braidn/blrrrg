@@ -1,5 +1,5 @@
 ---
-title: Multipass Powered Docker on The Mac
+title: Multipass Powered Docker on the Mac
 date: '2021-06-11'
 ---
 
@@ -16,7 +16,7 @@ Apparently Canonical (the folks behind Ubuntu) offer a similar solution titled: 
 The best part though?
 Multipass utilizes OSX's native hypervisor support (hyperkit) for the most performant virtual resource mapping.
 
-Sadly, Multipass is __only__ a [virtual machine][vm] orchestrator versus a container orchestrator (Docker).
+Sadly, Multipass is **only** a [virtual machine][vm] orchestrator versus a container orchestrator (Docker).
 However, this ends up being a great happenstance because it means developers can have VM's that are for
 Docker, Kubernetes, Faasd, the works!
 With great potential comes a host of configuration.
@@ -29,7 +29,7 @@ there is a real way to define a Docker specific virtual machine.
 Afterwards,
 one can [install the docker binary][dbin],
 [docker-compose HomeBrew package][dcbrew] and
-set a DOCKER_HOST that maps to the cloud-init'ified virtual machine's IP.
+set a DOCKER_HOST env var that maps to the cloud-init'ified virtual machine's IP.
 
 With this setup,
 all containers utilize a 'native' file system access since Docker is running in a Linux environment (akin to the aforementioned: WSL2).
@@ -39,7 +39,7 @@ relentless alerts for paid upgrades,
 and most importantly:
 the slow filesystem access.
 
-Below is a 'simplified' cloud-init .yaml file for bootstrapping Multipass VMs with Docker already installed.
+Below is a 'simplified' [cloud-init .yaml file][gist] for bootstrapping Multipass VMs with Docker already installed.
 
 ```yaml
 #cloud-config
@@ -82,9 +82,17 @@ bootstrapping a new VM using Multipass is as easy as the following terminal comm
 Happy VMing!
 
 [d4mac]: https://docs.docker.com/docker-for-mac/install/
+
 [mpass]: https://multipass.run/
+
 [cinit]: https://github.com/canonical/cloud-init
+
 [regres]: https://github.com/docker/for-mac/issues/5668
+
 [vm]: https://en.wikipedia.org/wiki/Virtual_machine
+
 [dbin]: https://docs.docker.com/engine/install/binaries/#install-client-binaries-on-macos
+
 [dcbrew]: https://formulae.brew.sh/formula/docker-compose
+
+[gist]: https://gist.github.com/braidn/c48bc0aaaa3c680bd0ec9eee25d39e44
