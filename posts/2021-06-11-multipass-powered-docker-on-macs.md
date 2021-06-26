@@ -12,7 +12,7 @@ than likely this [small regression when using 'too many' ports][regres] will.
 
 WSL2 seems to be a great option for the folks running Windows but,
 what options is similar to this on the Mac?
-Apparently Canonical (the folks behind Ubuntu) offer a similar solution titled: [Multipass][mpass].
+Apparently [Canonical][can] (the folks behind Ubuntu) offer a similar solution titled: [Multipass][mpass].
 The best part though?
 Multipass utilizes OSX's native hypervisor support (hyperkit) for the most performant virtual resource mapping.
 
@@ -96,3 +96,5 @@ Happy VMing!
 [dcbrew]: https://formulae.brew.sh/formula/docker-compose
 
 [gist]: https://gist.github.com/braidn/c48bc0aaaa3c680bd0ec9eee25d39e44
+
+[can]: https://canonical.com
