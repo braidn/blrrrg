@@ -1,6 +1,6 @@
 ---
 title: Things To Tickle My Fancy in 2021
-date: '2021-09-21',
+date: '2021-09-21'
 ---
 
 2021 has been a notable year on many fronts but,
