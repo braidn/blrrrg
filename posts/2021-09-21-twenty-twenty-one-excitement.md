@@ -21,25 +21,47 @@ somewhat boring,
 and mostly just a little better than the relevant competion that they all gathered on this list at precisely the same time.
 
 1. [Astro.build][astro]
-
   There has been only a very shallow amount of exploration around the Astro community.
-Throughout that short time of playing with this 'toolchain', I have been blown away.
-The mere fact that Bob from accounting can write [VueJS][vue],
-Tom from marketing can write [Svelte][svelte],
-and it all compiles to a usable website is bonkers.
-Especially for anyone who lived through the frontend framework wars of 2010 through 2016.
-
+  Throughout that short time of playing with this 'toolchain', I have been blown away.
+  The mere fact that Bob from accounting can write [VueJS][vue],
+  Tom from marketing can write [Svelte][svelte],
+  and it all compiles to a usable website is bonkers.
+  Especially for anyone who lived through the frontend framework wars of 2010 through 2016.
   As 2021 comes to an end, I will continue to play and prod with this toolchain when building [toy applications][pragprog].
 
 1. [AWS CDK][cdk]
-
   AWS's Cloud Development Kit has been around for quite some time.
-It's even likely to hit 2.0 in 2021 which is a huge feat for a large JavaScript project.
-Pulumi has also recently introduced '[native AWS][paws]' support using AWS's recently released '[Cloud Control API][capi]' tool.
-All of these tools are aimed at making Cloudformation much more maintainable and the resulting infrastructure easier to reason about.
-Overall I am psyched to see where the DevOps as code tooling evolves in 2022.
+  It's even likely to hit 2.0 in 2021 which is a huge feat for a large JavaScript project.
+  Pulumi has also recently introduced '[native AWS][paws]' support using AWS's recently released '[Cloud Control API][capi]' tool.
+  All of these tools are aimed at making Cloudformation much more maintainable and the resulting infrastructure easier to reason about.
+  Overall I am psyched to see where the DevOps as code tooling evolves in 2022.
 
-1. 
+1. [Cloudflare's][cloud]
+  service offering is exploding throughout 2021.
+  It's almost weekly that they are building something new that's in beta.
+  However when you check back the next week,
+  that thing that was new last week is out of beta and something new is taking its' place.
+  Cloudflare is aiming to push all compute closer and closer to users ('The Edge').
+  This coupled with streaming data (also served from the edge) will be where we see larger performance gains in the future.
+  This blog is moveing to Cloudflare from Netlify at this very moment. With
+  They have intrigued me that much with their offerings.
+
+1. Digital Gardening
+  or perhaps 'knowledge recording' is very top of mind for many folks in a knowledge field at the moment.
+  There has been a lot of new products budding out of this interest for the better part of the last 2 years.
+  Many folks may know about [Roam][roam] but, there is also [Obsidian][obs] and [LogSeq][lgsc] that have a good slice of the market share.
+  All of these tools are helping us recall pertinent information when we needed it the most.
+  When one works in a field that is awash with information,
+  having a tool to tame it is invaluable.
+
+1. Many 'things' are being standardized behind an HTTP interface.
+  Not so long ago we needed to worry about connection pooling between our applications and databases.
+  Now though, there's no need.
+  There's a reliable HTTP API that where these pools used to be.
+  We can cache these calls, horizontally scale to any number of connections, and even stream data if we choose.
+  [FaunaDB][fauna] is a great example of a tool that's doing this very well.
+  They are driving data into an API layer that people understand and distributing the data behind it.
+  This space in 'infrastructure' is only going to grow as we move forward with business logic residing at 'the edge'.
 
 [ror7]: https://weblog.rubyonrails.org/2021/9/15/Rails-7-0-alpha-1-released/
 [astro]: https://astro.build/
@@ -49,3 +71,8 @@ Overall I am psyched to see where the DevOps as code tooling evolves in 2022.
 [cdk]: https://aws.amazon.com/cdk/
 [paws]: https://www.pulumi.com/blog/announcing-aws-native/
 [capi]: https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api/
+[cloud]: https://www.cloudflare.com/
+[roam]: https://roam.com/
+[obs]: https://obsidian.io/
+[lgsc]: https://logseq.com/
+[fauna]: https://fauna.com/ 
