@@ -29,36 +29,36 @@ there is no need to look for an RSS button on Medium
 Without further ado though, 
 let's get on with that promised brainstorming session of blog posts.
 
-1. '*Where In The World Is Carman Sandiago*'
-  * Now that travel is a definite way of life, 
+1. 'Where In The World Is Carman Sandiago'  
+  Now that travel is a definite way of life, 
       perhaps more sharing here is a good thing. 
       Smaller posts about random things that happen along the way, 
       with ample examples of how to hack your way through [LGA][3]
-1. 'ReasonML And A Language of 2010'
-  * In the past there has been a lot of sharing when it comes to 
+1. 'ReasonML And A Language of 2010'  
+  In the past there has been a lot of sharing when it comes to 
       languages (programming) that I learn on a yearly basis.
       There has been little talk of this over the past several years 
       and it's always a wonderful way to solidify language constructs by teaching others.
-1. '*GraphQL Me Pls*'
-  * So what piece of technology is *literaly* everyone using these days? 
+1. 'GraphQL Me Pls'  
+  So what piece of technology is *literaly* everyone using these days? 
       How does it actually make any of our lives better 
       and is it something that will be around in 10 years (Rest certainly will). 
       I have actually been 'touring' with a talk at the moment that could use a life,
       translated into a written format.
-1. '*Hobbies and Not The Ones With Large Hairy Feet*'
-  * It's been sometime since I have shared what's yanking money out of my wallet. 
+1. 'Hobbies and Not The Ones With Large Hairy Feet'  
+  It's been sometime since I have shared what's yanking money out of my wallet. 
       Hobbies in life have certainly changed over the past few years. 
       Cycling from keyboards, excercise, and to mechanical watches. 
       There is a lot of good content here and a lot of information just trapped, 
       banging around in my brain.
-1. '*Anything and Everything Glossier*'
-  * Yes it's official, [Glossier][2] is and has been home now for a while. 
+1. 'Anything and Everything Glossier'  
+  Yes it's official, [Glossier][2] is and has been home now for a while. 
       There hasn't been a lot written on the subject. 
       Which means there is a dirth of items that the community would love to hear about. 
       Mainly, and it's a well guarded secret: my favorite balm flavor. 
       Shocker, not shocker; it's Coconut.
-1. '*What Is A CI Server Really For*'
-  * Honestly it continues to be a surprise for most people here. 
+1. 'What Is A CI Server Really For'  
+  Honestly it continues to be a surprise for most people here. 
       When it's not, it ends up being treated as some precious metal. 
         > Don't push that to CI because it will consume a worker/thread/whatever 
       Ah... that's exactly what these objects are. 
@@ -66,14 +66,14 @@ let's get on with that promised brainstorming session of blog posts.
       Their processors don't have to be thermally controlled or 
       survive the vibration of a daily commute. 
       They are meant to be [hounded][hnd] relentlessly!
-1. '*Steps to Stay Remotely Healthy*'
-  * Programming isn't widely known to be the most healthy profession. 
+1. 'Steps to Stay Remotely Healthy'  
+  Programming isn't widely known to be the most healthy profession. 
       Double this with being at home all day in a remote work environment 
       and you have a recipe for a health disaster. 
       After surviving this world for nearly 8 years now, 
       there is a wide range of topics that span mental and physical health.
-1. '*Cultivating A Long Running Personal Wiki*'
-  * I may not be [Ward Cunninham][wcun] but, 
+1. 'Cultivating A Long Running Personal Wiki'  
+  I may not be [Ward Cunninham][wcun] but, 
       I have had a wiki that's been around in some form for many years. 
       There is a world of topics here. 
       Perhaps other people don't know how or where to start, 
