@@ -6,7 +6,7 @@
   "scripts": {
     "build": "eleventy && npm run sass",
     "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "node-sass --output  _site/styles/ styles/",
+    "sass": "sass styles/:_site/styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,11 +21,11 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
     "concurrently": "^5.3.0",
     "markdown-it-footnote": "^3.0.2",
-    "node-sass": "^4.13.1",
     "remark-cli": "^9.0.0",
     "remark-frontmatter": "^3.0.0",
     "remark-lint": "^8.0.0",
     "remark-preset-lint-consistent": "^4.0.0",
+    "sass": "^1.45.0",
     "xmlhttprequest-ssl": ">=1.6.1"
   },
   "remarkConfig": {

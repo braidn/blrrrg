@@ -13,9 +13,9 @@ There are a couple of reasons for this change:
 
 1. I was kinda bored, ok? It happens.
 2. There is a high likelyhood that people can't read:
-    * [Here](http://detroit.cbslocal.com/2011/05/04/report-nearly-half-of-detroiters-cant-read/)
-    * [Here](http://www.life360.com/blog/rich-americans-cant-read-peoples-emotions/)
-    * [And Here](http://thestir.cafemom.com/food_party/129526/white_coke_cans_pulled_because)
+  * [Here](http://detroit.cbslocal.com/2011/05/04/report-nearly-half-of-detroiters-cant-read/)
+  * [Here](http://www.life360.com/blog/rich-americans-cant-read-peoples-emotions/)
+  * [And Here](http://thestir.cafemom.com/food_party/129526/white_coke_cans_pulled_because)
 3. Really these are just a few, it's ridiculous actually.
 
 If you can't read, THUMBS UP, you know where you are, yet you might not be able
