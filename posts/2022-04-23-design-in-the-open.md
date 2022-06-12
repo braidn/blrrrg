@@ -47,7 +47,8 @@ Maybe that means architecture decision records or full blown architectural desig
 - [Technical Design Docs at Somewhere in Amazon][tddoc]
 - [Design Docs at Google][tddocg]
 
-Feel free to reach out and chat about what supercharges your team as well!
+[Feel free to reach out and chat about what supercharges your team as well](https://twitter.com/compose/tweet)!
+[My direct messages are also always open if you want to chat privately](https://twitter.com/braidn)
 I am always on the lookout for ways to better upfit teams through both technical and written mediums.
 
 [orb]: https://orbit.love/
