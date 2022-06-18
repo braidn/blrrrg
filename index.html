@@ -4,6 +4,19 @@ title: Cloudbacon
 ---
 
 <hr>
+<nav>
+<ul class="flat">
+  <li>
+    <a href="#">learning</a>
+  </li>
+  <li> 
+    <a href="#">now</a>
+  </li>
+  <li> 
+    <a href="#all_posts">posts</a>
+  </li>
+</ul>
+</nav>
 <h3>Top 6</h3>
 <p>
   For folks who are are absolutely new here or perhaps
@@ -38,7 +51,7 @@ title: Cloudbacon
 {% endif %}
 {% endfor %}
 
-<h3>All Posts</h3>
+<h3 id='all_posts'>All Posts</h3>
 
 {% for post in posts reversed %}
 <div class="post">
