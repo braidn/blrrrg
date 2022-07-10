@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/braidn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cloudbacon.com
+  * I am braidn (https://keybase.io/braidn) on keybase.
+  * I have a public key with fingerprint A387 A221 CA65 3827 5E1D  44AE 0588 3B55 0CF6 9089
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d36200149de8b224512738dd9cf533ee0b03ba38c9df449f99cb4c058198e1620a",
+      "fingerprint": "a387a221ca6538275e1d44ae05883b550cf69089",
+      "host": "keybase.io",
+      "key_id": "05883b550cf69089",
+      "kid": "010173639ee663e7e88dc21aa85ca27cbfa806fb1e14d3ae3a31f611ef20fd6f01e20a",
+      "uid": "14f22d348e4c56822b29c5a2cbb31819",
+      "username": "braidn"
+    },
+    "service": {
+      "hostname": "cloudbacon.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1657473811,
+  "expire_in": 157680000,
+  "prev": "e2257f19480398eb625a714c370aaefd76cf3fa3ab31bffa563438645eb71f95",
+  "seqno": 70,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNyAnicZVJtUFRVGN4VEVxQUMZoKnC4Wjkj4j333M8FNbCUkQhGw9F1h+3ce8+F
+m7iLuxeEAZIZpdDEchYdpphBDCVpQsyoBqeRNUnBWATCMLBAmwoivrUPRLvrx6/O
+nzPnfZ/nOe/zvu+lBX4Gk9G/NDYt+O77B4xXPRU5BvFqUFgBITrkfMJcQOzEDy+c
+JWOXZtupyoSZIAFFypClSBLQgox5kaJoBlAc5GVZkBQGQoxJkYQigrwkyApNC4og
+SCItkQwPBB4DnYuIaEJR7RnYme1U7Zouq6M5RFFAQiwDeYpjMJBpGmGdxEORYUhJ
+YQWSF3RipsPlY+jFiciFY1SHHtMftkfl/R//pG4ScJCFAsYsCzGHeV6WKIAQz0iI
+4iRRQTzJKiLAgJYhwhBBoLAAYIUiFZlVSIAf1Z3zUA7QCkXJkOYxLTEsT1EiJUgM
+oiRRhED36QO6sNOOdmEdLTqRKtuJomhCj+WqEva11efjcV7KcuTIIpIc9hjJsUvn
+ZjsdmkNyZOm5TE3Ldpl9XC0/2wfeg0XbYxmbqNplvY86Ixc7XarDTpiBjpQ01acL
+WIaj9ckAEE3gvGzViW2qD8FwLE/qx/cPztUlMUUxnAIEmiehPiKRpRjEAVqCHIkQ
+VmSOlRSoIIh0c6KiIIaFNORZmsEiBxSBIXzGdtsdhJnTRTWUoWu61Aw70nKcmCi6
+6LHONRhNhnn+c3wLZjDND32ydmNyyOyzybmM9e7rvX+1btaunWc6Owf8UtosW1KU
+2fBR92/mc9e3GfpGrXlv/fRF2rzDUpR3sauJ7sm/Ifo/6IZn2LyGqum81OOru08P
+bWqNe7nL3Rfw7keFLRYvNVJ6kSiJzR1qg3PQYHVjFLuqvKk5KO0HFSYaX3gx5tp4
+RvurSzpB5ppJJXwsjvrGHOdJR4Ur0qc6KiO/TxwxHeuKKJvJm761IXjpEano4+UL
+U8fm3wh4PmomucLUXbEof23S3IaEDRdQY2JjnGdt4ZkW6+Ira87+vK65NrDkva9u
+Wp6Z9AYnB3vbjVXLhno/3M/W7N0Rpt0KdBMT23snre7PAQ6gyyyz9StQQIff7fQl
+QeSxvR0VJ23PrdToK/voQGN4KXtwYKGs9Z2/XFH3RtjTJ6bWf0LV7vnnwumke94C
+JqF4dvdBbbC4vvrP5ITPfkldVf3K1vWdkR/cbxdqjYMn3xmJ2Fi0r8P+9/03F5Sd
+qPvXopUfLSfvvOZpnXjpQEJIePuOurTl4riBPRt9SAhpiRy5NBrbVLW9JDo/eHr/
+Svehm6vPxV8efjvpTvqRiOnvUpI29R/uf6o1ZOnWmi+jm37cEhU6XOy81w9smvv2
+H79uXhffQz6oDLWOhg6n9Q40Hz21zRt2qmsROWO5nmTp+fb3hnbTpwunjg/W9HiW
+mb4mWirbJuLrrRvLveOx/wG7d8Ae
+=5dn6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/braidn
+
+==================================================================
+
