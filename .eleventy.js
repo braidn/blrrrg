@@ -4,6 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy(".well-known");
   eleventyConfig.addPlugin(pluginRss);
 
   let markdownIt = require("markdown-it");
