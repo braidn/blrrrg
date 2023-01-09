@@ -37,6 +37,11 @@ Doubly so when chatting about specific roles with hiring managers or internal re
 Even bringing up concepts that apply to well architected applications lands flat with all but the most advanced engineers in interview loops.
 
 Walking into a new [Rails][ror] gig isn't as easy as it was even 5 years ago.
+Although most folks think [Rails][ror] applications follow some kind of standard template,
+many are their own little unique snowflake.
+Sometimes with sharp edges all over the place.
+
+
 
 [glo]: https://www.glossier.com
 [orb]: https://orbit.love
