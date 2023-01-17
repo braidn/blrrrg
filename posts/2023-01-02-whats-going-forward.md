@@ -80,6 +80,31 @@ are hard to come by and hard to hire full time for most startups.
 Coupling this with a space that most developers actively avoid,
 leads to a recipie for oncall disasters.
 
+### Power Blackout!
+
+Documentation in any project takes a thoughtful amount of time.
+Not just today but,
+tomorrow, the next day, and basically every day afterward.
+This type of documentation could be in a [Wiki][wik],
+a [Readme][rdm],
+inline with code,
+or an [external tool][not].
+However, guarenteed, if you sit down at most [Rails][ror] jobs today,
+that documentation will be spectacularly out of date.
+If you are lucky it refrerences the [correct database][dyn] version.
+What's much more likely though is a host of missing [infrastructure requirements][drz],
+out of date setup documentation,
+and a [Readme][rdm] that's a jumbled mess of 18 sections of which no developer has read in entirety in the past 6 months.
+
+I am not entirely sure if it's the productivity that [Ruby][rb] affords or 
+if many Rubyists still think that _all_ of their code is self documenting.
+However, the appauling state of most [Ruby][rb] and [Rails][ror]
+project documentation would shock and awe almost all developers.
+Perhaps all of this stems from the whole [Yard Vs Rdoc][doc] debacle but,
+it's highly unlikely.
+A much more likely scenario is:
+[Ruby][rb] and likely more [Rails][ror] developers don't quite understand that documentation is a force lever.
+
 [glo]: https://www.glossier.com
 [orb]: https://orbit.love
 [pnm]: https://home.paynearme.com
@@ -89,3 +114,9 @@ leads to a recipie for oncall disasters.
 [rb]: https://www.ruby-lang.org/en/
 [met]: https://docs.datadoghq.com/tracing/metrics/runtime_metrics/
 [apm]: https://en.wikipedia.org/wiki/Application_performance_management
+[wik]: https://en.wikipedia.org/wiki/Gollum_(software)
+[rdm]: https://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+[not]: https://www.notion.so
+[dyn]: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+[drz]: https://en.wikipedia.org/wiki/Drizzle_%28database_server%29
+[doc]: https://stackoverflow.com/questions/3699706/yard-is-not-the-same-as-rdoc
