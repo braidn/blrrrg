@@ -105,8 +105,21 @@ it's highly unlikely.
 A much more likely scenario is:
 [Ruby][rb] and likely more [Rails][ror] developers don't quite understand that documentation is a force lever.
 
-[glo]: https://www.glossier.com
-[orb]: https://orbit.love
+It's been really interesting being around > 3 larger [Rails][ror] apps in 2022
+as well as quit a few smaller [Ruby][rb] apps.
+Documentation in this realm sits at two dipolar ends of the spectrum.
+It's either the most well thought out and hierarchal brilliant piece of prose ever...
+Or the documentation is so borderline useless, it's better off deleted.
+Sadly I have never seen an 'in-between' or grey area.
+Due to this,
+thoughtful approaches to Documentation should be top of mind for
+all [Ruby][rb]ists entering a new role or kickstarting a new startup.
+
+### Maybe A Mutiny Of Clowns
+
+Most... Perhaps even _all_ [Rails][ror] are shaped different than what most toy [Rails][ror] apps look like.
+This is always a bit of a surprise since the very concept of [Rails][ror] is to keep to a 'strict' set of conventions.
+
 [pnm]: https://home.paynearme.com
 [ror]: https://rubyonrails.org
 [aws]: https://aws.amazon.com
