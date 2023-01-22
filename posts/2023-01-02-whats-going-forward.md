@@ -119,6 +119,78 @@ all [Ruby][rb]ists entering a new role or kickstarting a new startup.
 
 Most... Perhaps even _all_ [Rails][ror] are shaped different than what most toy [Rails][ror] apps look like.
 This is always a bit of a surprise since the very concept of [Rails][ror] is to keep to a 'strict' set of conventions.
+However, engineers will be engineers and customizations will creep in.
+The three forms of intense customizations that have been most prevalant are:
+
+1. The Hidden Gem
+2. The Layered Onion
+3. The Method Missing Addict
+
+#### The Hidden Gem
+
+Everything, and I do mean EVERYTHING is a gem.
+Perhaps there's a need to sell goods,
+pull in [Solidus][sol].
+Need a CMS?
+There's a gem for that!
+Building a feature to take on the complexity of another gem?
+MAKE it a Gem!
+
+It's almost as if the whole NPM debacle never really permeated back to the Ruby community.
+That or (and this is highly likely) this is some form of modularization or 'services' to some Rubyists.
+Whatever it is,
+it almost never is created due to a concrete boundary in the code.
+In addition, the idea is usually created by some newer engineer who's impetus is to avoid learning the existing system.
+
+Regardless of the intent,
+the result is a system that has a blurry set of business rules locked behind doors
+that no one quite knows how to open.
+Yes, [Solargraph][slr] isn't bad,
+nor is [Syntax Suggest][ss] or [Syntax Tree][syt].
+The amount of developers though who know how to wrangle these powertools,
+is far and fleeting.
+
+#### The Glass Onion
+
+[Rack][rck] middleware is at the heart of the [Rails][ror] framework.
+Due to this, developers are free to build and add in their own middleware layers.
+However,
+like most things that come with 'great power',
+many apps fall prey to an embaracing overload of middleware layers.
+Many of these layers reach into data stores,
+either locally or in the 'cloud'.
+
+This is where these approaches begin to break down.
+If (for some reason) some value can't be written to S3,
+why should your entire application fail to render?
+Sure, there are error handling techniques to mitigate this but,
+if a team is moving fast, they are unlikely to build them in.
+
+
+#### The Method Missing Addict
+
+Lastly, the most common type of [Rails][ror] application that one is meant to run into,
+is the one where no one heeded the warning about metaprogramming.
+
+Every class and concern is peppered with `method_missing` definitions.
+Leading to an impossibly large blurry boundary between objects that represent the system.
+On top of classes that respond to almost any message,
+the objects themselves are so [God like][god] that
+it's impossible to discern their actual shape.
+
+[Domain modeling and design][ddd] maybe a core part of [Object Oriented Programming][oop]
+but, it's fallen out fashion as of late.
+Doubly so in the [Rails][ror] community.
+Without this,
+many larger apps tend to fall down with the weight of a few bloated classes.
+The anthesis of this would be a constellation of well defined classes that are small and focused.
+
+Well designed (and documented) systems lead to productive engineers that push features successfully.
+Systems that are hard to understand not only jeapordize current engieer's productivity,
+it compounds within the organization with each new hire.
+
+
+### Grover Cleveland called, He Wants His Watch Back
 
 [pnm]: https://home.paynearme.com
 [ror]: https://rubyonrails.org
@@ -133,3 +205,11 @@ This is always a bit of a surprise since the very concept of [Rails][ror] is to 
 [dyn]: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
 [drz]: https://en.wikipedia.org/wiki/Drizzle_%28database_server%29
 [doc]: https://stackoverflow.com/questions/3699706/yard-is-not-the-same-as-rdoc
+[sol]: https://solidus.io
+[slr]: https://solargraph.org
+[ss]: https://github.com/ruby/syntax_suggest
+[syt]: https://github.com/ruby-syntax-tree/syntax_tree
+[rck]: https://github.com/rack/rack
+[god]: https://en.wikipedia.org/wiki/God_object
+[ddd]: https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design
+[oop]: https://en.wikipedia.org/wiki/Object-oriented_programming
