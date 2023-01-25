@@ -192,6 +192,24 @@ it compounds within the organization with each new hire.
 
 ### Grover Cleveland called, He Wants His Watch Back
 
+Every organization that has a rather large [Rails][ror] app or perhaps multiple 'mini-monoliths',
+has a single wizard.
+This human has likely been around for awhile but,
+they definitely have the power to wield any and all [Ruby][rb] [DSL][dsl]'s.
+Or maybe just [RSpec][rsc].
+
+The preverbial [RSpec][rsc] wizard is as common as the household fly.
+They know every esoteric edge case when it comes to the absolute shit show that is alternative spec frameworks.
+Confused and need to know how to deeply test a complext JSON object with compound matchers?
+Grab some time to pair with your local wizard because,
+everyone claims that they have an answer.
+
+These folks are great at generating green dots but,
+pin them down to speed up a test suite,
+run one effectively on CI,
+or even kickstart one for a new application
+and they usually come up short.
+
 [pnm]: https://home.paynearme.com
 [ror]: https://rubyonrails.org
 [aws]: https://aws.amazon.com
@@ -213,3 +231,5 @@ it compounds within the organization with each new hire.
 [god]: https://en.wikipedia.org/wiki/God_object
 [ddd]: https://en.wikipedia.org/wiki/Object-oriented_analysis_and_design
 [oop]: https://en.wikipedia.org/wiki/Object-oriented_programming
+[dsl]: https://en.wikipedia.org/wiki/Domain-specific_language
+[rsc]: https://rspec.info
