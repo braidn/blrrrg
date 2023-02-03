@@ -1,11 +1,14 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+
 
 module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy(".well-known");
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(embedYouTube);
 
   let markdownIt = require("markdown-it");
   let markdownFootnotes = require('markdown-it-footnote')
