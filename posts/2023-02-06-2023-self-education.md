@@ -25,7 +25,7 @@ A goal writing framework which has been top of mind for the past several years.
 
 ### The List
 
-- Comming soon...
+- Comming soon (hold onto your pants)...
 
 [gh]: https://github.com/braidn
 [fst]: https://sloanreview.mit.edu/article/with-goals-fast-beats-smart/
