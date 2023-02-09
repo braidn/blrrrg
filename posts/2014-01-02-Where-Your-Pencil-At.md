@@ -1,7 +1,6 @@
 ---
 title: Pencils, Like Panthers
 date: '2014-01-02'
-highlight: true
 ---
 
 Pencils are the panthers of the creative world (that's right, I said it). They silently lay there until something brilliant passes by. They are often overlooked for their ink staining brethren and even subject to extreme prejudice through insane feats of "[over-engineering][1]." However any [sane man][2] would agree, that the pencil is one of the most most interesting avenues to pull the scribbles of creativity from your brain to paper. I have even [mentioned them several times][3] here on this blrrg.
