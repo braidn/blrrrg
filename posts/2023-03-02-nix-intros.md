@@ -27,9 +27,25 @@ When it comes to running code in production?
 Sure! A containerized, static 'image' is great.
 But, developing software locally requires hot reloading of code,
 debugging, and being able to pivot quickly.
-Something [Docker][dck] and friends hasn't quite cracked.
+Something [Docker][dck] and friends have yet to crack.
+
+Although [Nix][nix] might be a powerful tool,
+the documentation makes the user experience somewhat tough to stomach.
+The remainder of the post will be about getting a normal developer
+through the second hurdles of [Nix][nix].
+Specifically, how to set up the basics of [Home Manager][hmm] and perhaps
+drop any need of [Homebrew][hmb].
+
+#### What Is Home Manager Anyway?
+
+Before diving into any code,
+there is a missing (to this writer) writeup that showcases the differences
+between [Home Manager][hmm] and [Nix][nix],
+especially [Nix][nix] shell.
 
 [nix]: https://nixos.org/
 [bsd]: https://docs.freebsd.org/en/articles/explaining-bsd/
 [rbd]: https://reproducible-builds.org/
 [dck]: https://www.docker.com/
+[hmm]: https://nixos.wiki/wiki/Home_Manager
+[hmb]: https://brew.sh/
