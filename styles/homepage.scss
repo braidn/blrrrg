@@ -1,3 +1,19 @@
+ul.flat {
+  list-style: disc outside;
+  li {
+    list-style: none;
+    text-transform: capitalize;
+    display: inline;
+    a {
+      margin: 0px 10px 0px 10px;
+      &:hover {
+        border-bottom: brown 1px solid;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
 .post {
   margin-top: 16px;
 
