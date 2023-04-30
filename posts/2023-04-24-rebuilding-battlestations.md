@@ -29,6 +29,37 @@ mostly digging through it.
 This setup afforded a lot of horizontal space but,
 is that a need when all files [are capped at 80 characters in length][wide]?
 
+Recently,
+within the last six months,
+I have moved on to a single 3:2 monitor (on an arm) and
+a [laptop mount][lapTray] attached to another monitor arm.
+3:2 or 'square' monitors are pretty tricky to find these days.
+Luckily, [LG took a gamble on building one early last year][dualUp].
+At its' core it's is two 21.5 inch monitors stacked directly on top of one another.
+The result?
+A somewhat-expensive but,
+truly epic monitor for writing and reading source code.
+
+The monitor sits off to the left of the main computer sitting on the arm.
+Because of the nature of security in engineering these days,
+many organizations have a smaller 'allow list' of usable applications.
+Because I continue to run [Omnifocus][ofp] for productivity
+and recently [Arc][arc] for browsing,
+there's a further need to run a secondary laptop that sits under the one plugged into the Dual Up.
+Previouslyt this would have required the use of a [KVM switch][kvm].
+However, since both laptops are Macs,
+there's [Universal Control][uvc].
+
+This gives the user an idea of three monitors ([LG Dual Up][dualUp], computer one, and two) but,
+in reality it really is one with a sidecar like experience.
+Not only is this great for security focused organizations,
+it's a win for segmenting application focus between computers and screens.
+
+For input, I am still relying heavily on the [Ergodox][egd] and a custom [HHKB][hhkb].
+There will always be a flurry of new and more 'interesting' keybs in the market.
+However, I have spent a large amount of time focusing on [Topre][tpr] in the past few years.
+I don't forsee this changing in the next three to four.
+
 
 [reddit]: https://www.reddit.com/r/battlestations/
 [applDsplay]: https://en.wikipedia.org/wiki/Apple_Cinema_Display
@@ -38,3 +69,10 @@ is that a need when all files [are capped at 80 characters in length][wide]?
 [hhkb]: https://happyhackingkb.com/
 [eyeStrain]: https://www.mayoclinic.org/diseases-conditions/eyestrain/diagnosis-treatment/drc-20372403
 [wide]: https://softwareengineering.stackexchange.com/questions/148677/why-is-80-characters-the-standard-limit-for-code-width#148678
+[lapTray]: https://www.amazon.com/AmazonBasics-Notebook-Arm-Mount-Tray/dp/B010QZD6I6/ref=sr_1_4?keywords=laptop+arm&qid=1682818887&sr=8-4
+[dualUp]: https://www.lg.com/us/monitors/lg-28mq780-b
+[ofp]: https://www.omnigroup.com/omnifocus
+[arc]: https://arc.net/
+[kvm]: https://en.wikipedia.org/wiki/KVM_switch
+[uvc]: https://support.apple.com/en-us/HT212757
+[tpr]: https://theviewfromgreatisland.com/mediterranean-bean-salad-recipe/
