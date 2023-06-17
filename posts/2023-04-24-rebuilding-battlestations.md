@@ -12,22 +12,22 @@ For quite some time through COVID,
 there was a MacBook Pro on a floating arm on the right,
 a [Cinema Display][applDsplay] in the center,
 and horizontal 21 inch [ASUS ProArt][part] on the far right.
-[Ergodox][egd], [HHKB][hhkb], and all other peripherals were driven from a single [Caldigit Dock][cdigit].
+[Ergodox][egd], [HHKB][hhkb], and all other peripherals driven from a single [Caldigit Dock][cdigit].
 While this setup was by far the longest running [station][reddit] that I used,
 it was far from ergonomic.
 
-For starters (and this is more apparant than ever now),
-a wide field of vision or 'many vertical wide screens',
+For starters (and this is more apparent than ever now),
+a wide field of vision or 'many horizontally wide screens',
 cause me a lot of eye strain.
-Because almost my entire field of vision was blocked by monitors,
-it was also very hard to find a space to practice the now classic:
+Because my entire field of vision was filled by monitors,
+it was hard to find a space to practice the now classic:
 [20-20-20 rule][eyeStrain].
 As with most individual contributors,
 I spend most of my day steeped in code.
 Either writing it but,
 mostly digging through it.
 This setup afforded a lot of horizontal space but,
-is that a need when all files [are capped at 80 characters in length][wide]?
+is that a need when most files [are 80 characters in width][wide]?
 
 Recently,
 within the last six months,
@@ -35,30 +35,44 @@ I have moved on to a single 3:2 monitor (on an arm) and
 a [laptop mount][lapTray] attached to another monitor arm.
 3:2 or 'square' monitors are pretty tricky to find these days.
 Luckily, [LG took a gamble on building one early last year][dualUp].
-At its' core it's is two 21.5 inch monitors stacked directly on top of one another.
+At its' core it is two 21.5 inch monitors stacked directly on top of one another.
 The result?
 A somewhat-expensive but,
 truly epic monitor for writing and reading source code.
 
-The monitor sits off to the left of the main computer sitting on the arm.
+This monitor sits slightly off to the right of the main computer sitting on the arm.
 Because of the nature of security in engineering these days,
 many organizations have a smaller 'allow list' of usable applications.
 Because I continue to run [Omnifocus][ofp] for productivity
 and recently [Arc][arc] for browsing,
 there's a further need to run a secondary laptop that sits under the one plugged into the Dual Up.
-Previouslyt this would have required the use of a [KVM switch][kvm].
+Previously this setup would have required the use of a [KVM switch][kvm].
 However, since both laptops are Macs,
 there's [Universal Control][uvc].
 
-This gives the user an idea of three monitors ([LG Dual Up][dualUp], computer one, and two) but,
-in reality it really is one with a sidecar like experience.
+This gives the user an idea of three monitors ([LG Dual Up][dualUp], computer one on top, and computer two on the bottom) but,
+in reality it is a single computer and monitor with a sidecar like experience.
 Not only is this great for security focused organizations,
 it's a win for segmenting application focus between computers and screens.
 
 For input, I am still relying heavily on the [Ergodox][egd] and a custom [HHKB][hhkb].
 There will always be a flurry of new and more 'interesting' keybs in the market.
 However, I have spent a large amount of time focusing on [Topre][tpr] in the past few years.
-I don't forsee this changing in the next three to four.
+I don't foresee this changing in the next three to four.
+Beyond the keyboard, I use a conventional Apple Trackpad while home and an Apple Mouse when traveling.
+Apple Airpods (non pros) and Airpod Maxes for audio.
+
+Individual Contributors tend towards a sea of curved,
+ultra-wide monitors. All sitting on desks filled with Funko dolls,
+fidget toys, and a sea of input mechanisms.
+The longer that I spend as an IC,
+the more and more simple my setup becomes.
+This has helped me remain focused when needed and 
+affordable when repairs inevitably come up.
+
+This focused mainly on the hardware that's supporting my [battlestation][reddit].
+In a future post,
+I will tackle the software that's making me a productive engineer.
 
 
 [reddit]: https://www.reddit.com/r/battlestations/
