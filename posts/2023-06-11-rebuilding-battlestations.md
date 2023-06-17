@@ -1,6 +1,6 @@
 ---
 title: Battlestations in 2023
-date: '2023-04-24'
+date: '2023-06-11'
 ---
 
 It's been some time since we have chatted about [battlestations][reddit].
