@@ -75,7 +75,7 @@ None. Zilch, Nada.
 It can only get moderatly worse if the company makes money.
 A rather odd man named: "Jeremy Clarkson" put it best when he was meandering about French and Italian cars (1:19 through 1:34)
 
-https://youtu.be/KmAY4FQ5L4E?t=77
+https://www.youtube.com/watch?v=KmAY4FQ5L4E&t=79s
 
 It's honestly surprising how bad I have seen it in this domain with [Rails][ror] over the past 4 to 5 years.
 The reason behind this is likely due to the complexity driven by competing cloud services.
@@ -228,13 +228,13 @@ and [small classes][sml].
 Just like with metrics and performance sampling,
 if an organization that you work at employs and upholds the nonsense of said wizard...
 
-https://youtu.be/KmAY4FQ5L4E?t=77
+https://www.youtube.com/watch?v=KmAY4FQ5L4E&t=79s
 
 ### Danger Zone!
 
 2023 is going to be huge...
 
-https://youtu.be/U3D82Km1LEU
+https://www.youtube.com/watch?v=U3D82Km1LEU&t=12s
 
 For [Rails][ror].
 Beyond the aforementioned insanity,
@@ -280,3 +280,5 @@ here's to another spectacular year zooming by wearing [Ruby][rb] tinted glasses
 [ihc]: https://www.indiehackers.com
 [hn]: https://news.ycombinator.com/news
 [lvr]: https://letstalkscience.ca/educational-resources/backgrounders/simple-machines-levers
+[orb]: https://orbit.love
+[glo]: https://www.glossier.com
