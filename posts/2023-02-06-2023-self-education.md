@@ -1,7 +1,6 @@
 ---
 title: What I am Learning in 2023
 date: '2023-02-06'
-highlight: true
 ---
 
 ## Self Education
