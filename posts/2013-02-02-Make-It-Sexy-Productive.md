@@ -14,13 +14,13 @@ that has plagued my [GSD][9] system for the past year.
 In doing so, I ended up with three objects that will be an integral part of my
 productivity strides in 2013. And without further ado, a [list][10]:
 
-###IRL
+### IRL
 
 For the [lamen][3] in the room, IRL is broken down nicely [here][4], especially
 the second definition. Anywho, this by far is the category with the most stuff in
 it. The most being two.
 
-####1. [Field Notes][5]:
+#### [Field Notes][5]
 
 I have always struggled to fit Field Notes and the smaller
 Moleskines into my life. They seem just small enough where I struggle to get
@@ -39,7 +39,7 @@ when my review comes around I pull the current one out and flip through it, jott
 down anything that needs to be remembered. Very freeing, and with the Field Notes brand
 going bannanas these days, it is easy to find a [cedar recepticle][5] to store your used ones in.
 
-####2. [Levenger/Behance Circa Book][6]:
+#### [Levenger/Behance Circa Book][6]
 
 This is a recent puchase that was more of a whim, than anything. Having never
 subscribed to the action method, I had no idea what I was getting into. The draw was
@@ -51,7 +51,7 @@ Field Notes, however this notebook doesn't tend to travel far from my workbench.
 I enjoy the paper size and tend to doodle and draw in-between notes, where space
 is at a premium with the Field Notes.
 
-###Digital
+#### Digital
 
 This one is easy: [Omnifocus][8]. I spent a good amount of time in 2009 in an
 attempt to fit Omnifocus into my workflow. The idea of GTD was simple however,
@@ -67,7 +67,7 @@ worth it. Once you grep the overall workflow I doubt you will go back to a
 which means that they plan to align the Mac version with the much more updated [mobile
 variants][13]
 
-###Fin
+### Fin
 
 These three arms have kept my mind free to creativly think about upcoming projects
 as well as keep everything considered "current," on track. Things will probably change, they always do,
