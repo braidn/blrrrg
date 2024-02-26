@@ -39,11 +39,23 @@ the very moment that the first PR is merged.
 Perhaps the automation to make this happen lags behind.
 However, the ability to get code into a Production environment (even maybe all environments) is incredibly impactful.
 
+Teams that fail to start with production code will always be searching for the best way to deploy code.
+Sometimes these insufficiecies will manifest themselves in code taking longer than expected to hit main.
+Perhaps as long lived feature branches,
+or lack of proper rollout/feature flags.
+These slowdowns,
+and long lived features seem inoculous at first but,
+can cause a seemingly high productivity team to grind to a halt.
+
 ### Nothing Runs Locally
 
 Infrastructure is one of the trickiest parts of getting an application running.
-Locking down what version of Postgres or Elasticsearch is tricky through applications like homebrew.
-However, choosing to spin Postgres up through a Docker Compose file can impact everyone's productivity.
+Locking down what version of Postgres or Elasticsearch is nearly impossible through applications like homebrew.
+However, choosing to spin Postgres up through a Docker Compose file can impact everyone's productivity in positive ways.
+
+Yes, syncing code between docker volumes and a host can be unbearably slow with a Mac still.
+However, a way to abstract infrastructure into a Docker/Container file and have all of the code run locally,
+is a very doable feat.
 
 ### Managed Complexity Like the Plague
 
