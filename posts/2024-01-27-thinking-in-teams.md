@@ -72,6 +72,39 @@ move to something that minimizes infrastructure based complexity.
 ### It's Everyone's Job To 'Devops'
 
 Or 'gitops' or whatever modality that the org subscribes to.
+This is one of those things that so few teams get right.
+The real impactful work here is less about whole teams owning
+and running their own infrastructure,
+but more about teams understanding how infraustructure
+empowers and impacts their day to day.
+
+Getting this right isn't a one-stop route to success.
+Engineers also don't need to give a damn' here either.
+It doesn't hamper their career but,
+it does allow them to specialize in ways that may need a dedicated 'gitops' professional.
+As managers or team leads,
+it's up to you to find weakness on a team and hire or pull in individuals across the org,
+who are aligned with this mission.
+
+### Guilds Are A Necessity.
+
+Team mates need to have a space to break free from their workstreams and have a space to learn.
+Sometimes this is a one-on-one experience but,
+in an org with a healthy culture,
+there will always be spece for specialized or shared education.
+
+If the company's product is a web app than 99% of the time,
+these guilds start with a 'Backend' and 'Frontend' space.
+Other guilds will form around 'Devops', 'Data', and others as the process spreads.
+Ultimately, the entire process should be utilized to increase collaboration throughout the engineering teams.
+
+Organizations (these days), almost always get Guilds correct.
+However, they often times are seen as 'time wasters' by product and engineering management.
+Guilds should maintain their own specific backlogs.
+Sure they are unlikely to need sprints but,
+a simple Kanban like process can showcase a Guilds' impact on the rest of the org.
+
+
 
 [sre]: https://www.ibm.com/topics/site-reliability-engineering
 [ccent]: https://en.wikipedia.org/wiki/Cost_centre_(business)
