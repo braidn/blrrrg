@@ -30,6 +30,8 @@
     "remark-lint": "^8.0.0",
     "remark-preset-lint-consistent": "^4.0.0",
     "sass": "^1.45.0",
+    "typescript": "^5.5.4",
+    "typescript-language-server": "^4.3.3",
     "xmlhttprequest-ssl": ">=1.6.1"
   },
   "remarkConfig": {
