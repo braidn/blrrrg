@@ -4,10 +4,9 @@
   "repository": "https://github.com/braidn/blrrrg/",
   "description": "A BLRRG",
   "scripts": {
-    "build": "eleventy && npm run sass",
-    "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "sass styles/:_site/styles/",
-    "sass:watch": "npm run sass && npm run sass -- -w",
+    "serve": "concurrently 'eleventy --serve' 'npm run build:css'",
+    "build": "npm run build:css && eleventy",
+    "build:css": "postcss styles/index.css -d _site/styles/",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-posts": "remark posts"
@@ -25,6 +24,8 @@
     "eleventy-plugin-youtube-embed": "^1.10.2",
     "markdown-it-footnote": "^3.0.2",
     "postcss": "^8.4.40",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
     "remark-cli": "^9.0.0",
     "remark-frontmatter": "^3.0.0",
     "remark-lint": "^8.0.0",
