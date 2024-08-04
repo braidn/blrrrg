@@ -9,6 +9,8 @@ mkShell {
     nodejs
   ];
 
+  NODE_ENV = "development";
+
   shellHook = ''
   '';
 }

@@ -4,10 +4,10 @@
   "repository": "https://github.com/braidn/blrrrg/",
   "description": "A BLRRG",
   "scripts": {
-    "build": "eleventy && npm run sass",
-    "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "sass styles/:_site/styles/",
-    "sass:watch": "npm run sass && npm run sass -- -w",
+    "serve": "concurrently 'eleventy --serve' 'npm run build:css:dev'",
+    "build": "npm run build:css && eleventy",
+    "build:css": "lightningcss --minify --bundle --targets '>= 0.25%' styles/index.css -o _site/styles/index.css",
+    "build:css:dev": "lightningcss --bundle --targets '>= 0.25%' styles/index.css -o _site/styles/index.css",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-posts": "remark posts"
@@ -21,12 +21,15 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "concurrently": "^7.0.0",
     "eleventy-plugin-youtube-embed": "^1.10.2",
+    "lightningcss": "^1.25.1",
+    "lightningcss-cli": "^1.25.1",
     "markdown-it-footnote": "^3.0.2",
     "remark-cli": "^9.0.0",
     "remark-frontmatter": "^3.0.0",
     "remark-lint": "^8.0.0",
     "remark-preset-lint-consistent": "^4.0.0",
-    "sass": "^1.45.0",
+    "typescript": "^5.5.4",
+    "typescript-language-server": "^4.3.3",
     "xmlhttprequest-ssl": ">=1.6.1"
   },
   "remarkConfig": {

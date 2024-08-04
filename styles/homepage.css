@@ -1,0 +1,10 @@
+/* Styles for the post */
+.post {
+  margin-top: 16px;
+}
+
+/* Styles for the post date within the post */
+.post .post-date {
+  font-size: 12px;
+}
+

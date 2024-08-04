@@ -1,38 +1,49 @@
-$bg: #f6f6f6;
+/* Define CSS variables */
+:root {
+  --bg-color: #f6f6f6;
+}
 
+/* Styles for text selection */
 ::selection {
   color: white;
   background-color: brown;
 }
 
+/* Styles for text selection in Mozilla browsers */
 ::-moz-selection {
   color: white;
   background-color: brown;
 }
 
+/* Basic styles for body */
 body {
   font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
-  background: $bg 
+  background: var(--bg-color);
 }
 
+/* Styles for container */
 .container {
   width: 50%;
   padding: 0 25%;
 }
 
+/* Styles for links */
 a {
   text-decoration: none;
   color: brown;
-
-  &:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
 }
 
+/* Hover states for links */
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Responsive styles for container between 320px and 480px */
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
     width: 100%;
     padding: 0 8px 32px 8px;
   }
 }
+
