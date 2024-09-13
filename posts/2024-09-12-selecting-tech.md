@@ -18,7 +18,7 @@ Becoming focused on a single piece of technology is still considered a step back
 Doubly so, when teams take such a libaral use of innovation tokens at the beginning of an application.
 
 Relentless simplicity is a great marker of senior (even staff) engineers.
-Rich Hickey has a good amount of thought on this as well:
+A fairly smart human and someone quoted frequently on this blog has a good amount of thought on this topic:
 
 https://www.youtube.com/watch?v=SxdOUGdseq4
 
