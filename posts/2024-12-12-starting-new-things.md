@@ -1,6 +1,6 @@
 ---
 title: Starting New Things.
-date: '2014-12-12'
+date: '2024-12-29'
 ---
 
 It's been almost ten years since I have toyed with the idea of starting a company.
