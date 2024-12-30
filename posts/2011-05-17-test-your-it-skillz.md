@@ -19,7 +19,7 @@ In the past we have needed to be hands on with hardware,
 maintaining images for our client's computers, 
 and the big one, making all the decisions. 
 IT pros were the nerds who discovered and ultimately steered the "boat." 
-Not anymore.
+Not anymore!
 
 CEOs are demanding that their iPhones work perfectly over the corporate VPN, 
 they crave access to their files wherever they are, 
