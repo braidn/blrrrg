@@ -1,6 +1,24 @@
-/* Define CSS variables */
 :root {
   --bg-color: #f6f6f6;
+  --text-color: #333;
+  --accent-color: #b04;
+  --muted-color: #666;
+}
+
+/* 1. Responsive, max 60ch line length */
+.container {
+  max-width: 60ch;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+
+/* 2. Body typography */
+body {
+  font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+  line-height: 1.6;
+  font-size: 1rem;
 }
 
 /* Styles for text selection */
@@ -15,28 +33,26 @@
   background-color: brown;
 }
 
-/* Basic styles for body */
-body {
-  font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
-  background: var(--bg-color);
-}
-
-/* Styles for container */
-.container {
-  width: 50%;
-  padding: 0 25%;
-}
-
-/* Styles for links */
 a {
+  color: var(--accent-color);
   text-decoration: none;
-  color: brown;
+  transition: color .2s ease, text-decoration .2s ease;
+}
+a:hover {
+  color: darken(var(--accent-color), 10%);
+  text-decoration: underline;
 }
 
-/* Hover states for links */
-a:hover {
-  cursor: pointer;
-  text-decoration: underline;
+.button {
+  display: inline-block;
+  background: var(--accent-color);
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: .3em;
+  transition: background .2s ease;
+}
+.button:hover {
+  background: darken(var(--accent-color), 5%);
 }
 
 /* Responsive styles for container between 320px and 480px */
