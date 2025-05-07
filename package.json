@@ -4,10 +4,9 @@
   "repository": "https://github.com/braidn/blrrrg/",
   "description": "A BLRRG",
   "scripts": {
-    "serve": "concurrently 'eleventy --serve' 'npm run build:css:dev'",
+    "serve": "eleventy --serve",
     "build": "npm run build:css && eleventy",
     "build:css": "lightningcss --minify --bundle --targets '>= 0.25%' styles/index.css -o _site/styles/index.css",
-    "build:css:dev": "lightningcss --bundle --targets '>= 0.25%' styles/index.css -o _site/styles/index.css",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-posts": "remark posts"
@@ -19,7 +18,8 @@
     "@11ty/eleventy": "3.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "concurrently": "^9",
+    "@11tyrocks/eleventy-plugin-lightningcss": "^1.4.0",
+    "browserslist": "^4.24.5",
     "eleventy-plugin-youtube-embed": "^1.12.0",
     "lightningcss": "^1.29.2",
     "lightningcss-cli": "^1.29.2",
