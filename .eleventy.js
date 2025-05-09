@@ -1,7 +1,7 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
-
+const { manipulateCSS } = require("./_helpers/css-compression.js");
 
 module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -16,6 +16,8 @@ module.exports = eleventyConfig => {
     html: true
   };
   let markdownLib = markdownIt(options).use(markdownFootnotes);
+
+  manipulateCSS(eleventyConfig);
 
   eleventyConfig.setLibrary("md", markdownLib);
 
