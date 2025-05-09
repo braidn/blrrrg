@@ -1,19 +1,10 @@
 import zlib from 'zlib';
 import dotenv from "dotenv";
-import CleanCSS from 'clean-css';
 import fs from 'fs';
 import crypto from 'crypto';
 import path from 'path';
+import { transform } from 'lightningcss';
 dotenv.config();
-
-// An example of how you could add additional CleanCSS settings if required
-const cleanCSS = new CleanCSS({
-	level: {
-		2: {
-			removeDuplicateRules: true
-		}
-	}
-});
 
 // Default Brotli compression level if not set in the environment
 const DEFAULT_BROTLI_COMPRESSION_LEVEL = 6;
@@ -49,11 +40,16 @@ export function manipulateCSS(eleventyConfig) {
 			const cacheKey = `${hash}-${cssPath.replace(/[\/\\]/g, '-')}`;
 			const cachePath = path.join(cacheDirectory, cacheKey);
 
-			let processedCSS;
+
+      let processedCSS;
 			if (fs.existsSync(cachePath)) {
 				processedCSS = await fs.promises.readFile(cachePath, 'utf8');
 			} else {
-				processedCSS = cleanCSS.minify(inputCSS).styles;
+        const result = transform({
+          code: inputCSS,
+          minify: true,
+        });
+        processedCSS = result.code
 				await fs.promises.writeFile(cachePath, processedCSS);
 			}
 
