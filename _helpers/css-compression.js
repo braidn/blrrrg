@@ -40,6 +40,7 @@ export function manipulateCSS(eleventyConfig) {
 			const cacheKey = `${hash}-${cssPath.replace(/[\/\\]/g, '-')}`;
 			const cachePath = path.join(cacheDirectory, cacheKey);
 
+      console.log("New CSS file:", cacheKey);
 
       let processedCSS;
 			if (fs.existsSync(cachePath)) {
