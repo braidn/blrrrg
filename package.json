@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "repository": "https://github.com/braidn/blrrrg/",
   "description": "A BLRRG",
+  "type": "module",
   "scripts": {
     "serve": "eleventy --serve",
     "build": "eleventy",

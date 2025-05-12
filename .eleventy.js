@@ -1,17 +1,17 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const embedYouTube = require("eleventy-plugin-youtube-embed");
-const { manipulateCSS } = require("./_helpers/css-compression.js");
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import embedYouTube from "eleventy-plugin-youtube-embed";
+import { manipulateCSS } from "./_helpers/css-compression.js";
+import markdownIt from "markdown-it";
+import markdownFootnotes from "markdown-it-footnote";
 
-module.exports = eleventyConfig => {
+export default function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy(".well-known");
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(embedYouTube);
 
-  let markdownIt = require("markdown-it");
-  let markdownFootnotes = require('markdown-it-footnote')
   let options = {
     html: true
   };
@@ -30,4 +30,5 @@ module.exports = eleventyConfig => {
       "njk"
     ]
   };
-};
+}
+
