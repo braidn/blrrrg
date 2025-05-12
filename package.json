@@ -5,8 +5,7 @@
   "description": "A BLRRG",
   "scripts": {
     "serve": "eleventy --serve",
-    "build": "npm run build:css && eleventy",
-    "build:css": "lightningcss --minify --bundle --targets '>= 0.25%' styles/index.css -o _site/styles/index.css",
+    "build": "eleventy",
     "clean": "rm -rf _site",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-posts": "remark posts"
