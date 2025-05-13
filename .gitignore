@@ -4,3 +4,4 @@ _site
 .envrc
 .direnv
 repomix-output.*
+manifest.json
