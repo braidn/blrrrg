@@ -7,6 +7,8 @@ mkShell {
   buildInputs = [
     bashInteractive
     nodejs
+    vale
+    vale-ls
   ];
 
   NODE_ENV = "development";

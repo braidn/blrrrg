@@ -3,5 +3,6 @@ node_modules
 _site
 .envrc
 .direnv
+.prose-style/*
 repomix-output.*
 manifest.json
