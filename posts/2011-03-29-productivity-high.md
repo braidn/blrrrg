@@ -5,15 +5,17 @@ date: '2011-03-29'
 
 ![Merlin Mann's Epic Mug][1]
 
-[Merlin Mann][2] is an absolute fucking
-force to be reckoned with. Not only is he, in my mind, one of the single most
-smart-assery people in the field of productivity, he is a genius with his
-[humor][3]. He recently got together
+[Merlin Mann][2]- an absolute fucking beautiful human.
+Not only do they, in this human's mind, one of the single most
+smart-assery people in the field of productivity.
+Their clever use of [humor][3] is matched by anyone.
+Merlin recently got together
 with the wonderful team behind
 [Mac Power Users Podcast][4] and produced an epic (2 1/2 hours) tome of meandering,
-shiny ramblings. This recording is a gem for anyone who is looking to be more
-efficient with their time, write like a crack addict, or just wants to learn
-something new.
+shiny ramblings.
+This recording is a valuable resource for anyone seeking to enhance their time management skills,
+write with intense focus, or simply learn something new.
+
 
 [MP3 Download][5]
 
