@@ -25,6 +25,7 @@
     "lightningcss": "^1.29.2",
     "lightningcss-cli": "^1.29.2",
     "markdown-it-footnote": "^4.0",
+    "prettier": "3.5.3",
     "remark-cli": "^12.0",
     "remark-frontmatter": "^5.0",
     "remark-lint": "^10.0",

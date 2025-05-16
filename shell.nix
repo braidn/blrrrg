@@ -14,6 +14,7 @@ mkShell {
   NODE_ENV = "development";
 
   shellHook = ''
+    export PATH=$PATH:./node_modules/.bin
   '';
 }
 

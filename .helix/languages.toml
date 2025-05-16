@@ -1,3 +1,9 @@
 [[language]]
 name = "markdown"
-language-servers = [ "vale-ls" ]
+language-servers = [ "vale-ls", "marksman" ]
+formatter = { command = 'prettier', args = [
+  "--parser",
+  "markdown",
+  "--prose-wrap",
+  "never"
+] }
