@@ -27,7 +27,7 @@ I landed on the following:
 Both tools are open source and believe strongly in keeping everything in simple markdown files.
 This means that all those knowledge pieces will remain accessible where ever they exist in the near (or far) future.
 
-During the move form [Logseq][log] to [SilverBullet][sbt],
+During the move from [Logseq][log] to [SilverBullet][sbt],
 this writer entirely overhauled their approach to '[block level knowledge atoms][atm]'.
 These concepts are key to a successful text-only Zettelkasten but,
 can be somewhat tricky to apply in a purely markdown approach.
