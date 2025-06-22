@@ -4,11 +4,10 @@ date: '2025-06-14'
 ---
 
 Recently, we've moved all our managed [Git][git] repositories over to [GitLab][glb].
-Originally the spirit of the plan: use their self hosted option but,
-eventually the org saw the light and went to their enterprise system.
-Having never used [GitLab][glb] all that much,
-Deactivating [syntax highlighting][syn] never came to mind but,
-it continues to be a large win.
+Originally the plan was to use their self hosted option but,
+eventually the org saw the light and settled on their enterprise solution.
+Having never used [GitLab][glb] all that frequently The idea of deactivating
+[syntax highlighting][syn] wasn't one of the more troubling transition processes.
 
 GitLab's DiffView,
 especially when working through any kind of code review,
@@ -17,7 +16,7 @@ seems to break my brain.
 For an unknown reason,
 these colors (the shade of green and red to highlight changes),
 along with the colors of the HTML,
-create a problem for me to discern additions or subtractions to the code.
+create a problem when discerning additions or subtractions to the code.
 
 Often I find myself writing feedback to someone's code that looks to be an addition but,
 is a removal.
@@ -30,12 +29,12 @@ I have attempted the following potential solutions (in no order):
 
 all in an attempt to conquer this issue.
 
-This, of course, is an issue with aging eyes but,
+The concept of: 'aging eyes' could be at fault here but,
 I continue to do just fine with [GitHub][ghb].
-What this comes down to though is a suboptimal view of code when
-a developer may need it the most (during code review).
+This view (in GitLab) is suboptimal at assisting engineers perform thorough code reviews.
 If you struggle with this and have come up with a solid solution,
 feel free to reach out on [Mastodon][mst] and fire up a chat.
+I would love to be incorrect in my assertion.
 
 
 [git]: https://git-scm.com/
