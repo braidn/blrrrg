@@ -15,7 +15,7 @@
   "author": "Braden Douglass (me@braidn.com)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0",
+    "@11ty/eleventy": "3.1.6",
     "@11ty/eleventy-plugin-rss": "^2.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "browserslist": "^4.24.5",
