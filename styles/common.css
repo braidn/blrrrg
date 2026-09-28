@@ -1,65 +1,315 @@
+/* ==========================================================================
+   Cloudbacon Design System — Tokens & Base Foundation
+   ========================================================================== */
+
 :root {
-  --bg-color: #f6f6f6;
-  --text-color: #333;
-  --accent-color: #b04;
-  --muted-color: #666;
+  /* Color Palette — Light Mode */
+  --bg: #fbf9f6;
+  --bg-elevated: #ffffff;
+  --bg-subtle: #f3efe9;
+  --border: #e7e0d6;
+  --border-subtle: #eee9e1;
+  --border-hover: #cfc4b6;
+
+  --text: #1c1b1a;
+  --text-muted: #5e5953;
+  --text-faint: #8c867d;
+
+  /* Signature Accent: Bacon Vermilion */
+  --accent: #d34524;
+  --accent-hover: #b43516;
+  --accent-soft: rgba(211, 69, 36, 0.08);
+  --accent-tint: rgba(211, 69, 36, 0.16);
+
+  --selection-bg: #fed9cf;
+  --selection-text: #5f1303;
+
+  /* Code block tokens */
+  --code-bg: #1e1f24;
+  --code-text: #e6e6ec;
+  --code-border: #2a2c35;
+
+  /* Font Stacks */
+  --font-serif: "Newsreader", Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Monaco, Consolas, monospace;
+
+  /* Fluid Spacing & Sizing */
+  --container-max: 68ch;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(28, 27, 26, 0.04);
+  --shadow-md: 0 4px 12px rgba(28, 27, 26, 0.06);
+
+  color-scheme: light dark;
 }
 
-/* 1. Responsive, max 60ch line length */
-.container {
-  max-width: 60ch;
-  margin: 0 auto;
-  padding: 0 1rem 2rem;
-}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121316;
+    --bg-elevated: #1a1b20;
+    --bg-subtle: #22232a;
+    --border: #2d2e38;
+    --border-subtle: #22242c;
+    --border-hover: #444757;
 
-/* 2. Body typography */
-body {
-  font-family: 'Noto Serif KR', 'IBM Plex Sans', serif;
-  color: var(--text-color);
-  background: var(--bg-color);
-  line-height: 1.6;
-  font-size: 1rem;
-}
+    --text: #edeef2;
+    --text-muted: #9fa2b0;
+    --text-faint: #6c6f7e;
 
-/* Styles for text selection */
-::selection {
-  color: white;
-  background-color: brown;
-}
+    --accent: #ff6e4a;
+    --accent-hover: #ff8b6e;
+    --accent-soft: rgba(255, 110, 74, 0.12);
+    --accent-tint: rgba(255, 110, 74, 0.22);
 
-/* Styles for text selection in Mozilla browsers */
-::-moz-selection {
-  color: white;
-  background-color: brown;
-}
+    --selection-bg: #52190e;
+    --selection-text: #ffe2da;
 
-a {
-  color: var(--accent-color);
-  text-decoration: none;
-  transition: color .2s ease, text-decoration .2s ease;
-}
-a:hover {
-  color: darken(var(--accent-color), 10%);
-  text-decoration: underline;
-}
+    --code-bg: #16171c;
+    --code-text: #edeef2;
+    --code-border: #282933;
 
-.button {
-  display: inline-block;
-  background: var(--accent-color);
-  color: #fff;
-  padding: .5em 1em;
-  border-radius: .3em;
-  transition: background .2s ease;
-}
-.button:hover {
-  background: darken(var(--accent-color), 5%);
-}
-
-/* Responsive styles for container between 320px and 480px */
-@media (min-width: 320px) and (max-width: 480px) {
-  .container {
-    width: 100%;
-    padding: 0 8px 32px 8px;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.35);
   }
 }
 
+[data-theme="dark"] {
+  --bg: #121316;
+  --bg-elevated: #1a1b20;
+  --bg-subtle: #22232a;
+  --border: #2d2e38;
+  --border-subtle: #22242c;
+  --border-hover: #444757;
+
+  --text: #edeef2;
+  --text-muted: #9fa2b0;
+  --text-faint: #6c6f7e;
+
+  --accent: #ff6e4a;
+  --accent-hover: #ff8b6e;
+  --accent-soft: rgba(255, 110, 74, 0.12);
+  --accent-tint: rgba(255, 110, 74, 0.22);
+
+  --selection-bg: #52190e;
+  --selection-text: #ffe2da;
+
+  --code-bg: #16171c;
+  --code-text: #edeef2;
+  --code-border: #282933;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+/* ==========================================================================
+   Base Reset & Document Styles
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.0625rem, 1rem + 0.3vw, 1.1875rem);
+  line-height: 1.75;
+  color: var(--text);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Selection */
+::selection {
+  color: var(--selection-text);
+  background-color: var(--selection-bg);
+}
+
+::-moz-selection {
+  color: var(--selection-text);
+  background-color: var(--selection-bg);
+}
+
+/* Focus outlines */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* Layout Container */
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 5vw, 2.25rem) 5rem;
+}
+
+/* ==========================================================================
+   Typography Hierarchy
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  color: var(--text);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.6rem + 1.8vw, 2.75rem);
+  letter-spacing: -0.035em;
+  margin-top: 1.2em;
+}
+
+h2 {
+  font-size: clamp(1.45rem, 1.25rem + 1vw, 1.95rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 1.1rem + 0.5vw, 1.45rem);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1.4em 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Hyperlinks */
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-tint);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+  text-decoration-color: var(--accent);
+}
+
+/* Inline Elements */
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--border);
+  margin: 3rem 0;
+}
+
+strong, b {
+  font-weight: 650;
+  color: var(--text);
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Technical Badges and Monospace Meta */
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  letter-spacing: -0.01em;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-subtle);
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 0.55em 1.2em;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  border: none;
+  box-shadow: var(--shadow-sm);
+  transition: background-color 0.18s ease, transform 0.15s ease, box-shadow 0.18s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--accent-hover);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+/* Back Link */
+.back-link {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-subtle);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.back-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  color: var(--accent);
+}
+
+/* Responsive container fine-tuning */
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1.25rem 3.5rem;
+  }
+}

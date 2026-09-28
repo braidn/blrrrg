@@ -34,13 +34,15 @@
     <meta property="og:locale" content="en_US">
     <meta property="article:author" content="{{site.author.twitter}}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:500,600,700"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..600&display=swap"
       rel="stylesheet"
     />
     <link rel="webmention" href="https://webmention.io/cloudbacon.com/webmention" />
     <link rel="pingback" href="https://webmention.io/cloudbacon.com/xmlrpc" />
-    <link rel="icon" href="data:,">
+    <link rel="icon" href="/img/bacon-svgrepo-com.svg" type="image/svg+xml">
 		{% css %}{% include "styles/common.css" %}{% endcss %}
 		{% css %}{% include "styles/homepage.css" %}{% endcss %}
 		{% css %}{% include "styles/blogpost.css" %}{% endcss %}
@@ -53,19 +55,53 @@
   </head>
   <body>
     <div class="container">
-      <h2>{{metadata.title}}
-      <img src="/img/bacon-svgrepo-com.svg" alt="cloudbacon" height="20" width="20"/>
-      </h2>
-      <p>
-        Hi! My name is {{metadata.author.name}} or 
-        "<a href={{metadata.author.identity}} rel="me">braidn</a>" 
-        throughout the Internet.
-        I am (currently) {{metadata.author.gig.title}} {{metadata.author.gig.work}}
-        @ <a href={{metadata.author.gig.url}}>
-          {{metadata.author.gig.name}}
-        </a>
-      </p>
-      {{ content }}
+      <header class="site-header">
+        <div class="brand">
+          <a href="/" class="brand-link">
+            <span class="brand-icon">
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" />
+            </span>
+            <span class="brand-name">Cloudbacon</span>
+          </a>
+          <span class="brand-badge mono">est. 2011</span>
+        </div>
+        <nav class="site-nav mono">
+          <a href="/feed.xml" title="RSS Feed">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+            RSS
+          </a>
+          <a href="{{metadata.author.github}}" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="{{metadata.author.identity}}" target="_blank" rel="me noopener noreferrer">Mastodon</a>
+        </nav>
+      </header>
+
+      <section class="hero-section">
+        <h1 class="hero-title">Musings of a journeyman programmer.</h1>
+        <p class="hero-bio">
+          Hi! My name is <strong>{{metadata.author.name}}</strong> (or 
+          "<a href="{{metadata.author.identity}}" rel="me">braidn</a>" throughout the Internet).
+          I am currently {{metadata.author.gig.title}}
+          @ <a href="{{metadata.author.gig.url}}">{{metadata.author.gig.name}}</a>.
+        </p>
+      </section>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p class="footer-credits mono">
+            © {{ "now" | date: "%Y" }} {{ metadata.author.name }} • Transposed to octal
+          </p>
+          <div class="footer-links mono">
+            <a href="/feed.xml">Feed</a>
+            <a href="{{ metadata.author.identity }}" rel="me">Mastodon</a>
+            <a href="{{ metadata.author.github }}">GitHub</a>
+            <a href="{{ metadata.author.gig.url }}">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
