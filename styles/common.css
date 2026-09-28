@@ -13,7 +13,7 @@
 
   --text: #1c1b1a;
   --text-muted: #5e5953;
-  --text-faint: #8c867d;
+  --text-faint: #666057; /* 5.5:1 contrast on #fbf9f6 (WCAG AA pass) */
 
   /* Signature Accent: Bacon Vermilion */
   --accent: #d34524;
@@ -58,7 +58,7 @@
 
     --text: #edeef2;
     --text-muted: #9fa2b0;
-    --text-faint: #6c6f7e;
+    --text-faint: #989eb0; /* 6.5:1 contrast on #121316 (WCAG AA pass) */
 
     --accent: #ff6e4a;
     --accent-hover: #ff8b6e;
@@ -87,7 +87,7 @@
 
   --text: #edeef2;
   --text-muted: #9fa2b0;
-  --text-faint: #6c6f7e;
+  --text-faint: #989eb0; /* 6.5:1 contrast on #121316 (WCAG AA pass) */
 
   --accent: #ff6e4a;
   --accent-hover: #ff8b6e;
@@ -111,6 +111,41 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+/* Remove default list styles when role="list" is explicitly set */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Accessible Skip Link */
+.skip-link {
+  position: absolute;
+  top: -120px;
+  left: 1.5rem;
+  z-index: 9999;
+  padding: 0.65rem 1.15rem;
+  background: var(--bg-elevated);
+  color: var(--accent);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  transition: top 0.15s ease-out;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  top: 1.25rem;
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+  text-decoration: underline;
 }
 
 html {
@@ -311,5 +346,36 @@ em, i {
 @media (max-width: 640px) {
   .container {
     padding: 0 1.25rem 3.5rem;
+  }
+}
+
+/* ==========================================================================
+   Accessibility & User Preferences
+   ========================================================================== */
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High Contrast / Forced Colors Mode adjustments (Windows High Contrast) */
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 2px solid Highlight !important;
+    outline-offset: 3px !important;
+  }
+
+  .skip-link,
+  .featured-card,
+  .post-author-box,
+  .badge {
+    border: 1px solid ButtonBorder !important;
   }
 }

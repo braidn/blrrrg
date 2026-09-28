@@ -54,19 +54,20 @@
 		{% endif %}
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
     <div class="container">
       <header class="site-header">
         <div class="brand">
           <a href="/" class="brand-link">
             <span class="brand-icon">
-              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" />
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" aria-hidden="true" />
             </span>
             <span class="brand-name">Cloudbacon</span>
           </a>
           <span class="brand-badge mono">est. 2011</span>
         </div>
-        <nav class="site-nav mono">
-          <a href="/feed.xml" title="RSS Feed">
+        <nav class="site-nav mono" aria-label="Main navigation">
+          <a href="/feed.xml" aria-label="RSS Feed">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
             RSS
           </a>
@@ -85,7 +86,7 @@
         </p>
       </section>
 
-      <main>
+      <main id="main" tabindex="-1">
         {{ content }}
       </main>
 

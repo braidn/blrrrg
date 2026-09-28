@@ -79,6 +79,8 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  padding: 0.4rem 0.2rem;
+  min-height: 44px;
   transition: color 0.15s ease;
 }
 
@@ -149,11 +151,16 @@
   margin-top: 1.5rem;
 }
 
+.featured-item {
+  display: flex;
+}
+
 .featured-card {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
   padding: 1.35rem 1.4rem;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
@@ -255,6 +262,7 @@
   font-weight: 800;
   letter-spacing: -0.03em;
   color: var(--text);
+  margin: 0;
 }
 
 .archive-year-line {
@@ -274,8 +282,9 @@
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.45rem 0.6rem;
+  padding: 0.6rem 0.6rem;
   margin: 0 -0.6rem;
+  min-height: 44px;
   border-radius: var(--radius-sm);
   text-decoration: none;
   transition: background-color 0.15s ease, transform 0.1s ease;

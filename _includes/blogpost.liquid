@@ -54,27 +54,28 @@
 		{% endif %}
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
     <div class="container post-container">
       <header class="site-header">
         <div class="brand">
           <a href="/" class="brand-link">
             <span class="brand-icon">
-              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" />
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" aria-hidden="true" />
             </span>
             <span class="brand-name">Cloudbacon</span>
           </a>
           <span class="brand-badge mono">est. 2011</span>
         </div>
-        <nav class="site-nav mono">
+        <nav class="site-nav mono" aria-label="Post navigation">
           <a href="/">← Archive</a>
-          <a href="/feed.xml" title="RSS Feed">
+          <a href="/feed.xml" aria-label="RSS Feed">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
             RSS
           </a>
         </nav>
       </header>
 
-      <main>
+      <main id="main" tabindex="-1">
         <article class="post-article">
           <header class="post-header">
             <div class="post-meta mono">
@@ -89,12 +90,12 @@
             {{ content }}
           </div>
 
-          <section class="post-author-box">
+          <section class="post-author-box" aria-label="About the author">
             <div class="author-box-icon">
-              <img src="/img/bacon-svgrepo-com.svg" alt="Cloudbacon" width="30" height="30" />
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="30" height="30" aria-hidden="true" />
             </div>
             <div class="author-box-content">
-              <h3 class="author-box-name">Written by {{ metadata.author.name }}</h3>
+              <h2 class="author-box-name">Written by {{ metadata.author.name }}</h2>
               <p class="author-box-desc">
                 Senior software engineer writing about systems, craftsmanship, developer experience, and lessons learned.
                 Find me on <a href="{{ metadata.author.identity }}" rel="me">Mastodon</a>, <a href="{{ metadata.author.github }}">GitHub</a>, or subscribe via <a href="/feed.xml">RSS</a>.
@@ -102,9 +103,9 @@
             </div>
           </section>
 
-          <nav class="post-navigation">
+          <nav class="post-navigation" aria-label="Post navigation footer">
             <a href="/" class="post-nav-back">
-              <span>←</span> Back to all essays
+              <span aria-hidden="true">←</span> Back to all essays
             </a>
           </nav>
         </article>
