@@ -13,7 +13,7 @@ export default function(eleventyConfig) {
         if (this.type === "css" && process.env.ELEVENTY_ENV === "production") {
           return (new CleanCSS).minify(code).styles;
         }
-        return content;
+        return code;
       }
     ]
   });

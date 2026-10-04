@@ -3,50 +3,68 @@ layout: homepage.liquid
 title: Cloudbacon
 ---
 
-<hr>
-<h3>Top 6</h3>
-<p>
-  For folks who are are absolutely new here or perhaps
-  have only showed up once, this is a curated list
-  to get to know me, my writing style and what to expect
-  from this space.
-</p>
-<p>
-  These posts will help anyone assertain not only the tone
-  that I aim for but, the content and depth that you can
-  expect from anything new that may appear in your RSS
-  reader or inbox of choice.
-</p>
-<p>
-  This list is also very transitional and <em>highly</em>
-  likely to change. If it's the only thing you read here,
-  make sure to come back by for a new list bimonthly
-</p>
+<section class="curated-section" aria-labelledby="curated-heading">
+  <div class="section-header">
+    <h2 id="curated-heading" class="section-title">Curated Reading</h2>
+    <span class="badge">Top 6</span>
+  </div>
+  <p class="section-desc">
+    For folks who are new here or looking for a place to start: a curated selection that sets the tone, content, and depth of this space.
+  </p>
 
-{% assign posts = collections.posts %}
+  {% assign posts = collections.posts %}
 
-{% for post in posts reversed %}
-{% if post.data.highlight %}
-<div class="post">
-  <span class="post-title">
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </span>
-  <span class="post-date">
-    {{ post.date | date: '%b %Y' }}
-  </span>
-</div>
-{% endif %}
-{% endfor %}
+  <ul role="list" class="featured-grid">
+  {% for post in posts reversed %}
+  {% if post.data.highlight %}
+    <li class="featured-item">
+      <a href="{{ post.url }}" class="featured-card">
+        <div class="featured-card-top">
+          <span class="featured-pill">Featured</span>
+          <span class="featured-date">{{ post.date | date: '%b %Y' }}</span>
+        </div>
+        <h3 class="featured-title">{{ post.data.title }}</h3>
+        <span class="featured-arrow" aria-hidden="true">Read essay →</span>
+      </a>
+    </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+</section>
 
-<h3>All Posts</h3>
+<section class="archive-section" aria-labelledby="archive-heading">
+  <div class="section-header">
+    <h2 id="archive-heading" class="section-title">The Archive</h2>
+    <span class="badge">{{ posts.size }} essays</span>
+  </div>
 
-{% for post in posts reversed %}
-<div class="post">
-  <span class="post-title">
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </span>
-  <span class="post-date">
-    {{ post.date | date: '%b %Y' }}
-  </span>
-</div>
-{% endfor %}
+  <div class="archive-timeline">
+  {% assign current_year = "" %}
+  {% for post in posts reversed %}
+    {% assign post_year = post.date | date: "%Y" %}
+    {% if post_year != current_year %}
+      {% if current_year != "" %}
+        </ul></div>
+      {% endif %}
+      {% assign current_year = post_year %}
+      <div class="archive-year-group">
+        <div class="archive-year-header">
+          <h3 class="archive-year">{{ current_year }}</h3>
+          <span class="archive-year-line" aria-hidden="true"></span>
+        </div>
+        <ul role="list" class="archive-posts">
+    {% endif %}
+    <li>
+      <a href="{{ post.url }}" class="post-item">
+        <span class="post-item-title">{{ post.data.title }}</span>
+        <time class="post-item-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+          {{ post.date | date: '%b %d' }}
+        </time>
+      </a>
+    </li>
+  {% endfor %}
+  {% if current_year != "" %}
+    </ul></div>
+  {% endif %}
+  </div>
+</section>

@@ -1,6 +1,7 @@
 ---
 title: Learning Something New.
 date: '2021-02-17'
+highlight: true
 ---
 
 Software development, as a profession,

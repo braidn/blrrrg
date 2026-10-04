@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ title }}</title>
+    <title>{{ title }} — {{ metadata.title }}</title>
 
-    <meta name="description" content="{{metadata.site.description}}">
+    <meta name="description" content="{{ description | default: metadata.site.description }}">
     <meta name="robots" content="index,follow">
     <meta name="generator" content="Eleventy">
 
@@ -14,33 +14,35 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{metadata.site.twitter}}">
     <meta name="twitter:creator" content="@{{metadata.author.twitter}}">
-    <meta name="twitter:url" content="{{site.baseURL}}{{url}}">
+    <meta name="twitter:url" content="{{metadata.site.baseURL}}{{page.url}}">
     <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:description" content="{{ description or site.description }}">
+    <meta name="twitter:description" content="{{ description | default: metadata.site.description }}">
 
     <!--Schema-->
     <link rel="author" href="{{metadata.author.twitter}}">
     <link rel="publisher" href="{{metadata.site.baseURL}}">
     <meta itemprop="name" content="{{title}}">
-    <meta itemprop="description" content="{{ metadata.site.description }}">
+    <meta itemprop="description" content="{{ description | default: metadata.site.description }}">
 
     <!-- Facebook OpenGraph -->
     <meta property="fb:app_id" content="{{metadata.site.fb_app_id}}">
-    <meta property="og:url" content="{{site.baseURL}}{{url}}">
+    <meta property="og:url" content="{{metadata.site.baseURL}}{{page.url}}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{title}}">
-    <meta property="og:description" content="{{ metadata.site.description }}">
+    <meta property="og:description" content="{{ description | default: metadata.site.description }}">
     <meta property="og:site_name" content="{{metadata.title}}">
-    <meta property="og:locale" content="en_EN">
-    <meta property="article:author" content="{{site.author.twitter}}">
+    <meta property="og:locale" content="en_US">
+    <meta property="article:author" content="{{metadata.author.twitter}}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:500,600,700"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..600&display=swap"
       rel="stylesheet"
     />
     <link rel="webmention" href="https://webmention.io/cloudbacon.com/webmention" />
     <link rel="pingback" href="https://webmention.io/cloudbacon.com/xmlrpc" />
-    <link rel="icon" href="data:,">
+    <link rel="icon" href="/img/bacon-svgrepo-com.svg" type="image/svg+xml">
 		{% css %}{% include "styles/common.css" %}{% endcss %}
 		{% css %}{% include "styles/homepage.css" %}{% endcss %}
 		{% css %}{% include "styles/blogpost.css" %}{% endcss %}
@@ -52,12 +54,76 @@
 		{% endif %}
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
     <div class="container post-container">
-        <h1>{{ title }}</h1>
-      {{ content }}
-      <div class="back-link">
-        <a href="/">← Back</a>
-      </div>
+      <header class="site-header">
+        <div class="brand">
+          <a href="/" class="brand-link">
+            <span class="brand-icon">
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="22" height="22" aria-hidden="true" />
+            </span>
+            <span class="brand-name">Cloudbacon</span>
+          </a>
+          <span class="brand-badge mono">est. 2011</span>
+        </div>
+        <nav class="site-nav mono" aria-label="Post navigation">
+          <a href="/">← Archive</a>
+          <a href="/feed.xml" aria-label="RSS Feed">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+            RSS
+          </a>
+        </nav>
+      </header>
+
+      <main id="main" tabindex="-1">
+        <article class="post-article">
+          <header class="post-header">
+            <div class="post-meta mono">
+              <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+              <span class="post-meta-sep">•</span>
+              <span class="post-author">{{ metadata.author.name }}</span>
+            </div>
+            <h1 class="post-title">{{ title }}</h1>
+          </header>
+
+          <div class="post-content prose">
+            {{ content }}
+          </div>
+
+          <section class="post-author-box" aria-label="About the author">
+            <div class="author-box-icon">
+              <img src="/img/bacon-svgrepo-com.svg" alt="" width="30" height="30" aria-hidden="true" />
+            </div>
+            <div class="author-box-content">
+              <h2 class="author-box-name">Written by {{ metadata.author.name }}</h2>
+              <p class="author-box-desc">
+                Senior software engineer writing about systems, craftsmanship, developer experience, and lessons learned.
+                Find me on <a href="{{ metadata.author.identity }}" rel="me">Mastodon</a>, <a href="{{ metadata.author.github }}">GitHub</a>, or subscribe via <a href="/feed.xml">RSS</a>.
+              </p>
+            </div>
+          </section>
+
+          <nav class="post-navigation" aria-label="Post navigation footer">
+            <a href="/" class="post-nav-back">
+              <span aria-hidden="true">←</span> Back to all essays
+            </a>
+          </nav>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p class="footer-credits mono">
+            © {{ "now" | date: "%Y" }} {{ metadata.author.name }} • Transposed to octal
+          </p>
+          <div class="footer-links mono">
+            <a href="/feed.xml">Feed</a>
+            <a href="{{ metadata.author.identity }}" rel="me">Mastodon</a>
+            <a href="{{ metadata.author.github }}">GitHub</a>
+            <a href="{{ metadata.author.gig.url }}">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
